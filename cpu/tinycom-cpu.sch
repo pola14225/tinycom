@@ -40,7 +40,7 @@ LIBS:numato_kicad_lib
 LIBS:ra4x0402
 LIBS:sn75lvds83
 LIBS:sy8008baac
-LIBS:cellpilot-cache
+LIBS:tinycom-cpu-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -188,17 +188,17 @@ DDR_CK_N
 Text GLabel 10800 900  2    60   Input ~ 0
 DDR_CKE
 Text GLabel 10800 -400 2    60   Input ~ 0
-DQS1
+DDR_DQS1_P
 Text GLabel 10800 -300 2    60   Input ~ 0
-DQS1N
+DDR_DQS1_N
 Text GLabel 10800 -700 2    60   Input ~ 0
-DQS0
+DDR_DQS0_P
 Text GLabel 10800 -600 2    60   Input ~ 0
-DQS0N
+DDR_DQS0_N
 Text GLabel 10800 -500 2    60   Input ~ 0
-DQM0
+DDR_DQM0
 Text GLabel 10800 -200 2    60   Input ~ 0
-DQM1
+DDR_DQM1
 Text GLabel 10800 3600 2    60   Input ~ 0
 DDR_ODT
 Text GLabel 10800 3900 2    60   Input ~ 0
