@@ -915,4 +915,21 @@ Wire Wire Line
 	11450 4150 11450 4300
 Text GLabel 1650 4200 0    60   Input ~ 0
 MICIN1
+$Comp
+L GND #PWR?
+U 1 1 56250BEE
+P 11000 150
+F 0 "#PWR?" H 11000 -100 50  0001 C CNN
+F 1 "GND" H 11000 0   50  0000 C CNN
+F 2 "" H 11000 150 60  0000 C CNN
+F 3 "" H 11000 150 60  0000 C CNN
+	1    11000 150 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 100  11000 100 
+Wire Wire Line
+	11000 100  11000 150 
+Text Notes 11050 100  0    60   ~ 0
+for routing...
 $EndSCHEMATC
