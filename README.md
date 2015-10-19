@@ -1,7 +1,6 @@
 # TinyCom
 
-A small and cheap single board computer.
-The board is made entirely in KiCAD.
+A small and cheap single board computer, made in KiCAD.
 
 ## Pictures
 
