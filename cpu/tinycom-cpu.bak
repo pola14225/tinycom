@@ -400,7 +400,7 @@ GND
 Text GLabel 9400 5900 2    60   Input ~ 0
 GND
 Text GLabel 9400 5800 2    60   Input ~ 0
-GND
+MICIN1
 Text GLabel 1550 -1650 0    60   Input ~ 0
 VCC_33
 Text GLabel 250  -1650 0    60   Input ~ 0
