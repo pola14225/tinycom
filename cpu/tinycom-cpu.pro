@@ -1,6 +1,6 @@
-update=Sun 18 Oct 2015 10:12:29 PM ICT
+update=Tue 20 Oct 2015 11:05:03 AM ICT
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/datrus/stuff/kicad_libs
@@ -68,5 +70,5 @@ LibName38=numato_kicad_lib
 LibName39=ra4x0402
 LibName40=sn75lvds83
 LibName41=sy8008baac
-[general]
-version=1
+LibName42=/home/datrus/stuff/calculator/lib/library/opendous
+LibName43=/home/datrus/stuff/calculator/lib/calculator
