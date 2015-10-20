@@ -235,17 +235,17 @@ UDP0
 Text GLabel 1650 3800 0    60   Input ~ 0
 UDM0
 Text GLabel 7350 5400 0    60   Input ~ 0
-SDC0_D1
-Text GLabel 7350 5500 0    60   Input ~ 0
-SDC0_D0
-Text GLabel 7350 5600 0    60   Input ~ 0
-SDC0_CLK
-Text GLabel 7350 5700 0    60   Input ~ 0
-SDC0_CMD
-Text GLabel 7350 5800 0    60   Input ~ 0
-SDC0_D3
-Text GLabel 7350 5900 0    60   Input ~ 0
 SDC0_D2
+Text GLabel 7350 5500 0    60   Input ~ 0
+SDC0_D3
+Text GLabel 7350 5600 0    60   Input ~ 0
+SDC0_CMD
+Text GLabel 7350 5700 0    60   Input ~ 0
+SDC0_CLK
+Text GLabel 7350 5800 0    60   Input ~ 0
+SDC0_D0
+Text GLabel 7350 5900 0    60   Input ~ 0
+SDC0_D1
 Text GLabel 7850 5400 2    60   Input ~ 0
 UDM0
 Text GLabel 7850 5500 2    60   Input ~ 0
@@ -279,9 +279,9 @@ CSI_D6
 Text GLabel 9400 5700 2    60   Input ~ 0
 CSI_D7
 Text GLabel 7350 6000 0    60   Input ~ 0
-UART1_TX
-Text GLabel 7350 6100 0    60   Input ~ 0
 UART1_RX
+Text GLabel 7350 6100 0    60   Input ~ 0
+UART1_TX
 Text GLabel 9400 6100 2    60   Input ~ 0
 GND
 Text GLabel 7850 6100 2    60   Input ~ 0
@@ -330,7 +330,7 @@ F 1 "Crystal" H 1250 1850 50  0000 C CNN
 F 2 "Crystals:crystal_FA238-TSX3225" H 1250 2000 60  0001 C CNN
 F 3 "" H 1250 2000 60  0000 C CNN
 	1    1250 2000
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR02
@@ -671,13 +671,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 1900 1500 1850
 Wire Wire Line
-	1500 1850 900  1850
-Wire Wire Line
 	1650 2100 1450 2100
 Wire Wire Line
-	1450 2100 1450 2150
-Wire Wire Line
-	1450 2150 900  2150
+	1450 2150 1450 2100
 Connection ~ 1250 1850
 Connection ~ 1250 2150
 Wire Wire Line
@@ -833,4 +829,8 @@ Wire Wire Line
 	6500 3900 6400 3900
 Wire Wire Line
 	6400 4200 6400 4250
+Wire Wire Line
+	1500 1850 900  1850
+Wire Wire Line
+	900  2150 1450 2150
 $EndSCHEMATC
