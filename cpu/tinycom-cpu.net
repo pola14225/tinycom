@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/datrus/stuff/tinycom/cpu/tinycom-cpu.sch)
-    (date "Wed 21 Oct 2015 11:03:52 AM ICT")
+    (date "Wed 21 Oct 2015 11:28:57 AM ICT")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
