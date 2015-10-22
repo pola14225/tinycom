@@ -1,6 +1,6 @@
 # TinyCom
 
-A small and cheap computer, made in KiCAD.
+A very small and low cost computer, made in KiCAD.
 (work in progress...)
 
 ## Specifications
