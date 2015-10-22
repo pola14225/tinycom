@@ -5,6 +5,7 @@ A small and cheap computer, made in KiCAD.
 
 ## Specifications
 
+- Dimensions: 4x4 cm
 - CPU: Allwinner A13
 - Memory: 512MB DDR3 SDRAM
 - PCB: 4 layers, 6 mil traces, 12 mil vias
