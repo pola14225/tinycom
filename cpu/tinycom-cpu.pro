@@ -1,4 +1,4 @@
-update=Tue 20 Oct 2015 11:05:03 AM ICT
+update=Fri 23 Oct 2015 10:35:35 AM ICT
 version=1
 last_client=eeschema
 [pcbnew]
@@ -72,3 +72,13 @@ LibName40=sn75lvds83
 LibName41=sy8008baac
 LibName42=/home/datrus/stuff/calculator/lib/library/opendous
 LibName43=/home/datrus/stuff/calculator/lib/calculator
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
