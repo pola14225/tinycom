@@ -306,7 +306,7 @@ Text GLabel 5250 2200 0    60   Input ~ 0
 VCC_15
 Text GLabel 4550 2200 0    60   Input ~ 0
 VCC_30
-Text GLabel 7300 6550 0    60   Input ~ 0
+Text GLabel 7500 7150 0    60   Input ~ 0
 VCC_33
 Text GLabel 7500 8350 0    60   Input ~ 0
 VCC_33
@@ -834,18 +834,6 @@ Wire Wire Line
 	7300 5550 7300 5350
 Wire Wire Line
 	7300 5350 7500 5350
-Wire Wire Line
-	7500 6550 7300 6550
-Wire Wire Line
-	7300 6550 7300 7150
-Wire Wire Line
-	7300 7150 7500 7150
-Wire Wire Line
-	7500 6850 7300 6850
-Connection ~ 7300 6850
-Wire Wire Line
-	7500 6750 7300 6750
-Connection ~ 7300 6750
 Wire Wire Line
 	7500 5750 7350 5750
 Wire Wire Line
