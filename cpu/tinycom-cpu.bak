@@ -1204,4 +1204,6 @@ Text GLabel 7400 6150 0    60   Input ~ 0
 VCC_33
 Text GLabel 10900 7450 2    60   Input ~ 0
 SVREF
+Text GLabel 12000 7500 0    60   Input ~ 0
+SVREF
 $EndSCHEMATC
