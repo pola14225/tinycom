@@ -13,7 +13,9 @@ A very small and low cost computer, made in KiCAD.
 
 ## Pictures
 
-![TinyCom-CPU](https://raw.githubusercontent.com/nfco/tinycom/master/img/tinycom-cpu.png)
+![TinyCom board](https://raw.githubusercontent.com/nfco/tinycom/master/cpu/tinycom_board.png)
+
+![TinyCom 3D](https://raw.githubusercontent.com/nfco/tinycom/master/img/tinycom-cpu.png)
 
 ## Contact
 
