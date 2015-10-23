@@ -12,7 +12,7 @@
     (nets 159)
   )
 
-  (page A4 portrait)
+  (page A4)
   (layers
     (0 F.Cu signal)
     (1 In1.Cu signal)
