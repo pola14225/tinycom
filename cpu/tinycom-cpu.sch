@@ -289,9 +289,9 @@ GND
 Text GLabel 7850 6000 2    60   Input ~ 0
 VCC_15
 Text GLabel 7850 5900 2    60   Input ~ 0
-VCC_33
-Text GLabel 7850 5800 2    60   Input ~ 0
 VCC_14
+Text GLabel 7850 5800 2    60   Input ~ 0
+VCC_33
 Text GLabel 9400 6000 2    60   Input ~ 0
 VCC_30
 Text GLabel 9400 5900 2    60   Input ~ 0
