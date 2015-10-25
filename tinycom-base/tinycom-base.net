@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/datrus/stuff/tinycom/tinycom-base/tinycom-base.sch)
-    (date "Sun 25 Oct 2015 09:17:22 PM ICT")
+    (date "Sun 25 Oct 2015 09:41:29 PM ICT")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value OLIMEX_IC_AXP209)
-      (footprint ax209:ax209-OLIMEX_IC_QFN48)
+      (footprint tinycom:ax209-OLIMEX_IC_QFN48)
       (libsource (lib ax209) (part OLIMEX_IC_AXP209))
       (sheetpath (names /) (tstamps /))
       (tstamp 562BA3CE))
