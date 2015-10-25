@@ -15,11 +15,17 @@ A very small and low cost computer, made in KiCAD.
 
 ### Pictures
 
-![TinyCom 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-3d.png)
+![TinyCom-a13 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-3d.png)
 
-![TinyCom board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-board.png)
+![TinyCom-13 board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-board.png)
 
 ## TinyCom-drone
+
+### Pictures
+
+![TinyCom-drone 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-drone/tinycom-drone-3d.png)
+
+![TinyCom-drone board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-drone/tinycom-drone-board.png)
 
 ## Contact
 
