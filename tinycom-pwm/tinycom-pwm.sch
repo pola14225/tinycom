@@ -42,7 +42,6 @@ LIBS:sn75lvds83
 LIBS:sy8008baac
 LIBS:armory
 LIBS:stm32-48pin-devBoard
-LIBS:tinycom-base-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -74,7 +73,7 @@ U 1 1 562BA4D4
 P 5550 3200
 F 0 "P1" H 5550 3650 50  0000 C CNN
 F 1 "CONN_02X08" V 5550 3200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 5550 2000 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 5550 2000 60  0001 C CNN
 F 3 "" H 5550 2000 60  0000 C CNN
 	1    5550 3200
 	1    0    0    -1  
@@ -85,7 +84,7 @@ U 1 1 562BA547
 P 6350 3200
 F 0 "P2" H 6350 3650 50  0000 C CNN
 F 1 "CONN_02X08" V 6350 3200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 6350 2000 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 6350 2000 60  0001 C CNN
 F 3 "" H 6350 2000 60  0000 C CNN
 	1    6350 3200
 	1    0    0    -1  
