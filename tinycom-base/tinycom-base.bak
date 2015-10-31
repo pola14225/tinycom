@@ -301,10 +301,6 @@ F 3 "" H 7450 2400 60  0000 C CNN
 	1    7450 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6800 2650 0    60   Input ~ 0
-UART1_RX
-Text GLabel 6800 2550 0    60   Input ~ 0
-UART1_TX
 $Comp
 L GND #PWR012
 U 1 1 562DA997
@@ -774,10 +770,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 5400 5300 5500
 Wire Wire Line
-	5850 4750 5450 4750
-Wire Wire Line
-	5450 4750 5450 4550
-Wire Wire Line
 	1400 1650 1350 1650
 Wire Wire Line
 	1350 1650 1350 1750
@@ -837,8 +829,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 5400 9200 5150
 Connection ~ 9050 5400
-Wire Wire Line
-	8900 5150 8900 5400
 Wire Wire Line
 	9000 5150 9000 5400
 Connection ~ 9000 5400
@@ -1063,10 +1053,10 @@ F 3 "" H 4650 4400 60  0000 C CNN
 $EndComp
 NoConn ~ 5850 5600
 $Comp
-L C_Small C?
+L C_Small C13
 U 1 1 5634DEA7
 P 7000 4550
-F 0 "C?" H 7010 4620 50  0000 L CNN
+F 0 "C13" H 7010 4620 50  0000 L CNN
 F 1 "C_Small" H 7010 4470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7000 4550 60  0001 C CNN
 F 3 "" H 7000 4550 60  0000 C CNN
@@ -1081,4 +1071,23 @@ Connection ~ 7200 4400
 Wire Wire Line
 	7000 4650 7000 4850
 Connection ~ 7200 4850
+NoConn ~ 8400 2800
+NoConn ~ 8400 2900
+NoConn ~ 8400 3000
+NoConn ~ 8400 3100
+NoConn ~ 8400 3200
+NoConn ~ 8400 3300
+NoConn ~ 7900 2600
+NoConn ~ 7900 2700
+NoConn ~ 7900 2800
+NoConn ~ 7900 2900
+NoConn ~ 7900 3000
+NoConn ~ 7900 3100
+NoConn ~ 7900 3200
+NoConn ~ 7900 3300
+NoConn ~ 6800 2550
+NoConn ~ 6800 2650
+NoConn ~ 5850 4750
+Wire Wire Line
+	8900 5150 8900 5400
 $EndSCHEMATC
