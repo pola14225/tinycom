@@ -1,4 +1,4 @@
-update=Sat 07 Nov 2015 11:27:49 PM ICT
+update=Sun 08 Nov 2015 07:21:38 AM ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,6 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=/home/datrus/eoma/eoma-HEAD-d275602/pcb/allwinner_a10/library/allwinner
+LibName31=/home/datrus/eoma/eoma-HEAD-d275602/pcb/eoma26/a13/h5tq2g43cfr
+LibName32=/home/datrus/eoma/eoma-HEAD-d275602/pcb/eoma26/a13/hy27ug088g5m
+LibName33=/home/datrus/eoma/eoma-HEAD-d275602/pcb/eoma26/a13/hynix
