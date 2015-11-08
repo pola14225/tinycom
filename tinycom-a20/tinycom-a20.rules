@@ -1,0 +1,160 @@
+
+(rules PCB tinycom-a20
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5379)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.1)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 100.2)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 25.0 (type smd_smd))
+  )
+  (padstack "Via[0-3]_350:150_um"
+    (shape
+      (circle F.Cu 350.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 350.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 350.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 350.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_350:150_um" "Via[0-3]_350:150_um" default
+  )
+  (via 
+    "Via[0-3]_350:150_um-kicad_default" "Via[0-3]_350:150_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_350:150_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_350:150_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +1V5 GND "Net-(U1-PadG5)" "Net-(U1-PadF5)" "Net-(U1-PadG4)" "Net-(U1-PadF4)" "Net-(U1-PadA14)" "Net-(U1-PadA10)"
+    "Net-(U1-PadA9)" "Net-(U1-PadA8)" "Net-(U1-PadA7)" "Net-(U1-PadA6)" "Net-(U1-PadA5)" "Net-(U1-PadA4)" "Net-(U1-PadA3)" "Net-(U1-PadA2)"
+    "Net-(U1-PadE1)" "Net-(U1-PadA11)" "Net-(U1-PadA12)" "Net-(U1-PadA13)" "Net-(U1-PadB11)" "Net-(U1-PadB12)" "Net-(U1-PadB13)" "Net-(U1-PadC11)"
+    "Net-(U1-PadC12)" "Net-(U1-PadC13)" "Net-(U1-PadD11)" "Net-(U1-PadD12)" "Net-(U1-PadD13)" "Net-(U1-PadA22)" "Net-(U1-PadA21)" "Net-(U1-PadA20)"
+    "Net-(U1-PadA23)" "Net-(U1-PadB14)" "Net-(U1-PadC14)" "Net-(U1-PadD14)" "Net-(U1-PadA19)" "Net-(U1-PadD10)" "Net-(U1-PadC10)" "Net-(U1-PadB10)"
+    "Net-(U1-PadA15)" "Net-(U1-PadA16)" "Net-(U1-PadA17)" "Net-(U1-PadA18)" "Net-(U1-PadA1)" "Net-(U1-PadB1)" "Net-(U1-PadB2)" "Net-(U1-PadB3)"
+    "Net-(U1-PadB4)" "Net-(U1-PadB5)" "Net-(U1-PadB6)" "Net-(U1-PadB7)" "Net-(U1-PadB8)" "Net-(U1-PadB9)" "Net-(U1-PadC1)" "Net-(U1-PadD1)"
+    "Net-(U1-PadC2)" "Net-(U1-PadC3)" "Net-(U1-PadC4)" "Net-(U1-PadC5)" "Net-(U1-PadC6)" "Net-(U1-PadC7)" "Net-(U1-PadC8)" "Net-(U1-PadC9)"
+    "Net-(U1-PadD2)" "Net-(U1-PadD3)" "Net-(U1-PadD4)" "Net-(U1-PadD5)" "Net-(U1-PadD6)" "Net-(U1-PadD7)" "Net-(U1-PadD8)" "Net-(U1-PadD9)"
+    "Net-(U1-PadF1)" "Net-(U1-PadP13)" "Net-(U1-PadP12)" "Net-(U1-PadP11)" "Net-(U1-PadL13)" "Net-(U1-PadL12)" "Net-(U1-PadL11)" "Net-(U1-PadM13)"
+    "Net-(U1-PadM12)" "Net-(U1-PadM11)" "Net-(U1-PadN13)" "Net-(U1-PadN11)" "Net-(U1-PadE11)" "Net-(U1-PadE12)" "Net-(U1-PadE13)" "Net-(U1-PadH11)"
+    "Net-(U1-PadH12)" "Net-(U1-PadH13)" "Net-(U1-PadJ13)" "Net-(U1-PadJ11)" "Net-(U1-PadK11)" "Net-(U1-PadK12)" "Net-(U1-PadK13)" "Net-(U1-PadE14)"
+    "Net-(U1-PadH14)" "Net-(U1-PadJ14)" "Net-(U1-PadK14)" "Net-(U1-PadL14)" "Net-(U1-PadM14)" "Net-(U1-PadN14)" "Net-(U1-PadP14)" "Net-(U1-PadP10)"
+    "Net-(U1-PadL10)" "Net-(U1-PadM10)" "Net-(U1-PadN10)" "Net-(U1-PadK10)" "Net-(U1-PadE10)" "Net-(U1-PadE2)" "Net-(U1-PadE3)" "Net-(U1-PadE4)"
+    "Net-(U1-PadF2)" "Net-(U1-PadF3)" "Net-(U1-PadG3)" "Net-(U1-PadH3)" "Net-(U1-PadH4)" "Net-(U1-PadJ3)" "Net-(U1-PadJ4)" "Net-(U1-PadK5)"
+    "Net-(U1-PadK8)" "Net-(U1-PadK9)" "Net-(U1-PadN5)" "Net-(U1-PadN8)" "Net-(U1-PadN9)" "Net-(U1-PadM5)" "Net-(U1-PadM8)" "Net-(U1-PadM9)"
+    "Net-(U1-PadL5)" "Net-(U1-PadL8)" "Net-(U1-PadL9)" "Net-(U1-PadP5)" "Net-(U1-PadP8)" "Net-(U1-PadP9)" "Net-(U1-PadE5)" "Net-(U1-PadE8)"
+    "Net-(U1-PadE9)" "Net-(U1-PadH5)" "Net-(U1-PadJ5)" "Net-(U2-PadJ1)" "Net-(U2-PadJ9)" "Net-(U2-PadL1)" "Net-(U2-PadL9)" SDQ0
+    "Net-(U1-PadB15)" "Net-(U1-PadB16)" "Net-(U1-PadB17)" "Net-(U1-PadB18)" "Net-(U1-PadB19)" "Net-(U1-PadB20)" "Net-(U1-PadB21)" "Net-(U1-PadB22)"
+    "Net-(U1-PadB23)" "Net-(U1-PadC15)" "Net-(U1-PadC16)" "Net-(U1-PadC17)" "Net-(U1-PadC18)" "Net-(U1-PadC19)" "Net-(U1-PadC20)" "Net-(U1-PadC21)"
+    "Net-(U1-PadC22)" "Net-(U1-PadC23)" "Net-(U1-PadD15)" "Net-(U1-PadD16)" "Net-(U1-PadD17)" "Net-(U1-PadD18)" "Net-(U1-PadD19)" "Net-(U1-PadD20)"
+    "Net-(U1-PadD21)" "Net-(U1-PadD22)" "Net-(U1-PadD23)" "Net-(U1-PadE6)" "Net-(U1-PadE7)" "Net-(U1-PadE15)" "Net-(U1-PadE16)" "Net-(U1-PadE17)"
+    "Net-(U1-PadE18)" "Net-(U1-PadE19)" "Net-(U1-PadE20)" "Net-(U1-PadE21)" "Net-(U1-PadE22)" "Net-(U1-PadE23)" "Net-(U1-PadW5)" "Net-(U1-PadW6)"
+    "Net-(U1-PadW7)" "Net-(U1-PadW8)" "Net-(U1-PadW9)" "Net-(U1-PadW10)" "Net-(U1-PadW11)" "Net-(U1-PadW12)" "Net-(U1-PadW13)" "Net-(U1-PadW14)"
+    "Net-(U1-PadW15)" "Net-(U1-PadW16)" "Net-(U1-PadW17)" "Net-(U1-PadW18)" "Net-(U1-PadW19)" "Net-(U1-PadW20)" "Net-(U1-PadW21)" "Net-(U1-PadW22)"
+    "Net-(U1-PadW23)" "Net-(U1-PadY5)" "Net-(U1-PadY6)" "Net-(U1-PadY7)" "Net-(U1-PadY8)" "Net-(U1-PadY9)" "Net-(U1-PadY10)" "Net-(U1-PadY11)"
+    "Net-(U1-PadY12)" "Net-(U1-PadY13)" "Net-(U1-PadY14)" "Net-(U1-PadY15)" "Net-(U1-PadY16)" "Net-(U1-PadY17)" "Net-(U1-PadY18)" "Net-(U1-PadY19)"
+    "Net-(U1-PadY20)" "Net-(U1-PadY21)" "Net-(U1-PadY22)" "Net-(U1-PadY23)" "Net-(U1-PadAA4)" "Net-(U1-PadAA7)" "Net-(U1-PadAA8)" "Net-(U1-PadAA9)"
+    "Net-(U1-PadAA10)" "Net-(U1-PadAA11)" "Net-(U1-PadAA12)" "Net-(U1-PadAA13)" "Net-(U1-PadAA14)" "Net-(U1-PadAA15)" "Net-(U1-PadAA16)" "Net-(U1-PadAA17)"
+    "Net-(U1-PadAA18)" "Net-(U1-PadAA19)" "Net-(U1-PadAA20)" "Net-(U1-PadAA21)" "Net-(U1-PadAA22)" "Net-(U1-PadAA23)" "Net-(U1-PadAB9)" "Net-(U1-PadAB10)"
+    "Net-(U1-PadAB11)" "Net-(U1-PadAB12)" "Net-(U1-PadAB13)" "Net-(U1-PadAB14)" "Net-(U1-PadAB15)" "Net-(U1-PadAB16)" "Net-(U1-PadAB17)" "Net-(U1-PadAB18)"
+    "Net-(U1-PadAB19)" "Net-(U1-PadAB20)" "Net-(U1-PadAB21)" "Net-(U1-PadAB22)" "Net-(U1-PadAB23)" "Net-(U1-PadAC9)" "Net-(U1-PadAC10)" "Net-(U1-PadAC11)"
+    "Net-(U1-PadAC12)" "Net-(U1-PadAC13)" "Net-(U1-PadAC14)" "Net-(U1-PadAC15)" "Net-(U1-PadAC16)" "Net-(U1-PadAC17)" "Net-(U1-PadAC18)" "Net-(U1-PadAC20)"
+    "Net-(U1-PadAC21)" "Net-(U1-PadAC22)" "Net-(U1-PadAC23)" "Net-(U1-PadF19)" "Net-(U1-PadF20)" "Net-(U1-PadF21)" "Net-(U1-PadF22)" "Net-(U1-PadF23)"
+    "Net-(U1-PadG19)" "Net-(U1-PadG20)" "Net-(U1-PadG21)" "Net-(U1-PadG22)" "Net-(U1-PadG23)" "Net-(U1-PadH19)" "Net-(U1-PadH20)" "Net-(U1-PadH21)"
+    "Net-(U1-PadH22)" "Net-(U1-PadH23)" "Net-(U1-PadJ19)" "Net-(U1-PadJ20)" "Net-(U1-PadJ21)" "Net-(U1-PadJ22)" "Net-(U1-PadJ23)" "Net-(U1-PadK19)"
+    "Net-(U1-PadK20)" "Net-(U1-PadK21)" "Net-(U1-PadK22)" "Net-(U1-PadK23)" "Net-(U1-PadL19)" "Net-(U1-PadL20)" "Net-(U1-PadL21)" "Net-(U1-PadL22)"
+    "Net-(U1-PadL23)" "Net-(U1-PadM19)" "Net-(U1-PadM20)" "Net-(U1-PadM21)" "Net-(U1-PadM22)" "Net-(U1-PadM23)" "Net-(U1-PadN19)" "Net-(U1-PadN20)"
+    "Net-(U1-PadN21)" "Net-(U1-PadN22)" "Net-(U1-PadN23)" "Net-(U1-PadP19)" "Net-(U1-PadP20)" "Net-(U1-PadP21)" "Net-(U1-PadP22)" "Net-(U1-PadP23)"
+    "Net-(U1-PadR5)" "Net-(U1-PadR19)" "Net-(U1-PadR20)" "Net-(U1-PadR21)" "Net-(U1-PadR22)" "Net-(U1-PadR23)" "Net-(U1-PadT5)" "Net-(U1-PadT19)"
+    "Net-(U1-PadT20)" "Net-(U1-PadT21)" "Net-(U1-PadT22)" "Net-(U1-PadT23)" "Net-(U1-PadU5)" "Net-(U1-PadU19)" "Net-(U1-PadU20)" "Net-(U1-PadU21)"
+    "Net-(U1-PadU22)" "Net-(U1-PadU23)" "Net-(U1-PadV5)" "Net-(U1-PadV19)" "Net-(U1-PadV20)" "Net-(U1-PadV21)" "Net-(U1-PadV22)" "Net-(U1-PadV23)"
+    "Net-(U1-PadH8)" "Net-(U1-PadH9)" "Net-(U1-PadH10)" "Net-(U1-PadH15)" "Net-(U1-PadH16)" "Net-(U1-PadJ8)" "Net-(U1-PadJ9)" "Net-(U1-PadJ10)"
+    "Net-(U1-PadJ15)" "Net-(U1-PadJ16)" "Net-(U1-PadK15)" "Net-(U1-PadK16)" "Net-(U1-PadL15)" "Net-(U1-PadL16)" "Net-(U1-PadM15)" "Net-(U1-PadM16)"
+    "Net-(U1-PadN15)" "Net-(U1-PadN16)" "Net-(U1-PadP15)" "Net-(U1-PadP16)" "Net-(U1-PadR8)" "Net-(U1-PadR9)" "Net-(U1-PadR10)" "Net-(U1-PadR11)"
+    "Net-(U1-PadR12)" "Net-(U1-PadR13)" "Net-(U1-PadR14)" "Net-(U1-PadR15)" "Net-(U1-PadR16)" "Net-(U1-PadT8)" "Net-(U1-PadT9)" "Net-(U1-PadT10)"
+    "Net-(U1-PadT11)" "Net-(U1-PadT13)" "Net-(U1-PadT14)" "Net-(U1-PadT15)" "Net-(U1-PadT16)" SDQ5 SDQ6 SDQ3
+    SDQ2 SDQ7 SDQ4 SDQ1 SA11 SA0 SA13 SA4
+    SA8 SA10 SA7 SA3 SA5 SA12 SA9 SA14
+    SA1 SA2 SA6 SODT0 SRST SDQM0 SBA0 SBA2
+    SBA1 SCKE0 SWE SRAS SCAS SCS0 "Net-(U1-PadG1)" "Net-(U1-PadG2)"
+    "Net-(U1-PadH1)" "Net-(U1-PadH2)" "Net-(U1-PadJ1)" "Net-(U1-PadJ2)" "Net-(U1-PadK1)" "Net-(U1-PadK2)" "Net-(U1-PadL1)" "Net-(U1-PadL2)"
+    "Net-(U1-PadM1)" "Net-(U1-PadM2)" "Net-(U1-PadN1)" "Net-(U1-PadN2)" "Net-(U1-PadP1)" "Net-(U1-PadP2)" "Net-(U1-PadR1)" "Net-(U1-PadR2)"
+    "Net-(U1-PadT1)" "Net-(U1-PadT2)" "Net-(U1-PadU1)" "Net-(U1-PadU2)" "Net-(U2-PadM7)" "Net-(U2-PadT7)" "SDQS0_P" "SDQS0_N"
+    SDQ13 SDQ15 SDQ12 "SDQS1_N" SDQ14 SDQ11 SDQ9 "SDQS1_P"
+    SDQ10 SDQM1 SDQ8 "Net-(R1-Pad1)" "SCK_P" "SCK_N" "Net-(R2-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+      (length 30000.0 0.0)
+    )
+  )
+  (class class1
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
