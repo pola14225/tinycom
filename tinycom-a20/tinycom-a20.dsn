@@ -55,11 +55,11 @@
     (component Resistors_SMD:R_0603
       (place R2 95567.5 -127877 front 270 (PN R_Small))
       (place R3 96837.5 -127889 front 90 (PN R_Small))
-      (place R1 97091.5 -154940 front 270 (PN R_Small))
-      (place R4 108522 -154686 front 270 (PN R_Small))
-      (place R5 113602 -153162 back 180 (PN R_Small))
-      (place R6 116776 -153162 back 180 (PN R_Small))
-      (place R7 119952 -153162 back 180 (PN R_Small))
+      (place R1 97167.7 -155194 front 270 (PN R_Small))
+      (place R4 108522 -154737 front 270 (PN R_Small))
+      (place R5 116294 -153822 back 180 (PN R_Small))
+      (place R6 118834 -153873 back 180 (PN R_Small))
+      (place R7 118466 -152552 back 180 (PN R_Small))
       (place R8 113474 -130302 front 0 (PN R_Small))
       (place R9 103517 -130429 front 0 (PN R_Small))
       (place R10 91249.5 -128714 front 180 (PN R_Small))
@@ -83,18 +83,18 @@
     (component Capacitors_SMD:C_0603
       (place C3 105728 -127952 front 90 (PN C_Small))
       (place C4 108204 -127952 front 90 (PN C_Small))
-      (place C5 111824 -152527 front 270 (PN C_Small))
-      (place C6 110172 -152527 front 270 (PN C_Small))
+      (place C5 113094 -154508 front 270 (PN C_Small))
+      (place C6 111087 -154737 front 270 (PN C_Small))
       (place C7 93662.5 -127826 front 90 (PN C_Small))
       (place C8 101028 -128016 front 90 (PN C_Small))
       (place C9 85471 -129159 front 90 (PN C_Small))
       (place C10 85534.5 -153480 front 270 (PN C_Small))
-      (place C11 100838 -154813 front 270 (PN C_Small))
+      (place C11 100902 -155042 front 270 (PN C_Small))
       (place C12 94615 -155067 front 270 (PN C_Small))
       (place C13 123762 -136144 front 0 (PN C_Small))
       (place C14 123762 -145542 front 0 (PN C_Small))
-      (place C15 117666 -152654 front 270 (PN C_Small))
-      (place C16 119316 -152654 front 270 (PN C_Small))
+      (place C15 121044 -153086 front 270 (PN C_Small))
+      (place C16 122695 -153086 front 270 (PN C_Small))
       (place C17 123762 -146812 front 0 (PN C_Small))
       (place C18 123762 -137414 front 0 (PN C_Small))
       (place C1 113474 -128651 front 180 (PN C_Small))
@@ -103,8 +103,8 @@
       (place C20 110172 -129794 front 90 (PN C_Small))
     )
     (component tinycom:TC_DDR3_FBGA96
-      (place U2 93789.5 -146558 front 270 (PN H5TQG63BFR/FBGA96))
-      (place U4 93726 -135255 front 270 (PN H5TQG63BFR/FBGA96))
+      (place U2 93357.7 -147295 front 270 (PN H5TQG63BFR/FBGA96))
+      (place U4 93281.5 -135255 front 270 (PN H5TQG63BFR/FBGA96))
     )
   )
   (library
@@ -1803,18 +1803,6 @@
     (net SA6
       (pins U1-V4 U2-R8 U4-R8)
     )
-    (net GND
-      (pins R3-2 R1-2 U1-W9 U1-W10 U1-W11 U1-W18 U1-Y7 U1-Y8 U1-Y18 U1-AA18 U1-G3
-        U1-G4 U1-J5 U1-K5 U1-N5 U1-P5 U1-U5 U1-U19 U1-V5 U1-V19 U1-H16 U1-J11 U1-K11
-        U1-K12 U1-K13 U1-K14 U1-L10 U1-L11 U1-L12 U1-L13 U1-L14 U1-M9 U1-M10 U1-M11
-        U1-M12 U1-M13 U1-M14 U1-N10 U1-N11 U1-N13 U1-N14 U1-N16 U1-P10 U1-P11 U1-P12
-        U1-P15 U1-R11 U1-R12 U1-T9 U1-T10 U1-T11 U1-T16 P1-2 P2-15 U3-13 U3-36 C3-2
-        C4-2 R4-2 C5-2 C6-2 C7-2 C8-2 C9-2 C10-2 C11-2 C12-2 C13-2 C14-2 C15-2 C16-2
-        C17-2 C18-2 C1-2 C2-2 C19-2 C20-2 R10-2 U2-A9 U2-B1 U2-B3 U2-B9 U2-D1 U2-D8
-        U2-E1 U2-E2 U2-E8 U2-F9 U2-G1 U2-G8 U2-G9 U2-J2 U2-J8 U2-M1 U2-M9 U2-P1 U2-P9
-        U2-T1 U2-T9 U4-A9 U4-B1 U4-B3 U4-B9 U4-D1 U4-D8 U4-E1 U4-E2 U4-E8 U4-F9 U4-G1
-        U4-G8 U4-G9 U4-J2 U4-J8 U4-M1 U4-M9 U4-P1 U4-P9 U4-T1 U4-T9)
-    )
     (net SODT0
       (pins U1-AA5 U2-K1 U4-K1)
     )
@@ -2076,33 +2064,14 @@
     (net "Net-(C4-Pad1)"
       (pins U1-F2 Y2-1 C4-1)
     )
-    (net SVREF
-      (pins R2-2 R3-1 U1-Y5 U1-AA8 U1-H3 U1-H4 U2-H1 U2-M8 U4-H1 U4-M8)
-    )
     (net "Net-(R4-Pad1)"
       (pins U1-AA7 R4-1)
-    )
-    (net VCC_15
-      (pins R2-1 U1-W5 U1-W6 U1-W7 U1-Y6 U1-G5 U1-H5 U1-L5 U1-M5 U1-R5 U1-T5 U1-M8
-        U1-N9 U1-P9 P1-4 C7-1 C8-1 C9-1 C10-1 C11-1 C12-1 U2-A1 U2-A8 U2-B2 U2-C1
-        U2-C9 U2-D2 U2-D9 U2-E9 U2-F1 U2-G7 U2-H2 U2-H9 U2-K2 U2-K8 U2-N1 U2-N9 U2-R1
-        U2-R9 U4-A1 U4-A8 U4-B2 U4-C1 U4-C9 U4-D2 U4-D9 U4-E9 U4-F1 U4-G7 U4-H2 U4-H9
-        U4-K2 U4-K8 U4-N1 U4-N9 U4-R1 U4-R9)
     )
     (net SDC0_D1
       (pins U1-M20 P1-5)
     )
-    (net VCC_12
-      (pins U1-H11 U1-H12 U1-H13 U1-H14 U1-J13 U1-J15 U1-J16 U1-K9 U1-K10 U1-K15 U1-K16
-        U1-L8 U1-L9 U1-M15 U1-M16 U1-R9 U1-R10 U1-T8 P1-6 C6-1 C13-1 C14-1 C15-1 C20-1)
-    )
     (net SDC0_D0
       (pins U1-M19 P1-7)
-    )
-    (net VCC_33
-      (pins U1-W12 U1-W13 U1-W14 U1-W15 U1-W16 U1-AB19 U1-H19 U1-J19 U1-N19 U1-H8
-        U1-H9 U1-H10 U1-H15 U1-J8 U1-J9 U1-J10 U1-J14 U1-K8 U1-L15 U1-L16 P1-8 U3-12
-        U3-37 R5-1 R6-1 R7-1 R8-1 R9-1 C5-1 C16-1 C17-1 C18-1 C19-1)
     )
     (net SDC0_CLK
       (pins U1-L20 P1-9)
@@ -2139,9 +2108,6 @@
     )
     (net UDP2
       (pins U1-R21 P2-16)
-    )
-    (net VCC_30
-      (pins U1-T19 P2-13)
     )
     (net "Net-(R5-Pad2)"
       (pins U3-19 R5-2)
@@ -2378,8 +2344,8 @@
   )
   (wiring
     (wire (path F.Cu 150  94615 -154317  93674.5 -154317  93535.5 -154178)(net VCC_15)(type protect))
-    (wire (path F.Cu 150  117666 -151904  116916 -151904  116904 -151892)(net VCC_12)(type protect))
+    (wire (path F.Cu 150  121044 -152336  120294 -152336  120282 -152324)(net VCC_12)(type protect))
     (via "Via[0-3]_600:300_um"  93535.5 -154178 (net VCC_15)(type protect))
-    (via "Via[0-3]_600:300_um"  116904 -151892 (net VCC_12)(type protect))
+    (via "Via[0-3]_600:300_um"  120282 -152324 (net VCC_12)(type protect))
   )
 )
