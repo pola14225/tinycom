@@ -1240,17 +1240,6 @@ F 3 "" H 20950 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
-U 1 1 56442EE3
-P 20800 8450
-F 0 "C8" H 20810 8520 50  0000 L CNN
-F 1 "C_Small" H 20810 8370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20800 8450 60  0001 C CNN
-F 3 "" H 20800 8450 60  0000 C CNN
-	1    20800 8450
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C9
 U 1 1 56442F49
 P 21100 8450
@@ -1295,17 +1284,6 @@ F 3 "" H 21400 8450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C14
-U 1 1 564450A0
-P 20150 8450
-F 0 "C14" H 20160 8520 50  0000 L CNN
-F 1 "C_Small" H 20160 8370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20150 8450 60  0001 C CNN
-F 3 "" H 20150 8450 60  0000 C CNN
-	1    20150 8450
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C15
 U 1 1 56445117
 P 20450 8450
@@ -1314,17 +1292,6 @@ F 1 "C_Small" H 20460 8370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 20450 8450 60  0001 C CNN
 F 3 "" H 20450 8450 60  0000 C CNN
 	1    20450 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C13
-U 1 1 56445275
-P 20050 8450
-F 0 "C13" H 20060 8520 50  0000 L CNN
-F 1 "C_Small" H 20060 8370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20050 8450 60  0001 C CNN
-F 3 "" H 20050 8450 60  0000 C CNN
-	1    20050 8450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1347,17 +1314,6 @@ F 1 "C_Small" H 19210 8370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 19200 8450 60  0001 C CNN
 F 3 "" H 19200 8450 60  0000 C CNN
 	1    19200 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C18
-U 1 1 564469EA
-P 19650 8450
-F 0 "C18" H 19660 8520 50  0000 L CNN
-F 1 "C_Small" H 19660 8370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 19650 8450 60  0001 C CNN
-F 3 "" H 19650 8450 60  0000 C CNN
-	1    19650 8450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1396,132 +1352,6 @@ Text GLabel 16550 6850 2    60   Input ~ 0
 VCC_15
 Text GLabel 18750 12950 0    60   Input ~ 0
 VCC_33
-$Comp
-L H5TQG63BFR/FBGA96 U4
-U 1 1 5644281E
-P 20050 3950
-F 0 "U4" H 20050 3950 60  0000 C CNN
-F 1 "H5TQG63BFR/FBGA96" H 20050 3800 60  0000 C CNN
-F 2 "tinycom:TC_FBGA96" H 20050 3950 60  0000 C CNN
-F 3 "" H 20050 3950 60  0000 C CNN
-	1    20050 3950
-	1    0    0    -1  
-$EndComp
-Text GLabel 21350 3400 2    60   Input ~ 0
-SA0
-Text GLabel 21350 3500 2    60   Input ~ 0
-SA1
-Text GLabel 21350 3600 2    60   Input ~ 0
-SA2
-Text GLabel 21350 3700 2    60   Input ~ 0
-SA3
-Text GLabel 21350 3800 2    60   Input ~ 0
-SA4
-Text GLabel 21350 3900 2    60   Input ~ 0
-SA5
-Text GLabel 21350 4000 2    60   Input ~ 0
-SA6
-Text GLabel 21350 4100 2    60   Input ~ 0
-SA7
-Text GLabel 21350 4200 2    60   Input ~ 0
-SA8
-Text GLabel 21350 4300 2    60   Input ~ 0
-SA9
-Text GLabel 21350 4400 2    60   Input ~ 0
-SA10
-Text GLabel 21350 4500 2    60   Input ~ 0
-SA11
-Text GLabel 21350 4600 2    60   Input ~ 0
-SA12
-Text GLabel 21350 4700 2    60   Input ~ 0
-SA13
-Text GLabel 18750 2100 0    60   Input ~ 0
-SDQ16
-Text GLabel 18750 2200 0    60   Input ~ 0
-SDQ17
-Text GLabel 18750 2300 0    60   Input ~ 0
-SDQ18
-Text GLabel 18750 2400 0    60   Input ~ 0
-SDQ19
-Text GLabel 18750 2500 0    60   Input ~ 0
-SDQ20
-Text GLabel 18750 2600 0    60   Input ~ 0
-SDQ21
-Text GLabel 18750 2700 0    60   Input ~ 0
-SDQ22
-Text GLabel 18750 2800 0    60   Input ~ 0
-SDQ23
-Text GLabel 18750 2900 0    60   Input ~ 0
-SDQ24
-Text GLabel 18750 3000 0    60   Input ~ 0
-SDQ25
-Text GLabel 18750 3100 0    60   Input ~ 0
-SDQ26
-Text GLabel 18750 3200 0    60   Input ~ 0
-SDQ27
-Text GLabel 18750 3300 0    60   Input ~ 0
-SDQ28
-Text GLabel 18750 3400 0    60   Input ~ 0
-SDQ29
-Text GLabel 18750 3500 0    60   Input ~ 0
-SDQ30
-Text GLabel 18750 3600 0    60   Input ~ 0
-SDQ31
-Text GLabel 18650 1700 0    60   Input ~ 0
-VCC_15
-$Comp
-L GND #PWR029
-U 1 1 564464B9
-P 19300 750
-F 0 "#PWR029" H 19300 500 50  0001 C CNN
-F 1 "GND" H 19300 600 50  0000 C CNN
-F 2 "" H 19300 750 60  0000 C CNN
-F 3 "" H 19300 750 60  0000 C CNN
-	1    19300 750 
-	1    0    0    -1  
-$EndComp
-Text GLabel 20650 700  2    60   Input ~ 0
-VCC_15
-NoConn ~ 21350 2200
-NoConn ~ 21350 2300
-NoConn ~ 21350 2400
-NoConn ~ 21350 2500
-NoConn ~ 21350 2600
-NoConn ~ 21350 2700
-Text GLabel 21350 2900 2    60   Input ~ 0
-SCK_P
-Text GLabel 21350 3000 2    60   Input ~ 0
-SCK_N
-Text GLabel 21350 4900 2    60   Input ~ 0
-SBA0
-Text GLabel 21350 5000 2    60   Input ~ 0
-SBA1
-Text GLabel 21350 5100 2    60   Input ~ 0
-SBA2
-Text GLabel 21350 6100 2    60   Input ~ 0
-SRST
-$Comp
-L R_Small R10
-U 1 1 56448F65
-P 21750 6000
-F 0 "R10" H 21780 6020 50  0000 L CNN
-F 1 "R_Small" H 21780 5960 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 21750 6000 60  0001 C CNN
-F 3 "" H 21750 6000 60  0000 C CNN
-	1    21750 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR030
-U 1 1 56448F6B
-P 22100 6100
-F 0 "#PWR030" H 22100 5850 50  0001 C CNN
-F 1 "GND" H 22100 5950 50  0000 C CNN
-F 2 "" H 22100 6100 60  0000 C CNN
-F 3 "" H 22100 6100 60  0000 C CNN
-	1    22100 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	17550 6050 17800 6050
 Wire Wire Line
@@ -2128,8 +1958,6 @@ Wire Wire Line
 Wire Wire Line
 	20950 8550 20950 8700
 Wire Wire Line
-	20800 8350 20800 8300
-Wire Wire Line
 	20700 8300 21400 8300
 Connection ~ 20950 8300
 Wire Wire Line
@@ -2137,55 +1965,34 @@ Wire Wire Line
 Wire Wire Line
 	21250 8300 21250 8350
 Connection ~ 21100 8300
-Wire Wire Line
-	20700 8550 21400 8550
 Connection ~ 20950 8550
 Connection ~ 21100 8550
 Wire Wire Line
 	20700 8300 20700 8350
-Connection ~ 20800 8300
-Connection ~ 20800 8550
 Wire Wire Line
 	21400 8300 21400 8350
 Connection ~ 21250 8300
 Connection ~ 21250 8550
-Wire Wire Line
-	20050 8350 20050 8300
 Wire Wire Line
 	19900 8300 20450 8300
 Connection ~ 20300 8300
 Wire Wire Line
 	20450 8300 20450 8350
 Wire Wire Line
-	20050 8550 20050 8600
-Wire Wire Line
 	19900 8600 20450 8600
 Connection ~ 20300 8600
 Wire Wire Line
 	20450 8600 20450 8550
-Wire Wire Line
-	20150 8550 20150 8600
 Connection ~ 20150 8600
 Wire Wire Line
-	20150 8350 20150 8300
-Connection ~ 20150 8300
-Wire Wire Line
 	19200 8350 19200 8300
-Wire Wire Line
-	19050 8300 19650 8300
 Connection ~ 19500 8300
-Wire Wire Line
-	19650 8300 19650 8350
 Wire Wire Line
 	19350 8350 19350 8300
 Connection ~ 19350 8300
 Wire Wire Line
 	19200 8550 19200 8600
-Wire Wire Line
-	19050 8600 19650 8600
 Connection ~ 19500 8600
-Wire Wire Line
-	19650 8600 19650 8550
 Wire Wire Line
 	19350 8550 19350 8600
 Connection ~ 19350 8600
@@ -2197,182 +2004,8 @@ Wire Wire Line
 Connection ~ 19200 8600
 Wire Wire Line
 	19900 8300 19900 8350
-Connection ~ 20050 8300
 Wire Wire Line
 	19900 8600 19900 8550
-Connection ~ 20050 8600
-Wire Wire Line
-	18750 1700 18650 1700
-Wire Wire Line
-	18650 1700 18650 1900
-Wire Wire Line
-	18650 1900 18750 1900
-Wire Wire Line
-	18750 1800 18650 1800
-Connection ~ 18650 1800
-Wire Wire Line
-	19450 800  19450 700 
-Wire Wire Line
-	19300 700  20250 700 
-Wire Wire Line
-	20250 700  20250 800 
-Wire Wire Line
-	19550 800  19550 700 
-Connection ~ 19550 700 
-Wire Wire Line
-	19650 800  19650 700 
-Connection ~ 19650 700 
-Wire Wire Line
-	19750 800  19750 700 
-Connection ~ 19750 700 
-Wire Wire Line
-	19850 800  19850 700 
-Connection ~ 19850 700 
-Wire Wire Line
-	19950 800  19950 700 
-Connection ~ 19950 700 
-Wire Wire Line
-	20050 800  20050 700 
-Connection ~ 20050 700 
-Wire Wire Line
-	20150 800  20150 700 
-Connection ~ 20150 700 
-Wire Wire Line
-	19300 700  19300 750 
-Connection ~ 19450 700 
-Wire Wire Line
-	20450 800  20450 700 
-Wire Wire Line
-	20450 700  20650 700 
-Wire Wire Line
-	20650 700  20650 800 
-Wire Wire Line
-	20550 800  20550 700 
-Connection ~ 20550 700 
-Wire Wire Line
-	21850 6000 22100 6000
-Wire Wire Line
-	22100 6000 22100 6100
-Wire Wire Line
-	21350 6000 21650 6000
-Wire Wire Line
-	19450 6800 19450 6900
-Wire Wire Line
-	19450 6900 20650 6900
-Wire Wire Line
-	20650 6900 20650 6800
-Wire Wire Line
-	19550 6800 19550 6900
-Connection ~ 19550 6900
-Wire Wire Line
-	19650 6800 19650 6900
-Connection ~ 19650 6900
-Wire Wire Line
-	19750 6800 19750 6900
-Connection ~ 19750 6900
-Wire Wire Line
-	19850 6800 19850 6900
-Connection ~ 19850 6900
-Wire Wire Line
-	19950 6800 19950 6900
-Connection ~ 19950 6900
-Wire Wire Line
-	20050 6800 20050 6900
-Connection ~ 20050 6900
-Wire Wire Line
-	20150 6800 20150 6900
-Connection ~ 20150 6900
-Wire Wire Line
-	20250 6800 20250 6900
-Connection ~ 20250 6900
-Wire Wire Line
-	20450 6800 20450 6900
-Connection ~ 20450 6900
-Wire Wire Line
-	20550 6800 20550 6900
-Connection ~ 20550 6900
-Text GLabel 20650 6900 2    60   Input ~ 0
-VCC_15
-Text GLabel 18600 5400 0    60   Input ~ 0
-SVREF
-Wire Wire Line
-	18750 5400 18600 5400
-Wire Wire Line
-	18600 5400 18600 5500
-Wire Wire Line
-	18600 5500 18750 5500
-Wire Wire Line
-	18750 3900 18650 3900
-Wire Wire Line
-	18650 3900 18650 5100
-Wire Wire Line
-	18650 5000 18750 5000
-Wire Wire Line
-	18750 4000 18650 4000
-Connection ~ 18650 4000
-Wire Wire Line
-	18750 4100 18650 4100
-Connection ~ 18650 4100
-Wire Wire Line
-	18750 4200 18650 4200
-Connection ~ 18650 4200
-Wire Wire Line
-	18750 4300 18650 4300
-Connection ~ 18650 4300
-Wire Wire Line
-	18750 4400 18650 4400
-Connection ~ 18650 4400
-Wire Wire Line
-	18750 4500 18650 4500
-Connection ~ 18650 4500
-Wire Wire Line
-	18750 4600 18650 4600
-Connection ~ 18650 4600
-Wire Wire Line
-	18750 4700 18650 4700
-Connection ~ 18650 4700
-Wire Wire Line
-	18750 4800 18650 4800
-Connection ~ 18650 4800
-Wire Wire Line
-	18750 4900 18650 4900
-Connection ~ 18650 4900
-$Comp
-L GND #PWR031
-U 1 1 5644D663
-P 18650 5100
-F 0 "#PWR031" H 18650 4850 50  0001 C CNN
-F 1 "GND" H 18650 4950 50  0000 C CNN
-F 2 "" H 18650 5100 60  0000 C CNN
-F 3 "" H 18650 5100 60  0000 C CNN
-	1    18650 5100
-	1    0    0    -1  
-$EndComp
-Connection ~ 18650 5000
-Text GLabel 21350 5800 2    60   Input ~ 0
-SODT0
-Text GLabel 21350 1500 2    60   Input ~ 0
-SDQS2_P
-Text GLabel 21350 1600 2    60   Input ~ 0
-SDQS2_N
-Text GLabel 21350 1700 2    60   Input ~ 0
-SDQM2
-Text GLabel 21350 1800 2    60   Input ~ 0
-SDQS3_P
-Text GLabel 21350 1900 2    60   Input ~ 0
-SDQS3_N
-Text GLabel 21350 2000 2    60   Input ~ 0
-SDQM3
-Text GLabel 21350 3100 2    60   Input ~ 0
-SCKE0
-Text GLabel 21350 5300 2    60   Input ~ 0
-SWE
-Text GLabel 21350 5400 2    60   Input ~ 0
-SCAS
-Text GLabel 21350 5500 2    60   Input ~ 0
-SRAS
-Text GLabel 21350 5600 2    60   Input ~ 0
-SCS0
 Text GLabel 12100 3050 2    60   Input ~ 0
 SDQS2_P
 Text GLabel 12100 3150 2    60   Input ~ 0
@@ -2417,4 +2050,41 @@ Text GLabel 7500 5950 0    60   Input ~ 0
 SDQ30
 Text GLabel 7500 6050 0    60   Input ~ 0
 SDQ31
+Wire Wire Line
+	19050 8300 19500 8300
+Wire Wire Line
+	19050 8600 19500 8600
+Wire Wire Line
+	20700 8550 21400 8550
+Connection ~ 20800 8300
+Connection ~ 20800 8550
+Wire Wire Line
+	20800 8350 20800 8300
+$Comp
+L C_Small C8
+U 1 1 56442EE3
+P 20800 8450
+F 0 "C8" H 20810 8520 50  0000 L CNN
+F 1 "C_Small" H 20810 8370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 20800 8450 60  0001 C CNN
+F 3 "" H 20800 8450 60  0000 C CNN
+	1    20800 8450
+	1    0    0    -1  
+$EndComp
+Connection ~ 20150 8300
+Wire Wire Line
+	20150 8550 20150 8600
+Wire Wire Line
+	20150 8350 20150 8300
+$Comp
+L C_Small C14
+U 1 1 564450A0
+P 20150 8450
+F 0 "C14" H 20160 8520 50  0000 L CNN
+F 1 "C_Small" H 20160 8370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 20150 8450 60  0001 C CNN
+F 3 "" H 20150 8450 60  0000 C CNN
+	1    20150 8450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
