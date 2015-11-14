@@ -31,6 +31,8 @@ A very small and low cost modular computer, made in KiCAD.
 
 ### Pictures
 
+![TinyCom-a20 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-3d.png)
+
 ![TinyCom-a20 board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-board.png)
 
 ## TinyCom-Base
