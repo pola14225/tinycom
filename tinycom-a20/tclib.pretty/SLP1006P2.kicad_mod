@@ -1,0 +1,11 @@
+(module SLP1006P2 (layer F.Cu) (tedit 488C16DF)
+  (attr smd)
+  (fp_text reference SLP1006P2 (at 0 1.27) (layer F.SilkS)
+    (effects (font (size 0.6096 0.5588) (thickness 0.2032)))
+  )
+  (fp_text value VAL** (at 0 0 90) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (pad 1 smd trapezoid (at -0.6604 0) (size 0.508 1.016) (rect_delta -0.127 0 ) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.6604 0) (size 0.508 1.016) (layers F.Cu F.Paste F.Mask))
+)

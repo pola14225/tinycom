@@ -1,0 +1,14 @@
+(module SMA_Straight_PCB_Socket (layer F.Cu) (tedit 488C17D5)
+  (fp_text reference SMA_Straight_PCB (at 0 5.08) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.6096) (thickness 0.2032)))
+  )
+  (fp_text value VAL** (at 0 5.08) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (pad 2 thru_hole circle (at -2.4765 -2.54) (size 2.54 2.54) (drill 1.651) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2.6035 -2.54) (size 2.54 2.54) (drill 1.651) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -2.4765 2.54) (size 2.54 2.54) (drill 1.651) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2.6035 2.54) (size 2.54 2.54) (drill 1.651) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0.0635 0) (size 9.652 9.652) (drill 4.318) (layers B.Cu))
+  (pad 1 thru_hole circle (at 0.0635 0) (size 2.54 2.54) (drill 1.651) (layers *.Cu *.Mask F.SilkS))
+)

@@ -1,0 +1,9 @@
+(module 1Pin_25mil_VIA (layer F.Cu) (tedit 4AE57C9B)
+  (fp_text reference 1Pin_15mil_VIA (at 0 -0.6985) (layer F.SilkS) hide
+    (effects (font (size 0.1524 0.1524) (thickness 0.0254)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.0254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.143 1.143) (drill 0.635) (layers *.Cu))
+)

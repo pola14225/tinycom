@@ -1,0 +1,17 @@
+(module SIL-5-Blank (layer F.Cu) (tedit 48C5397F)
+  (fp_text reference SIL-5-Blank (at 0 1.016) (layer F.SilkS) hide
+    (effects (font (size 0.1524 0.1524) (thickness 0.00254)))
+  )
+  (fp_text value VAL** (at 0 -1.016) (layer F.SilkS) hide
+    (effects (font (size 0.1524 0.1524) (thickness 0.0254)))
+  )
+  (fp_line (start 6.35 -1.27) (end -6.35 -1.27) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -6.35 -1.27) (end -6.35 1.27) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -6.35 1.27) (end 6.35 1.27) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 6.35 1.27) (end 6.35 -1.27) (layer F.SilkS) (width 0.2032))
+  (pad 1 thru_hole circle (at -5.08 0) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -2.54 0) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 0) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at 2.54 0) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 5 thru_hole circle (at 5.08 0) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
+)

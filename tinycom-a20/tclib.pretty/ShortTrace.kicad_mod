@@ -1,0 +1,18 @@
+(module ShortTrace (layer F.Cu) (tedit 4BD22DFD)
+  (fp_text reference L14 (at -0.4445 -0.1905) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (fp_text value FB (at -0.0635 -0.1905) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (fp_line (start -0.1524 0) (end -0.0254 0) (layer F.Mask) (width 0.2032))
+  (fp_line (start -0.06604 0) (end 0.06096 0) (layer F.Mask) (width 0.2032))
+  (fp_line (start 0.0381 0) (end 0.1651 0) (layer F.Mask) (width 0.2032))
+  (fp_line (start 0.0381 0) (end 0.1651 0) (layer F.Cu) (width 0.2032))
+  (fp_line (start -0.06604 0) (end 0.06096 0) (layer F.Cu) (width 0.2032))
+  (fp_line (start -0.1524 0) (end -0.0254 0) (layer F.Cu) (width 0.2032))
+  (fp_line (start 0.127 0) (end 0.254 0) (layer F.Cu) (width 0.2032))
+  (fp_line (start -0.254 0) (end -0.127 0) (layer F.Cu) (width 0.2032))
+  (pad 1 smd circle (at 0.254 0) (size 0.2032 0.2032) (layers F.Cu))
+  (pad 2 smd circle (at -0.254 0) (size 0.2032 0.2032) (layers F.Cu))
+)

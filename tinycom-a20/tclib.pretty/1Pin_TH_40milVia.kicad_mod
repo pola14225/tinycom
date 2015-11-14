@@ -1,0 +1,10 @@
+(module 1Pin_TH_40milVia (layer F.Cu) (tedit 488C1451)
+  (tags DEV)
+  (fp_text reference 1PIN (at 0 1.397) (layer F.SilkS) hide
+    (effects (font (size 0.508 0.4572) (thickness 0.2032)))
+  )
+  (fp_text value P*** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)
