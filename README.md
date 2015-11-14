@@ -9,15 +9,29 @@ A very small and low cost modular computer, made in KiCAD.
 
 - Dimensions: 4x4 cm
 - CPU: Allwinner A13
-- Memory: 512MB DDR3 SDRAM
+- Memory: 256MB DDR3 SDRAM
 - PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USB, camera
+- Ports: SD-card, serial, USBx2, camera
 
 ### Pictures
 
 ![TinyCom-a13 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-3d.png)
 
-![TinyCom-13 board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-board.png)
+![TinyCom-a13 board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-board.png)
+
+## TinyCom-A20
+
+### Specifications
+
+- Dimensions: 4x4 cm
+- CPU: Allwinner A20
+- Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
+- PCB: 4 layers, 6 mil traces, 12 mil vias
+- Ports: SD-card, serial, USBx3
+
+### Pictures
+
+![TinyCom-a20 board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-board.png)
 
 ## TinyCom-Base
 
