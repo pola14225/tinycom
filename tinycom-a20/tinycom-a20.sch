@@ -1142,7 +1142,6 @@ Text GLabel 850  10700 0    60   Input ~ 0
 VCC_33
 Text GLabel 850  10900 0    60   Input ~ 0
 VCC_12
-NoConn ~ 1050 9400
 Text GLabel 650  9600 0    60   Input ~ 0
 VCC_33
 $Comp
@@ -2027,9 +2026,9 @@ Wire Wire Line
 Wire Wire Line
 	1050 9700 900  9700
 Wire Wire Line
-	900  9700 900  9800
+	900  9800 900  9700
 Wire Wire Line
-	900  9800 850  9800
+	600  9800 900  9800
 Wire Wire Line
 	650  9600 850  9600
 Connection ~ 700  9600
@@ -2149,4 +2148,30 @@ Wire Wire Line
 	19650 8300 19650 8350
 Wire Wire Line
 	19650 8600 19650 8550
+Wire Wire Line
+	1050 9400 1050 9200
+Wire Wire Line
+	1050 9200 1100 9200
+Wire Wire Line
+	1100 9200 1100 9050
+$Comp
+L CONN_01X01 P3
+U 1 1 56507657
+P 900 9050
+F 0 "P3" H 900 9150 50  0000 C CNN
+F 1 "CONN_01X01" V 1000 9050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 900 9050 60  0000 C CNN
+F 3 "" H 900 9050 60  0000 C CNN
+	1    900  9050
+	-1   0    0    1   
+$EndComp
+Text GLabel 1100 9150 0    60   Input ~ 0
+UBOOT_SEL
+Text GLabel 700  9900 0    60   Input ~ 0
+RESET#
+Text GLabel 600  9750 0    60   Input ~ 0
+NMI#
+Wire Wire Line
+	600  9800 600  9750
+Connection ~ 850  9800
 $EndSCHEMATC

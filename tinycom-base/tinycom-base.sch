@@ -103,17 +103,6 @@ F 3 "" V 9060 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B P4
-U 1 1 562CE6C3
-P 5750 4450
-F 0 "P4" H 5950 4250 50  0000 C CNN
-F 1 "USB_B" H 5700 4650 50  0000 C CNN
-F 2 "Connect:USB_Micro-B" V 5700 4350 60  0001 C CNN
-F 3 "" V 5700 4350 60  0000 C CNN
-	1    5750 4450
-	0    1    1    0   
-$EndComp
-$Comp
 L SY8008BAAC U1
 U 1 1 562D9C58
 P 1950 1550
@@ -731,6 +720,55 @@ F 3 "" H 4900 5400 60  0000 C CNN
 	1    4900 5400
 	1    0    0    -1  
 $EndComp
+$Comp
+L CP_Small C11
+U 1 1 5634BEB9
+P 4600 5250
+F 0 "C11" H 4610 5320 50  0000 L CNN
+F 1 "CP_Small" H 4610 5170 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5_CopperClear" H 4600 5250 60  0001 C CNN
+F 3 "" H 4600 5250 60  0000 C CNN
+	1    4600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C12
+U 1 1 5634C85E
+P 4650 4400
+F 0 "C12" H 4660 4470 50  0000 L CNN
+F 1 "CP_Small" H 4660 4320 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5_CopperClear" H 4650 4400 60  0001 C CNN
+F 3 "" H 4650 4400 60  0000 C CNN
+	1    4650 4400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8400 2800
+NoConn ~ 8400 2900
+NoConn ~ 8400 3000
+NoConn ~ 8400 3100
+NoConn ~ 8400 3200
+NoConn ~ 8400 3300
+NoConn ~ 7900 2600
+NoConn ~ 7900 2700
+NoConn ~ 7900 2800
+NoConn ~ 7900 2900
+NoConn ~ 7900 3000
+NoConn ~ 7900 3100
+NoConn ~ 7900 3200
+NoConn ~ 7900 3300
+NoConn ~ 6800 2550
+NoConn ~ 6800 2650
+$Comp
+L USB_OTG P4
+U 1 1 565013FA
+P 5750 4450
+F 0 "P4" H 6075 4325 50  0000 C CNN
+F 1 "USB_OTG" H 5750 4650 50  0000 C CNN
+F 2 "tinycom:tc-USB_Micro-B" V 5700 4350 60  0000 C CNN
+F 3 "" V 5700 4350 60  0000 C CNN
+	1    5750 4450
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	4650 4250 5450 4250
 Wire Wire Line
@@ -995,49 +1033,10 @@ Wire Wire Line
 	4650 4250 4650 4300
 Wire Wire Line
 	4650 4500 4900 4500
-$Comp
-L CP_Small C11
-U 1 1 5634BEB9
-P 4600 5250
-F 0 "C11" H 4610 5320 50  0000 L CNN
-F 1 "CP_Small" H 4610 5170 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5_CopperClear" H 4600 5250 60  0001 C CNN
-F 3 "" H 4600 5250 60  0000 C CNN
-	1    4600 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 5100 4600 5150
 Wire Wire Line
 	4600 5350 4900 5350
-$Comp
-L CP_Small C12
-U 1 1 5634C85E
-P 4650 4400
-F 0 "C12" H 4660 4470 50  0000 L CNN
-F 1 "CP_Small" H 4660 4320 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5_CopperClear" H 4650 4400 60  0001 C CNN
-F 3 "" H 4650 4400 60  0000 C CNN
-	1    4650 4400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8400 2800
-NoConn ~ 8400 2900
-NoConn ~ 8400 3000
-NoConn ~ 8400 3100
-NoConn ~ 8400 3200
-NoConn ~ 8400 3300
-NoConn ~ 7900 2600
-NoConn ~ 7900 2700
-NoConn ~ 7900 2800
-NoConn ~ 7900 2900
-NoConn ~ 7900 3000
-NoConn ~ 7900 3100
-NoConn ~ 7900 3200
-NoConn ~ 7900 3300
-NoConn ~ 6800 2550
-NoConn ~ 6800 2650
-NoConn ~ 5850 4750
 Wire Wire Line
 	8900 5150 8900 5400
 Wire Wire Line
@@ -1046,4 +1045,12 @@ Wire Wire Line
 	5450 5600 5450 5400
 Wire Wire Line
 	7200 4850 7450 4850
+Wire Wire Line
+	5450 4650 5350 4650
+Wire Wire Line
+	5350 4550 5350 4850
+Connection ~ 5350 4550
+Wire Wire Line
+	5350 4850 5850 4850
+Connection ~ 5350 4650
 $EndSCHEMATC
