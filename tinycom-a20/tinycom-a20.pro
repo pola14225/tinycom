@@ -1,4 +1,4 @@
-update=Sun 08 Nov 2015 07:21:38 AM ICT
+update=Sun 22 Nov 2015 01:37:39 PM ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/home/datrus/stuff/kicad_libs
@@ -72,3 +62,13 @@ LibName30=/home/datrus/eoma/eoma-HEAD-d275602/pcb/allwinner_a10/library/allwinne
 LibName31=/home/datrus/eoma/eoma-HEAD-d275602/pcb/eoma26/a13/h5tq2g43cfr
 LibName32=/home/datrus/eoma/eoma-HEAD-d275602/pcb/eoma26/a13/hy27ug088g5m
 LibName33=/home/datrus/eoma/eoma-HEAD-d275602/pcb/eoma26/a13/hynix
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
