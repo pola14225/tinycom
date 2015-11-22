@@ -1711,8 +1711,6 @@ Connection ~ 10350 1150
 Wire Wire Line
 	9050 8350 9050 8450
 Wire Wire Line
-	9050 8450 10350 8450
-Wire Wire Line
 	10350 8450 10350 8350
 Wire Wire Line
 	9150 8350 9150 8450
@@ -1740,10 +1738,8 @@ Wire Wire Line
 Connection ~ 9850 8450
 Wire Wire Line
 	9950 8350 9950 8450
-Connection ~ 9950 8450
 Wire Wire Line
 	10150 8350 10150 8450
-Connection ~ 10150 8450
 Wire Wire Line
 	10250 8350 10250 8450
 Connection ~ 10250 8450
@@ -2028,7 +2024,7 @@ Wire Wire Line
 Wire Wire Line
 	900  9700 900  9800
 Wire Wire Line
-	900  9800 850  9800
+	900  9800 600  9800
 Wire Wire Line
 	650  9600 850  9600
 Connection ~ 700  9600
@@ -2169,4 +2165,15 @@ Text GLabel 1100 9150 0    60   Input ~ 0
 UBOOT_SEL
 Text GLabel 700  9900 0    60   Input ~ 0
 RESET#
+Text GLabel 600  9750 0    60   Input ~ 0
+NMI#
+Wire Wire Line
+	600  9800 600  9750
+Connection ~ 850  9800
+Wire Wire Line
+	9950 8450 9050 8450
+Wire Wire Line
+	10150 8450 10350 8450
+Text GLabel 10350 8450 2    60   Input ~ 0
+VCC_15
 $EndSCHEMATC
