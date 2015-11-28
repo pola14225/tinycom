@@ -43,7 +43,7 @@ A very small and low cost modular computer, made in KiCAD.
 
 ![TinyCom-base board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-board.png)
 
-## TinyCom-WIFI
+## TinyCom-Wifi
 
 ### Pictures
 
