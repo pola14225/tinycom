@@ -53,7 +53,7 @@ A very small and low cost modular computer, made in KiCAD.
 ### Specifications
 
 - Connectors:  USB, SD-card, PWMx6, GPS, Compass, Camera
-- Sensors: Gyro/Accel (MPU-6050), Barometer (MS5611)
+- Sensors: Gyro/Accel (MPU6050), Barometer (MS5611)
 
 ### Pictures
 
