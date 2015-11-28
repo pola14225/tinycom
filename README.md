@@ -40,7 +40,7 @@ A very small and low cost modular computer, made in KiCAD.
 ### Specifications
 
 - Connectors:  USBx2, HDMI, SD-card, SATA
-- Network: WIFI, Bluetooth
+- Network: WIFI
 
 ### Pictures
 
