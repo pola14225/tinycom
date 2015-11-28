@@ -43,6 +43,22 @@ A very small and low cost modular computer, made in KiCAD.
 
 ![TinyCom-base board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-board.png)
 
+## TinyCom-WIFI
+
+### Pictures
+
+![TinyCom-wifi 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-wifi/tinycom-wifi-3d.png)
+
+![TinyCom-wifi board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-wifi/tinycom-wifi-board.png)
+
+## TinyCom-Pilot
+
+### Pictures
+
+![TinyCom-pilot 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-3d.png)
+
+![TinyCom-pilot board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-board.png)
+
 ## Contact
 
 Send email to dj@netforce.com.
