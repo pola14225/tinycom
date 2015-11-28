@@ -876,22 +876,9 @@ F 3 "" H 5900 12300 60  0000 C CNN
 	1    5900 12300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5650 12700
-NoConn ~ 5650 12800
-NoConn ~ 5650 12900
-NoConn ~ 5650 13000
-NoConn ~ 5650 13100
-NoConn ~ 5650 13200
-NoConn ~ 5650 13300
-NoConn ~ 5650 13400
-NoConn ~ 5650 13500
 NoConn ~ 5650 13600
 NoConn ~ 5650 13700
 NoConn ~ 5650 13800
-NoConn ~ 5650 13900
-NoConn ~ 5650 14000
-NoConn ~ 5650 14100
-NoConn ~ 5650 14200
 NoConn ~ 7050 9950
 NoConn ~ 7050 10050
 NoConn ~ 7050 10150
@@ -2175,5 +2162,31 @@ Wire Wire Line
 Wire Wire Line
 	10150 8450 10350 8450
 Text GLabel 10350 8450 2    60   Input ~ 0
-VCC_15
+VCC_12
+Text GLabel 5650 12700 2    60   Input ~ 0
+TX0P_HDMI
+Text GLabel 5650 12800 2    60   Input ~ 0
+TX0N_HDMI
+Text GLabel 5650 12900 2    60   Input ~ 0
+TX1P_HDMI
+Text GLabel 5650 13000 2    60   Input ~ 0
+TX1N_HDMI
+Text GLabel 5650 13100 2    60   Input ~ 0
+TX2P_HDMI
+Text GLabel 5650 13200 2    60   Input ~ 0
+TX2N_HDMI
+Text GLabel 5650 13300 2    60   Input ~ 0
+TXCP_HDMI
+Text GLabel 5650 13400 2    60   Input ~ 0
+TXCN_HDMI
+Text GLabel 5650 13500 2    60   Input ~ 0
+VP_HDMI
+Text GLabel 5650 13900 2    60   Input ~ 0
+SCL_HDMI
+Text GLabel 5650 14000 2    60   Input ~ 0
+SDA_HDMI
+Text GLabel 5650 14100 2    60   Input ~ 0
+HPD_HDMI
+Text GLabel 5650 14200 2    60   Input ~ 0
+CEC_HDMI
 $EndSCHEMATC

@@ -39,7 +39,7 @@ A very small and low cost modular computer, made in KiCAD.
 
 ### Specifications
 
-- Connectors:  USBx2, HDMI, SD-card
+- Connectors:  USBx2, HDMI, SD-card, SATA
 - Network: WIFI, Bluetooth
 
 ### Pictures
@@ -52,7 +52,7 @@ A very small and low cost modular computer, made in KiCAD.
 
 ### Specifications
 
-- Connectors:  USB, SD-card, PWMx6, GPS, Compass, Camera
+- Connectors:  USB, SD-card, PWMx6, GPS, Compass, UART, Camera
 - Sensors: Gyro/Accel (MPU6050), Barometer (MS5611)
 
 ### Pictures
