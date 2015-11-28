@@ -50,6 +50,11 @@ A very small and low cost modular computer, made in KiCAD.
 
 ## TinyCom-Pilot
 
+### Specifications
+
+- Connectors:  USB, SD-card, PWMx6, GPS, Compass, Camera
+- Sensors: Gyro/Accel (MPU-6050), Barometer (MS5611)
+
 ### Pictures
 
 ![TinyCom-pilot 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-3d.png)
