@@ -37,19 +37,16 @@ A very small and low cost modular computer, made in KiCAD.
 
 ## TinyCom-Base
 
+### Specifications
+
+- Connectors:  USBx2, HDMI, SD-card
+- Network: WIFI, Bluetooth
+
 ### Pictures
 
 ![TinyCom-base 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-3d.png)
 
 ![TinyCom-base board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-board.png)
-
-## TinyCom-Wifi
-
-### Pictures
-
-![TinyCom-wifi 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-wifi/tinycom-wifi-3d.png)
-
-![TinyCom-wifi board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-wifi/tinycom-wifi-board.png)
 
 ## TinyCom-Pilot
 
