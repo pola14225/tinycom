@@ -1,4 +1,4 @@
-update=Sun 25 Oct 2015 12:22:00 PM ICT
+update=Sat 28 Nov 2015 12:14:18 PM ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,7 @@ LibName40=/home/datrus/stuff/kicad_libs/sn75lvds83
 LibName41=/home/datrus/stuff/kicad_libs/sy8008baac
 LibName42=/home/datrus/stuff/kicad_libs/armory
 LibName43=/home/datrus/stm32-48pin-devBoard/stm32-48pin-devBoard
+LibName44=/home/datrus/kicad-lib/OPL-Inductor
+LibName45=/home/datrus/stuff/tinycom/libs/tinycom
+LibName46=/home/datrus/stuff/tinycom/libs/hdmi-swm-19
+LibName47=/home/datrus/stuff/tinycom/libs/conn-3x10
