@@ -3,7 +3,7 @@
   (general
     (links 113)
     (no_connects 32)
-    (area 124.384999 79.172999 169.747001 124.535001)
+    (area 119.82229 76.667 174.250661 124.535001)
     (thickness 1.6)
     (drawings 14)
     (tracks 258)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.2)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -136,7 +136,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.4)
+    (trace_width 0.2)
     (via_dia 0.6)
     (via_drill 0.3)
     (uvia_dia 0.3)
@@ -1314,7 +1314,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 5415D6EA) (tstamp 5659A8AB)
-    (at 153.077 100.662 270)
+    (at 136.677 101.462 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5634A812)
