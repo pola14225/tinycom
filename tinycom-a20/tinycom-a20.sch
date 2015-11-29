@@ -391,28 +391,6 @@ NoConn ~ 17050 2550
 NoConn ~ 17050 2650
 NoConn ~ 17050 2750
 $Comp
-L CONN_02X08 P1
-U 1 1 563EFAED
-P 19450 9800
-F 0 "P1" H 19450 10250 50  0000 C CNN
-F 1 "CONN_02X08" V 19450 9800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 19450 8600 60  0001 C CNN
-F 3 "" H 19450 8600 60  0000 C CNN
-	1    19450 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X08 P2
-U 1 1 563EFECC
-P 20950 9800
-F 0 "P2" H 20950 10250 50  0000 C CNN
-F 1 "CONN_02X08" V 20950 9800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 20950 8600 60  0001 C CNN
-F 3 "" H 20950 8600 60  0000 C CNN
-	1    20950 9800
-	1    0    0    -1  
-$EndComp
-$Comp
 L H27UBG8T2A/TSOP48 U3
 U 1 1 563F0202
 P 20100 12250
@@ -611,47 +589,6 @@ F 3 "" H 12750 6950 60  0000 C CNN
 	1    12750 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR010
-U 1 1 56408FCA
-P 19800 9350
-F 0 "#PWR010" H 19800 9100 50  0001 C CNN
-F 1 "GND" H 19800 9200 50  0000 C CNN
-F 2 "" H 19800 9350 60  0000 C CNN
-F 3 "" H 19800 9350 60  0000 C CNN
-	1    19800 9350
-	1    0    0    -1  
-$EndComp
-Text GLabel 19700 9550 2    60   Input ~ 0
-VCC_15
-Text GLabel 19700 9650 2    60   Input ~ 0
-VCC_12
-Text GLabel 19700 9750 2    60   Input ~ 0
-VCC_33
-Text GLabel 19700 9850 2    60   Input ~ 0
-UDP1
-Text GLabel 19700 9950 2    60   Input ~ 0
-UDM1
-Text GLabel 19700 10050 2    60   Input ~ 0
-UDP0
-Text GLabel 19700 10150 2    60   Input ~ 0
-UDM0
-Text GLabel 19200 9450 0    60   Input ~ 0
-UART0_TX
-Text GLabel 19200 9550 0    60   Input ~ 0
-UART0_RX
-Text GLabel 19200 9650 0    60   Input ~ 0
-SDC0_D1
-Text GLabel 19200 9750 0    60   Input ~ 0
-SDC0_D0
-Text GLabel 19200 9850 0    60   Input ~ 0
-SDC0_CLK
-Text GLabel 19200 9950 0    60   Input ~ 0
-SDC0_CMD
-Text GLabel 19200 10050 0    60   Input ~ 0
-SDC0_D3
-Text GLabel 19200 10150 0    60   Input ~ 0
-SDC0_D2
 Text GLabel 5850 4250 2    60   Input ~ 0
 SDC0_D1
 Text GLabel 5850 4350 2    60   Input ~ 0
@@ -679,23 +616,6 @@ UDP1
 Text GLabel 1050 11200 0    60   Input ~ 0
 UDM2
 Text GLabel 1050 11300 0    60   Input ~ 0
-UDP2
-$Comp
-L GND #PWR011
-U 1 1 56411561
-P 20650 10200
-F 0 "#PWR011" H 20650 9950 50  0001 C CNN
-F 1 "GND" H 20650 10050 50  0000 C CNN
-F 2 "" H 20650 10200 60  0000 C CNN
-F 3 "" H 20650 10200 60  0000 C CNN
-	1    20650 10200
-	1    0    0    -1  
-$EndComp
-Text GLabel 20700 10050 0    60   Input ~ 0
-VCC_30
-Text GLabel 21200 10050 2    60   Input ~ 0
-UDM2
-Text GLabel 21200 10150 2    60   Input ~ 0
 UDP2
 NoConn ~ 1250 2050
 NoConn ~ 1250 2150
@@ -1646,14 +1566,6 @@ Wire Wire Line
 Wire Wire Line
 	12750 6850 12750 6950
 Wire Wire Line
-	19700 9450 19700 9350
-Wire Wire Line
-	19700 9350 19800 9350
-Wire Wire Line
-	20700 10150 20650 10150
-Wire Wire Line
-	20650 10150 20650 10200
-Wire Wire Line
 	10450 1250 10450 1150
 Wire Wire Line
 	10450 1150 8850 1150
@@ -2188,4 +2100,26 @@ HPD_HDMI
 Text GLabel 5650 14200 2    60   Input ~ 0
 CEC_HDMI
 NoConn ~ 5650 13500
+$Comp
+L CONN_02X10 P?
+U 1 1 565A9505
+P 19350 9900
+F 0 "P?" H 19350 10450 50  0000 C CNN
+F 1 "CONN_02X10" V 19350 9900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 19350 8700 60  0000 C CNN
+F 3 "" H 19350 8700 60  0000 C CNN
+	1    19350 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X10 P?
+U 1 1 565A9682
+P 20200 9900
+F 0 "P?" H 20200 10450 50  0000 C CNN
+F 1 "CONN_02X10" V 20200 9900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 20200 8700 60  0000 C CNN
+F 3 "" H 20200 8700 60  0000 C CNN
+	1    20200 9900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
