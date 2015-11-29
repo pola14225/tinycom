@@ -1140,13 +1140,13 @@ Text GLabel 6500 7050 0    60   Input ~ 0
 UART0_TX
 Text GLabel 6500 6950 0    60   Input ~ 0
 UART0_RX
-Text GLabel 7000 7150 2    60   Input ~ 0
-SATA_TXP
-Text GLabel 7000 7050 2    60   Input ~ 0
-SATA_TXM
-Text GLabel 7000 6950 2    60   Input ~ 0
-SATA_RXP
 Text GLabel 7000 6850 2    60   Input ~ 0
+SATA_TXP
+Text GLabel 7000 6950 2    60   Input ~ 0
+SATA_TXM
+Text GLabel 7000 7050 2    60   Input ~ 0
+SATA_RXP
+Text GLabel 7000 7150 2    60   Input ~ 0
 SATA_RXM
 Text GLabel 6500 6750 0    60   Input ~ 0
 VCC_12
@@ -1166,4 +1166,33 @@ F 3 "" H 10500 4300 60  0000 C CNN
 	1    10500 4300
 	1    0    0    -1  
 $EndComp
+Text GLabel 10300 4100 0    60   Input ~ 0
+SATA_RXM
+Text GLabel 10300 4200 0    60   Input ~ 0
+SATA_RXP
+Text GLabel 10300 4400 0    60   Input ~ 0
+SATA_TXM
+Text GLabel 10300 4500 0    60   Input ~ 0
+SATA_TXP
+$Comp
+L GND #PWR?
+U 1 1 565ACA1B
+P 9750 4700
+F 0 "#PWR?" H 9750 4450 50  0001 C CNN
+F 1 "GND" H 9750 4550 50  0000 C CNN
+F 2 "" H 9750 4700 60  0000 C CNN
+F 3 "" H 9750 4700 60  0000 C CNN
+	1    9750 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4000 9750 4700
+Wire Wire Line
+	10300 4300 9750 4300
+Connection ~ 9750 4600
+Wire Wire Line
+	10300 4600 9750 4600
+Wire Wire Line
+	10300 4000 9750 4000
+Connection ~ 9750 4300
 $EndSCHEMATC

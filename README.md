@@ -27,7 +27,7 @@ A very small and low cost modular computer, made in KiCAD.
 - CPU: Allwinner A20
 - Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
 - PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USBx3
+- Ports: SD-card, serial, USBx3, HDMI, SATA
 
 ### Pictures
 
