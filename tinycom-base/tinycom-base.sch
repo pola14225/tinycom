@@ -1122,20 +1122,18 @@ F 3 "" H 8950 5800 60  0000 C CNN
 	1    8950 5800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 6000 5650 6250
 Text GLabel 6500 6850 0    60   Input ~ 0
-MIC
+HPR
 Text GLabel 6500 6250 0    60   Input ~ 0
 VCC_33
 Text GLabel 6500 6350 0    60   Input ~ 0
-VCC_30
+VCC_12
 Text GLabel 6500 6450 0    60   Input ~ 0
-VCC_25
-Text GLabel 6500 6550 0    60   Input ~ 0
 VCC_15
+Text GLabel 6500 6550 0    60   Input ~ 0
+VCC_30
 Text GLabel 6500 6650 0    60   Input ~ 0
-VCC_14
+HPCOM
 Text GLabel 6500 7050 0    60   Input ~ 0
 UART0_TX
 Text GLabel 6500 6950 0    60   Input ~ 0
@@ -1149,8 +1147,7 @@ SATA_RXP
 Text GLabel 7000 7150 2    60   Input ~ 0
 SATA_RXM
 Text GLabel 6500 6750 0    60   Input ~ 0
-VCC_12
-Connection ~ 5650 6150
+HPL
 Wire Wire Line
 	6500 7150 6400 7150
 Wire Wire Line
@@ -1195,4 +1192,8 @@ Wire Wire Line
 Wire Wire Line
 	10300 4000 9750 4000
 Connection ~ 9750 4300
+Wire Wire Line
+	5650 6000 5650 6150
+Text GLabel 5650 6250 2    60   Input ~ 0
+MICIN1
 $EndSCHEMATC

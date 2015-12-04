@@ -736,28 +736,25 @@ NoConn ~ 1050 13300
 $Comp
 L GND #PWR3
 U 1 1 56417B02
-P 900 13450
-F 0 "#PWR3" H 900 13200 50  0001 C CNN
-F 1 "GND" H 900 13300 50  0000 C CNN
-F 2 "" H 900 13450 60  0000 C CNN
-F 3 "" H 900 13450 60  0000 C CNN
-	1    900  13450
+P 650 13400
+F 0 "#PWR3" H 650 13150 50  0001 C CNN
+F 1 "GND" H 650 13250 50  0000 C CNN
+F 2 "" H 650 13400 60  0000 C CNN
+F 3 "" H 650 13400 60  0000 C CNN
+	1    650  13400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1050 13600
-NoConn ~ 1050 13700
 $Comp
 L GND #PWR2
 U 1 1 56417F5A
-P 850 13800
-F 0 "#PWR2" H 850 13550 50  0001 C CNN
-F 1 "GND" H 850 13650 50  0000 C CNN
-F 2 "" H 850 13800 60  0000 C CNN
-F 3 "" H 850 13800 60  0000 C CNN
-	1    850  13800
+P 550 13800
+F 0 "#PWR2" H 550 13550 50  0001 C CNN
+F 1 "GND" H 550 13650 50  0000 C CNN
+F 2 "" H 550 13800 60  0000 C CNN
+F 3 "" H 550 13800 60  0000 C CNN
+	1    550  13800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1050 13900
 NoConn ~ 1050 14200
 NoConn ~ 1050 14300
 NoConn ~ 5650 10400
@@ -1023,7 +1020,6 @@ F 3 "" H 5850 10900 60  0000 C CNN
 $EndComp
 Text GLabel 5650 10800 2    60   Input ~ 0
 VCC_33
-NoConn ~ 1050 14100
 $Comp
 L GND #PWR4
 U 1 1 5643BDD7
@@ -1338,6 +1334,232 @@ F 3 "" H 21650 8450 60  0000 C CNN
 	1    21650 8450
 	1    0    0    -1  
 $EndComp
+$Comp
+L C_Small C22
+U 1 1 5647248A
+P 20000 8450
+F 0 "C22" H 20010 8520 50  0000 L CNN
+F 1 "C_Small" H 20010 8370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 20000 8450 60  0001 C CNN
+F 3 "" H 20000 8450 60  0000 C CNN
+	1    20000 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C21
+U 1 1 56472991
+P 19650 8450
+F 0 "C21" H 19660 8520 50  0000 L CNN
+F 1 "C_Small" H 19660 8370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19650 8450 60  0001 C CNN
+F 3 "" H 19650 8450 60  0000 C CNN
+	1    19650 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 56507657
+P 900 9050
+F 0 "P3" H 900 9150 50  0000 C CNN
+F 1 "CONN_01X01" V 1000 9050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 900 9050 60  0000 C CNN
+F 3 "" H 900 9050 60  0000 C CNN
+	1    900  9050
+	-1   0    0    1   
+$EndComp
+Text GLabel 1100 9150 0    60   Input ~ 0
+UBOOT_SEL
+Text GLabel 700  9900 0    60   Input ~ 0
+RESET#
+Text GLabel 600  9750 0    60   Input ~ 0
+NMI#
+Text GLabel 10350 8450 2    60   Input ~ 0
+VCC_12
+Text GLabel 5650 12700 2    60   Input ~ 0
+HTX0P
+Text GLabel 5650 12800 2    60   Input ~ 0
+HTX0N
+Text GLabel 5650 12900 2    60   Input ~ 0
+HTX1P
+Text GLabel 5650 13000 2    60   Input ~ 0
+HTX1N
+Text GLabel 5650 13100 2    60   Input ~ 0
+HTX2P
+Text GLabel 5650 13200 2    60   Input ~ 0
+HTX2N
+Text GLabel 5650 13300 2    60   Input ~ 0
+HTXCP
+Text GLabel 5650 13400 2    60   Input ~ 0
+HTXCN
+Text GLabel 5650 13900 2    60   Input ~ 0
+HSCL
+Text GLabel 5650 14000 2    60   Input ~ 0
+HSDA
+Text GLabel 5650 14100 2    60   Input ~ 0
+HHPD
+Text GLabel 5650 14200 2    60   Input ~ 0
+HCEC
+NoConn ~ 5650 13500
+$Comp
+L CONN_02X10 P1
+U 1 1 565A9505
+P 19350 9900
+F 0 "P1" H 19350 10450 50  0000 C CNN
+F 1 "CONN_02X10" V 19350 9900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 19350 8700 60  0000 C CNN
+F 3 "" H 19350 8700 60  0000 C CNN
+	1    19350 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X10 P2
+U 1 1 565A9682
+P 21100 9900
+F 0 "P2" H 21100 10450 50  0000 C CNN
+F 1 "CONN_02X10" V 21100 9900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 21100 8700 60  0000 C CNN
+F 3 "" H 21100 8700 60  0000 C CNN
+	1    21100 9900
+	1    0    0    -1  
+$EndComp
+Text GLabel 19100 9450 0    60   Input ~ 0
+HTX2P
+Text GLabel 19100 9550 0    60   Input ~ 0
+HTX2N
+Text GLabel 19100 9650 0    60   Input ~ 0
+HTX1P
+Text GLabel 19100 9750 0    60   Input ~ 0
+HTX1N
+Text GLabel 19100 9850 0    60   Input ~ 0
+HTX0P
+Text GLabel 19100 9950 0    60   Input ~ 0
+HTX0N
+Text GLabel 19100 10050 0    60   Input ~ 0
+HTXCP
+Text GLabel 19100 10150 0    60   Input ~ 0
+HTXCN
+Text GLabel 19100 10250 0    60   Input ~ 0
+HCEC
+Text GLabel 19100 10350 0    60   Input ~ 0
+HSCL
+Text GLabel 19600 10350 2    60   Input ~ 0
+HSDA
+Text GLabel 19600 10250 2    60   Input ~ 0
+HHPD
+Text GLabel 19600 10150 2    60   Input ~ 0
+UDM2
+Text GLabel 19600 10050 2    60   Input ~ 0
+UDP2
+Text GLabel 19600 9950 2    60   Input ~ 0
+UDM1
+Text GLabel 19600 9850 2    60   Input ~ 0
+UDP1
+Text GLabel 19600 9750 2    60   Input ~ 0
+UDM0
+Text GLabel 19600 9650 2    60   Input ~ 0
+UDP0
+$Comp
+L GND #PWR25
+U 1 1 565AF191
+P 20000 9550
+F 0 "#PWR25" H 20000 9300 50  0001 C CNN
+F 1 "GND" H 20000 9400 50  0000 C CNN
+F 2 "" H 20000 9550 60  0000 C CNN
+F 3 "" H 20000 9550 60  0000 C CNN
+	1    20000 9550
+	1    0    0    -1  
+$EndComp
+Text GLabel 21350 10350 2    60   Input ~ 0
+SATA_RXM
+Text GLabel 21350 10250 2    60   Input ~ 0
+SATA_RXP
+Text GLabel 21350 10150 2    60   Input ~ 0
+SATA_TXM
+Text GLabel 21350 10050 2    60   Input ~ 0
+SATA_TXP
+Text GLabel 21350 9950 2    60   Input ~ 0
+SDC0_D1
+Text GLabel 21350 9850 2    60   Input ~ 0
+SDC0_D0
+Text GLabel 21350 9750 2    60   Input ~ 0
+SDC0_CLK
+Text GLabel 21350 9650 2    60   Input ~ 0
+SDC0_CMD
+Text GLabel 21350 9550 2    60   Input ~ 0
+SDC0_D3
+Text GLabel 21350 9450 2    60   Input ~ 0
+SDC0_D2
+Text GLabel 20850 9450 0    60   Input ~ 0
+VCC_33
+Text GLabel 20850 9550 0    60   Input ~ 0
+VCC_12
+Text GLabel 20850 9750 0    60   Input ~ 0
+VCC_30
+Text GLabel 20850 9850 0    60   Input ~ 0
+HPCOM
+Text GLabel 20850 10050 0    60   Input ~ 0
+HPR
+Text GLabel 20850 10150 0    60   Input ~ 0
+UART0_RX
+Text GLabel 20850 10250 0    60   Input ~ 0
+UART0_TX
+$Comp
+L GND #PWR27
+U 1 1 565B5E42
+P 20750 10450
+F 0 "#PWR27" H 20750 10200 50  0001 C CNN
+F 1 "GND" H 20750 10300 50  0000 C CNN
+F 2 "" H 20750 10450 60  0000 C CNN
+F 3 "" H 20750 10450 60  0000 C CNN
+	1    20750 10450
+	1    0    0    -1  
+$EndComp
+Text GLabel 20850 9650 0    60   Input ~ 0
+VCC_15
+Text GLabel 20850 9950 0    60   Input ~ 0
+HPL
+Text GLabel 5650 9700 2    60   Input ~ 0
+SATA_TXM
+Text GLabel 5650 9800 2    60   Input ~ 0
+SATA_TXP
+Text GLabel 5650 9900 2    60   Input ~ 0
+SATA_RXM
+Text GLabel 5650 10000 2    60   Input ~ 0
+SATA_RXP
+$Comp
+L GND #PWR5
+U 1 1 565B891C
+P 5800 10300
+F 0 "#PWR5" H 5800 10050 50  0001 C CNN
+F 1 "GND" H 5800 10150 50  0000 C CNN
+F 2 "" H 5800 10300 60  0000 C CNN
+F 3 "" H 5800 10300 60  0000 C CNN
+	1    5800 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R10
+U 1 1 565B954F
+P 5800 10200
+F 0 "R10" H 5830 10220 50  0000 L CNN
+F 1 "192R" H 5830 10160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5800 10200 60  0001 C CNN
+F 3 "" H 5800 10200 60  0000 C CNN
+	1    5800 10200
+	1    0    0    -1  
+$EndComp
+Text GLabel 12900 11000 0    60   Input ~ 0
+VCC_25
+Text GLabel 1050 12600 0    60   Input ~ 0
+MICIN1
+Text GLabel 1050 13600 0    60   Input ~ 0
+HPR
+Text GLabel 1050 13700 0    60   Input ~ 0
+HPL
+Text GLabel 1050 14100 0    60   Input ~ 0
+HPCOM
+Text GLabel 19600 9550 2    60   Input ~ 0
+MICIN1
 Wire Wire Line
 	17550 6050 17800 6050
 Wire Wire Line
@@ -1639,11 +1861,9 @@ Wire Wire Line
 Wire Wire Line
 	800  9300 800  9350
 Wire Wire Line
-	1050 13400 900  13400
+	650  13400 1050 13400
 Wire Wire Line
-	900  13400 900  13450
-Wire Wire Line
-	1050 13800 850  13800
+	550  13800 1050 13800
 Wire Wire Line
 	5650 12000 5850 12000
 Wire Wire Line
@@ -2003,34 +2223,12 @@ Wire Wire Line
 Connection ~ 21550 8300
 Connection ~ 21400 8550
 Connection ~ 21550 8550
-$Comp
-L C_Small C22
-U 1 1 5647248A
-P 20000 8450
-F 0 "C22" H 20010 8520 50  0000 L CNN
-F 1 "C_Small" H 20010 8370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 20000 8450 60  0001 C CNN
-F 3 "" H 20000 8450 60  0000 C CNN
-	1    20000 8450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20000 8350 20000 8300
 Connection ~ 20000 8300
 Wire Wire Line
 	20000 8550 20000 8600
 Connection ~ 20000 8600
-$Comp
-L C_Small C21
-U 1 1 56472991
-P 19650 8450
-F 0 "C21" H 19660 8520 50  0000 L CNN
-F 1 "C_Small" H 19660 8370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 19650 8450 60  0001 C CNN
-F 3 "" H 19650 8450 60  0000 C CNN
-	1    19650 8450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19650 8300 19650 8350
 Wire Wire Line
@@ -2041,23 +2239,6 @@ Wire Wire Line
 	1050 9200 1100 9200
 Wire Wire Line
 	1100 9200 1100 9050
-$Comp
-L CONN_01X01 P3
-U 1 1 56507657
-P 900 9050
-F 0 "P3" H 900 9150 50  0000 C CNN
-F 1 "CONN_01X01" V 1000 9050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 900 9050 60  0000 C CNN
-F 3 "" H 900 9050 60  0000 C CNN
-	1    900  9050
-	-1   0    0    1   
-$EndComp
-Text GLabel 1100 9150 0    60   Input ~ 0
-UBOOT_SEL
-Text GLabel 700  9900 0    60   Input ~ 0
-RESET#
-Text GLabel 600  9750 0    60   Input ~ 0
-NMI#
 Wire Wire Line
 	600  9800 600  9750
 Connection ~ 850  9800
@@ -2065,201 +2246,22 @@ Wire Wire Line
 	9950 8450 9050 8450
 Wire Wire Line
 	10150 8450 10350 8450
-Text GLabel 10350 8450 2    60   Input ~ 0
-VCC_12
-Text GLabel 5650 12700 2    60   Input ~ 0
-HTX0P
-Text GLabel 5650 12800 2    60   Input ~ 0
-HTX0N
-Text GLabel 5650 12900 2    60   Input ~ 0
-HTX1P
-Text GLabel 5650 13000 2    60   Input ~ 0
-HTX1N
-Text GLabel 5650 13100 2    60   Input ~ 0
-HTX2P
-Text GLabel 5650 13200 2    60   Input ~ 0
-HTX2N
-Text GLabel 5650 13300 2    60   Input ~ 0
-HTXCP
-Text GLabel 5650 13400 2    60   Input ~ 0
-HTXCN
-Text GLabel 5650 13900 2    60   Input ~ 0
-HSCL
-Text GLabel 5650 14000 2    60   Input ~ 0
-HSDA
-Text GLabel 5650 14100 2    60   Input ~ 0
-HHPD
-Text GLabel 5650 14200 2    60   Input ~ 0
-HCEC
-NoConn ~ 5650 13500
-$Comp
-L CONN_02X10 P1
-U 1 1 565A9505
-P 19350 9900
-F 0 "P1" H 19350 10450 50  0000 C CNN
-F 1 "CONN_02X10" V 19350 9900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 19350 8700 60  0000 C CNN
-F 3 "" H 19350 8700 60  0000 C CNN
-	1    19350 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X10 P2
-U 1 1 565A9682
-P 21100 9900
-F 0 "P2" H 21100 10450 50  0000 C CNN
-F 1 "CONN_02X10" V 21100 9900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 21100 8700 60  0000 C CNN
-F 3 "" H 21100 8700 60  0000 C CNN
-	1    21100 9900
-	1    0    0    -1  
-$EndComp
-Text GLabel 19100 9450 0    60   Input ~ 0
-HTX2P
-Text GLabel 19100 9550 0    60   Input ~ 0
-HTX2N
-Text GLabel 19100 9650 0    60   Input ~ 0
-HTX1P
-Text GLabel 19100 9750 0    60   Input ~ 0
-HTX1N
-Text GLabel 19100 9850 0    60   Input ~ 0
-HTX0P
-Text GLabel 19100 9950 0    60   Input ~ 0
-HTX0N
-Text GLabel 19100 10050 0    60   Input ~ 0
-HTXCP
-Text GLabel 19100 10150 0    60   Input ~ 0
-HTXCN
-Text GLabel 19100 10250 0    60   Input ~ 0
-HCEC
-Text GLabel 19100 10350 0    60   Input ~ 0
-HSCL
-Text GLabel 19600 10350 2    60   Input ~ 0
-HSDA
-Text GLabel 19600 10250 2    60   Input ~ 0
-HHPD
-Text GLabel 19600 10150 2    60   Input ~ 0
-UDM2
-Text GLabel 19600 10050 2    60   Input ~ 0
-UDP2
-Text GLabel 19600 9950 2    60   Input ~ 0
-UDM1
-Text GLabel 19600 9850 2    60   Input ~ 0
-UDP1
-Text GLabel 19600 9750 2    60   Input ~ 0
-UDM0
-Text GLabel 19600 9650 2    60   Input ~ 0
-UDP0
-$Comp
-L GND #PWR25
-U 1 1 565AF191
-P 20000 9550
-F 0 "#PWR25" H 20000 9300 50  0001 C CNN
-F 1 "GND" H 20000 9400 50  0000 C CNN
-F 2 "" H 20000 9550 60  0000 C CNN
-F 3 "" H 20000 9550 60  0000 C CNN
-	1    20000 9550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 9550 20000 9550
 Wire Wire Line
 	19600 9450 20000 9450
 Wire Wire Line
 	20000 9450 20000 9550
-Text GLabel 21350 10350 2    60   Input ~ 0
-SATA_RXM
-Text GLabel 21350 10250 2    60   Input ~ 0
-SATA_RXP
-Text GLabel 21350 10150 2    60   Input ~ 0
-SATA_TXM
-Text GLabel 21350 10050 2    60   Input ~ 0
-SATA_TXP
-Text GLabel 21350 9950 2    60   Input ~ 0
-SDC0_D1
-Text GLabel 21350 9850 2    60   Input ~ 0
-SDC0_D0
-Text GLabel 21350 9750 2    60   Input ~ 0
-SDC0_CLK
-Text GLabel 21350 9650 2    60   Input ~ 0
-SDC0_CMD
-Text GLabel 21350 9550 2    60   Input ~ 0
-SDC0_D3
-Text GLabel 21350 9450 2    60   Input ~ 0
-SDC0_D2
-Text GLabel 20850 9450 0    60   Input ~ 0
-VCC_33
-Text GLabel 20850 9550 0    60   Input ~ 0
-VCC_30
-Text GLabel 20850 9750 0    60   Input ~ 0
-VCC_15
-Text GLabel 20850 9850 0    60   Input ~ 0
-VCC_14
-Text GLabel 20850 10050 0    60   Input ~ 0
-MICIN1
-Text GLabel 20850 10150 0    60   Input ~ 0
-UART0_RX
-Text GLabel 20850 10250 0    60   Input ~ 0
-UART0_TX
-$Comp
-L GND #PWR27
-U 1 1 565B5E42
-P 20750 10450
-F 0 "#PWR27" H 20750 10200 50  0001 C CNN
-F 1 "GND" H 20750 10300 50  0000 C CNN
-F 2 "" H 20750 10450 60  0000 C CNN
-F 3 "" H 20750 10450 60  0000 C CNN
-	1    20750 10450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20850 10350 20750 10350
 Wire Wire Line
 	20750 10350 20750 10450
-Text GLabel 20850 9650 0    60   Input ~ 0
-VCC_25
-Text GLabel 20850 9950 0    60   Input ~ 0
-VCC_12
-Text GLabel 5650 9700 2    60   Input ~ 0
-SATA_TXM
-Text GLabel 5650 9800 2    60   Input ~ 0
-SATA_TXP
-Text GLabel 5650 9900 2    60   Input ~ 0
-SATA_RXM
-Text GLabel 5650 10000 2    60   Input ~ 0
-SATA_RXP
-$Comp
-L GND #PWR5
-U 1 1 565B891C
-P 5800 10300
-F 0 "#PWR5" H 5800 10050 50  0001 C CNN
-F 1 "GND" H 5800 10150 50  0000 C CNN
-F 2 "" H 5800 10300 60  0000 C CNN
-F 3 "" H 5800 10300 60  0000 C CNN
-	1    5800 10300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 10100 5800 10100
-$Comp
-L R_Small R10
-U 1 1 565B954F
-P 5800 10200
-F 0 "R10" H 5830 10220 50  0000 L CNN
-F 1 "192R" H 5830 10160 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 5800 10200 60  0001 C CNN
-F 3 "" H 5800 10200 60  0000 C CNN
-	1    5800 10200
-	1    0    0    -1  
-$EndComp
-Text GLabel 12900 11000 0    60   Input ~ 0
-VCC_25
 Wire Wire Line
 	13000 11000 12900 11000
 Wire Wire Line
 	13000 11100 12900 11100
 Wire Wire Line
 	12900 11100 12900 11000
-Text GLabel 1050 12600 0    60   Input ~ 0
-MICIN1
+Text GLabel 1050 13900 0    60   Input ~ 0
+HPCOM
 $EndSCHEMATC

@@ -61,6 +61,10 @@ A very small and low cost modular computer, made in KiCAD.
 
 ![TinyCom-pilot board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-board.png)
 
+## TODO
+
+tinycom-ethernet, tinycom-audio, tinycom-IR, tinycom-power, tinycom-FPGA, tinycom-3G, tinycom-GPS
+
 ## Contact
 
 Send email to dj@netforce.com.
