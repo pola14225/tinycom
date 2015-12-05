@@ -1,4 +1,4 @@
-update=Mon 26 Oct 2015 01:06:36 PM ICT
+update=Sat 28 Nov 2015 10:14:18 AM ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,5 @@ LibName41=/home/datrus/stuff/kicad_libs/sy8008baac
 LibName42=/home/datrus/stuff/kicad_libs/armory
 LibName43=/home/datrus/stm32-48pin-devBoard/stm32-48pin-devBoard
 LibName44=/home/datrus/kicad-lib/OPL-Inductor
+LibName45=/home/datrus/stuff/tinycom/libs/tinycom
+LibName46=/home/datrus/stuff/tinycom/libs/hdmi-swm-19
