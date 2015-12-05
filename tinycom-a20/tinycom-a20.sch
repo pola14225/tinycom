@@ -569,17 +569,17 @@ UART0_TX
 Text GLabel 7050 14250 0    60   Input ~ 0
 UART0_RX
 Text GLabel 1050 10000 0    60   Input ~ 0
-UDM0
+UD0_N
 Text GLabel 1050 10100 0    60   Input ~ 0
-UDP0
+UD0_P
 Text GLabel 1050 10200 0    60   Input ~ 0
-UDM1
+UD1_N
 Text GLabel 1050 10300 0    60   Input ~ 0
-UDP1
+UD1_P
 Text GLabel 1050 11200 0    60   Input ~ 0
-UDM2
+UD2_N
 Text GLabel 1050 11300 0    60   Input ~ 0
-UDP2
+UD2_P
 NoConn ~ 1250 2050
 NoConn ~ 1250 2150
 NoConn ~ 1250 2250
@@ -2001,17 +2001,17 @@ HSCL
 Text GLabel 19600 9700 2    60   Input ~ 0
 MICIN1
 Text GLabel 19600 9800 2    60   Input ~ 0
-UDP0
+UD0_N
 Text GLabel 19600 9900 2    60   Input ~ 0
-UDM0
+UD0_P
 Text GLabel 19600 10000 2    60   Input ~ 0
-UDP1
+UD1_N
 Text GLabel 19600 10100 2    60   Input ~ 0
-UDM1
+UD1_P
 Text GLabel 19600 10200 2    60   Input ~ 0
-UDP2
+UD2_N
 Text GLabel 19600 10300 2    60   Input ~ 0
-UDM2
+UD2_P
 Text GLabel 19600 10400 2    60   Input ~ 0
 HHPD
 Text GLabel 19600 10500 2    60   Input ~ 0
@@ -2046,9 +2046,9 @@ HPL
 Text GLabel 20650 10200 0    60   Input ~ 0
 HPR
 Text GLabel 20650 10300 0    60   Input ~ 0
-UART0_TX
-Text GLabel 20650 10400 0    60   Input ~ 0
 UART0_RX
+Text GLabel 20650 10400 0    60   Input ~ 0
+UART0_TX
 $Comp
 L GND #PWR027
 U 1 1 566278FC
@@ -2064,24 +2064,24 @@ Wire Wire Line
 	20650 10500 20500 10500
 Wire Wire Line
 	20500 10500 20500 10550
-Text GLabel 21150 9600 2    60   Input ~ 0
-SDC0_D2
-Text GLabel 21150 9700 2    60   Input ~ 0
-SDC0_D3
-Text GLabel 21150 9800 2    60   Input ~ 0
-SDC0_CMD
-Text GLabel 21150 9900 2    60   Input ~ 0
-SDC0_CLK
 Text GLabel 21150 10000 2    60   Input ~ 0
-SDC0_D0
-Text GLabel 21150 10100 2    60   Input ~ 0
 SDC0_D1
+Text GLabel 21150 10100 2    60   Input ~ 0
+SDC0_D0
 Text GLabel 21150 10200 2    60   Input ~ 0
-SATA_TXP
+SDC0_CLK
 Text GLabel 21150 10300 2    60   Input ~ 0
-SATA_TXM
+SDC0_CMD
 Text GLabel 21150 10400 2    60   Input ~ 0
-SATA_RXP
+SDC0_D3
 Text GLabel 21150 10500 2    60   Input ~ 0
+SDC0_D2
+Text GLabel 21150 9600 2    60   Input ~ 0
+SATA_TXP
+Text GLabel 21150 9700 2    60   Input ~ 0
+SATA_TXM
+Text GLabel 21150 9800 2    60   Input ~ 0
+SATA_RXP
+Text GLabel 21150 9900 2    60   Input ~ 0
 SATA_RXM
 $EndSCHEMATC
