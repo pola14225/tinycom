@@ -390,39 +390,6 @@ NoConn ~ 17050 2450
 NoConn ~ 17050 2550
 NoConn ~ 17050 2650
 NoConn ~ 17050 2750
-$Comp
-L CONN_02X08 P1
-U 1 1 563EFAED
-P 19450 9800
-F 0 "P1" H 19450 10250 50  0000 C CNN
-F 1 "CONN_02X08" V 19450 9800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 19450 8600 60  0001 C CNN
-F 3 "" H 19450 8600 60  0000 C CNN
-	1    19450 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X08 P2
-U 1 1 563EFECC
-P 20950 9800
-F 0 "P2" H 20950 10250 50  0000 C CNN
-F 1 "CONN_02X08" V 20950 9800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 20950 8600 60  0001 C CNN
-F 3 "" H 20950 8600 60  0000 C CNN
-	1    20950 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L H27UBG8T2A/TSOP48 U3
-U 1 1 563F0202
-P 20100 12250
-F 0 "U3" H 19700 13675 50  0000 L BNN
-F 1 "H27UBG8T2A/TSOP48" H 19700 10750 50  0000 L BNN
-F 2 "tsop48:TSOP48" H 20100 12400 50  0001 C CNN
-F 3 "" H 20100 12250 60  0000 C CNN
-	1    20100 12250
-	1    0    0    -1  
-$EndComp
 Text GLabel 11650 9950 2    60   Input ~ 0
 ND0
 Text GLabel 11650 10050 2    60   Input ~ 0
@@ -449,32 +416,6 @@ Text GLabel 11650 9250 2    60   Input ~ 0
 NALE
 Text GLabel 11650 9350 2    60   Input ~ 0
 NCLE
-Text GLabel 20700 12250 2    60   Input ~ 0
-ND0
-Text GLabel 20700 12350 2    60   Input ~ 0
-ND1
-Text GLabel 20700 12450 2    60   Input ~ 0
-ND2
-Text GLabel 20700 12550 2    60   Input ~ 0
-ND3
-Text GLabel 20700 12650 2    60   Input ~ 0
-ND4
-Text GLabel 20700 12750 2    60   Input ~ 0
-ND5
-Text GLabel 20700 12850 2    60   Input ~ 0
-ND6
-Text GLabel 20700 12950 2    60   Input ~ 0
-ND7
-Text GLabel 19500 13450 0    60   Input ~ 0
-NALE
-Text GLabel 19500 13550 0    60   Input ~ 0
-NCLE
-Text GLabel 19500 13150 0    60   Input ~ 0
-NWE#
-Text GLabel 19500 12950 0    60   Input ~ 0
-NRB0
-Text GLabel 19500 12850 0    60   Input ~ 0
-NRE#
 $Comp
 L Crystal_Small Y1
 U 1 1 5640030C
@@ -611,47 +552,6 @@ F 3 "" H 12750 6950 60  0000 C CNN
 	1    12750 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR010
-U 1 1 56408FCA
-P 19800 9350
-F 0 "#PWR010" H 19800 9100 50  0001 C CNN
-F 1 "GND" H 19800 9200 50  0000 C CNN
-F 2 "" H 19800 9350 60  0000 C CNN
-F 3 "" H 19800 9350 60  0000 C CNN
-	1    19800 9350
-	1    0    0    -1  
-$EndComp
-Text GLabel 19700 9550 2    60   Input ~ 0
-VCC_15
-Text GLabel 19700 9650 2    60   Input ~ 0
-VCC_12
-Text GLabel 19700 9750 2    60   Input ~ 0
-VCC_33
-Text GLabel 19700 9850 2    60   Input ~ 0
-UDP1
-Text GLabel 19700 9950 2    60   Input ~ 0
-UDM1
-Text GLabel 19700 10050 2    60   Input ~ 0
-UDP0
-Text GLabel 19700 10150 2    60   Input ~ 0
-UDM0
-Text GLabel 19200 9450 0    60   Input ~ 0
-UART0_TX
-Text GLabel 19200 9550 0    60   Input ~ 0
-UART0_RX
-Text GLabel 19200 9650 0    60   Input ~ 0
-SDC0_D1
-Text GLabel 19200 9750 0    60   Input ~ 0
-SDC0_D0
-Text GLabel 19200 9850 0    60   Input ~ 0
-SDC0_CLK
-Text GLabel 19200 9950 0    60   Input ~ 0
-SDC0_CMD
-Text GLabel 19200 10050 0    60   Input ~ 0
-SDC0_D3
-Text GLabel 19200 10150 0    60   Input ~ 0
-SDC0_D2
 Text GLabel 5850 4250 2    60   Input ~ 0
 SDC0_D1
 Text GLabel 5850 4350 2    60   Input ~ 0
@@ -679,23 +579,6 @@ UDP1
 Text GLabel 1050 11200 0    60   Input ~ 0
 UDM2
 Text GLabel 1050 11300 0    60   Input ~ 0
-UDP2
-$Comp
-L GND #PWR011
-U 1 1 56411561
-P 20650 10200
-F 0 "#PWR011" H 20650 9950 50  0001 C CNN
-F 1 "GND" H 20650 10050 50  0000 C CNN
-F 2 "" H 20650 10200 60  0000 C CNN
-F 3 "" H 20650 10200 60  0000 C CNN
-	1    20650 10200
-	1    0    0    -1  
-$EndComp
-Text GLabel 20700 10050 0    60   Input ~ 0
-VCC_30
-Text GLabel 21200 10050 2    60   Input ~ 0
-UDM2
-Text GLabel 21200 10150 2    60   Input ~ 0
 UDP2
 NoConn ~ 1250 2050
 NoConn ~ 1250 2150
@@ -1045,56 +928,8 @@ Text GLabel 12900 13250 0    60   Input ~ 0
 VCC_33
 Text GLabel 12950 8550 0    60   Input ~ 0
 VCC_33
-$Comp
-L GND #PWR023
-U 1 1 5643044F
-P 20800 13600
-F 0 "#PWR023" H 20800 13350 50  0001 C CNN
-F 1 "GND" H 20800 13450 50  0000 C CNN
-F 2 "" H 20800 13600 60  0000 C CNN
-F 3 "" H 20800 13600 60  0000 C CNN
-	1    20800 13600
-	1    0    0    -1  
-$EndComp
-Text GLabel 20800 13150 2    60   Input ~ 0
-VCC_33
 Text GLabel 11650 9550 2    60   Input ~ 0
 NCE0
-Text GLabel 19500 12750 0    60   Input ~ 0
-NCE0
-$Comp
-L R_Small R5
-U 1 1 564319C3
-P 18750 13150
-F 0 "R5" H 18780 13170 50  0000 L CNN
-F 1 "R_Small" H 18780 13110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 18750 13150 60  0001 C CNN
-F 3 "" H 18750 13150 60  0000 C CNN
-	1    18750 13150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R6
-U 1 1 5643228C
-P 18500 12600
-F 0 "R6" H 18530 12620 50  0000 L CNN
-F 1 "R_Small" H 18530 12560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 18500 12600 60  0001 C CNN
-F 3 "" H 18500 12600 60  0000 C CNN
-	1    18500 12600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R7
-U 1 1 564328C3
-P 18750 12350
-F 0 "R7" H 18780 12370 50  0000 L CNN
-F 1 "R_Small" H 18780 12310 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 18750 12350 60  0001 C CNN
-F 3 "" H 18750 12350 60  0000 C CNN
-	1    18750 12350
-	1    0    0    -1  
-$EndComp
 NoConn ~ 17600 14700
 NoConn ~ 17600 14800
 NoConn ~ 13000 11000
@@ -1343,14 +1178,8 @@ Text GLabel 16550 700  2    60   Input ~ 0
 VCC_15
 Text GLabel 13600 5200 0    60   Input ~ 0
 VCC_15
-Text GLabel 18750 12150 0    60   Input ~ 0
-VCC_33
-Text GLabel 18500 12400 0    60   Input ~ 0
-VCC_33
 Text GLabel 16550 6850 2    60   Input ~ 0
 VCC_15
-Text GLabel 18750 12950 0    60   Input ~ 0
-VCC_33
 Text GLabel 12100 3050 2    60   Input ~ 0
 SDQS2_P
 Text GLabel 12100 3150 2    60   Input ~ 0
@@ -1659,14 +1488,6 @@ Wire Wire Line
 Wire Wire Line
 	12750 6850 12750 6950
 Wire Wire Line
-	19700 9450 19700 9350
-Wire Wire Line
-	19700 9350 19800 9350
-Wire Wire Line
-	20700 10150 20650 10150
-Wire Wire Line
-	20650 10150 20650 10200
-Wire Wire Line
 	10450 1250 10450 1150
 Wire Wire Line
 	10450 1150 8850 1150
@@ -1945,47 +1766,6 @@ Wire Wire Line
 	13000 9400 13000 8550
 Wire Wire Line
 	13000 8550 12950 8550
-Wire Wire Line
-	20700 13450 20800 13450
-Wire Wire Line
-	20800 13450 20800 13600
-Wire Wire Line
-	20700 13550 20800 13550
-Connection ~ 20800 13550
-Wire Wire Line
-	20700 13150 20800 13150
-Wire Wire Line
-	20800 13150 20800 13250
-Wire Wire Line
-	20800 13250 20700 13250
-Wire Wire Line
-	19500 13250 18750 13250
-Wire Wire Line
-	18750 13050 18750 12950
-Wire Wire Line
-	18500 12500 18500 12400
-Wire Wire Line
-	18500 12750 19050 12750
-Wire Wire Line
-	18500 12750 18500 12700
-Wire Wire Line
-	19050 12750 19050 13100
-Wire Wire Line
-	19050 13100 19500 13100
-Wire Wire Line
-	19500 13100 19500 13150
-Wire Wire Line
-	18750 12250 18750 12150
-Wire Wire Line
-	18750 12450 18750 12550
-Wire Wire Line
-	18750 12550 19150 12550
-Wire Wire Line
-	19150 12550 19150 13050
-Wire Wire Line
-	19150 13050 19500 13050
-Wire Wire Line
-	19500 13050 19500 12950
 Wire Wire Line
 	5650 10900 5850 10900
 Wire Wire Line
