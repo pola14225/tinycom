@@ -1,0 +1,27 @@
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+A OK OK OK OK OK OK    OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK
+B OK OK OK OK OK OK    OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK
+C OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK
+D OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK
+E OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK OK    OK OK OK OK OK
+F                                                          OK OK OK OK
+G                                                       OK OK OK OK OK
+H                      OK OK OK OK OK OK OK OK OK       OK OK OK OK OK
+J                      OK OK OK OK OK OK OK OK OK       OK OK OK OK OK
+K                      OK OK OK OK OK OK OK OK OK             OK OK OK
+L                      OK OK OK OK OK OK OK OK OK             OK OK OK
+M                      OK OK OK OK OK OK OK OK OK             OK OK OK
+N                      OK OK OK OK OK OK OK OK OK       OK OK OK OK OK
+P                      OK OK OK OK OK OK OK OK OK       OK OK OK OK OK
+R                      OK OK OK OK OK OK OK OK OK       OK OK OK OK OK
+T                      OK OK OK OK OK OK OK OK OK       OK OK OK OK OK
+U                                                       OK OK OK OK OK
+V                                                       OK OK OK OK OK
+W                                                       OK OK OK OK OK
+Y                                                       OK OK OK OK OK
+AA                                                      OK OK OK OK OK
+AB                                                      OK OK OK OK OK
+AC                                                      OK OK OK OK OK
+
+
+Check: P16
