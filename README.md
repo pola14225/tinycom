@@ -11,7 +11,7 @@ A very small and low cost modular computer, made in KiCAD.
 - CPU: Allwinner A20
 - Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
 - PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USBx3
+- Ports: SD-card, serial, USBx3, HDMI, SATA
 
 ### Pictures
 
@@ -21,11 +21,33 @@ A very small and low cost modular computer, made in KiCAD.
 
 ## TinyCom-Base
 
+### Specifications
+
+- Connectors:  USBx2, SD-card
+- Network: WIFI
+
 ### Pictures
 
 ![TinyCom-base 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-3d.png)
 
 ![TinyCom-base board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-board.png)
+
+## TinyCom-Pilot
+
+### Specifications
+
+- Connectors:  USB, SD-card, PWMx6, GPS, Compass, UART, Camera
+- Sensors: Gyro/Accel (MPU6050), Barometer (MS5611)
+
+### Pictures
+
+![TinyCom-pilot 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-3d.png)
+
+![TinyCom-pilot board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-board.png)
+
+## TODO
+
+tinycom-ethernet, tinycom-audio, tinycom-IR, tinycom-power, tinycom-FPGA, tinycom-3G, tinycom-GPS
 
 ## Contact
 
