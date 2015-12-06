@@ -30,9 +30,11 @@ A very small and low cost modular computer.
 
 ### Pictures
 
-![TinyCom-base 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-3d.png)
+![TinyCom-base Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-front.png)
 
-![TinyCom-base board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-board.png)
+![TinyCom-base Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-back.png)
+
+![TinyCom-base Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-layout.png)
 
 ## TinyCom-Pilot
 
