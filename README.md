@@ -1,6 +1,6 @@
 # TinyCom
 
-A very small and low cost modular computer, made in KiCAD.
+A very small and low cost modular computer.
 (work in progress...)
 
 ## TinyCom-A20
