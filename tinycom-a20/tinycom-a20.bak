@@ -389,7 +389,6 @@ NoConn ~ 17050 2350
 NoConn ~ 17050 2450
 NoConn ~ 17050 2550
 NoConn ~ 17050 2650
-NoConn ~ 17050 2750
 Text GLabel 11650 9950 2    60   Input ~ 0
 ND0
 Text GLabel 11650 10050 2    60   Input ~ 0
@@ -2100,4 +2099,6 @@ VCC_33
 Wire Wire Line
 	17700 11750 17600 11750
 Connection ~ 17700 11700
+Text GLabel 17050 2750 2    60   Input ~ 0
+SA14
 $EndSCHEMATC

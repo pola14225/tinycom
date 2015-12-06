@@ -1,0 +1,138 @@
+
+(rules PCB tinycom-a20
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 64)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+  )
+  (rule
+    (width 150.0)
+    (clear 150.2)
+    (clear 75.0 (type smd_to_turn_gap))
+    (clear 37.6 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Ground" "Via[0-3]_600:300_um" Ground
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power" "Via[0-3]_600:300_um" Power
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Ground "Via[0-3]_600:300_um-Ground"
+  )
+  (via_rule
+    Power "Via[0-3]_600:300_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    SDQ0 SDQ5 SDQ6 SDQ3 SDQ2 SDQ7 SDQ4 SDQ1
+    SA11 SA0 SA13 SA4 SA8 SA10 SA7 SA3
+    SA5 SA12 SA9 SA1 SA2 SA6 SODT0 SRST
+    SDQM0 SBA0 SBA2 SBA1 SCKE0 SWE SRAS SCAS
+    SCS0 "SDQS0_P" "SDQS0_N" SDQ13 SDQ15 SDQ12 "SDQS1_N" SDQ14
+    SDQ11 SDQ9 "SDQS1_P" SDQ10 SDQM1 SDQ8 "Net-(R1-Pad1)" "SCK_P"
+    "SCK_N" ND7 ND6 ND3 ND2 ND5 ND4 ND1
+    ND0 NRB0 NRE# NCLE NALE NWE# "Net-(C1-Pad1)" "Net-(C2-Pad1)"
+    "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(R4-Pad1)" "SDC0_D1" "SDC0_D0" "SDC0_CLK" UDP1 "SDC0_CMD"
+    UDM1 "SDC0_D3" UDP0 "SDC0_D2" UDM0 "UART0_TX" "UART0_RX" UDM2
+    UDP2 "Net-(R5-Pad2)" NCE0 "Net-(R8-Pad2)" "Net-(R9-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Ground
+    GND
+    (clearance_class Ground)
+    (via_rule Ground)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Power
+    "VCC_15" "VCC_12" SVREF "VCC_33" "VCC_30"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
