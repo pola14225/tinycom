@@ -1,4 +1,4 @@
 #!/bin/sh
-cp output.pdf tinycom-base-board.pdf
-convert -density 300 tinycom-base-board.pdf -quality 90 /tmp/board.png
-convert -rotate 90 /tmp/board.png tinycom-base-board.png
+cp output.pdf tinycom-base-layout.pdf
+convert -density 300 tinycom-base-layout.pdf -quality 90 /tmp/layout.png
+convert -rotate 90 /tmp/layout.png tinycom-base-layout.png
