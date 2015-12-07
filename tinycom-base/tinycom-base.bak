@@ -900,21 +900,8 @@ F 3 "" H 7800 5800 60  0000 C CNN
 	1    7800 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR23
-U 1 1 565A1BF7
-P 8250 6000
-F 0 "#PWR23" H 8250 5750 50  0001 C CNN
-F 1 "GND" H 8250 5850 50  0000 C CNN
-F 2 "" H 8250 6000 60  0000 C CNN
-F 3 "" H 8250 6000 60  0000 C CNN
-	1    8250 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8150 5950 8250 5950
-Wire Wire Line
-	8250 5950 8250 6000
+	8150 5950 8650 5950
 $Comp
 L GND #PWR20
 U 1 1 565A1DA6
@@ -965,17 +952,6 @@ Wire Wire Line
 	8150 5850 8650 5850
 Wire Wire Line
 	8650 5850 8650 5900
-$Comp
-L GND #PWR25
-U 1 1 565A4582
-P 9250 6000
-F 0 "#PWR25" H 9250 5750 50  0001 C CNN
-F 1 "GND" H 9250 5850 50  0000 C CNN
-F 2 "" H 9250 6000 60  0000 C CNN
-F 3 "" H 9250 6000 60  0000 C CNN
-	1    9250 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 5900 9250 6000
 $Comp
@@ -1002,9 +978,9 @@ VCC_30
 Text GLabel 6500 6650 0    60   Input ~ 0
 HPCOM
 Text GLabel 6500 7050 0    60   Input ~ 0
-UART0_RX
-Text GLabel 6500 6950 0    60   Input ~ 0
 UART0_TX
+Text GLabel 6500 6950 0    60   Input ~ 0
+UART0_RX
 Text GLabel 7000 6250 2    60   Input ~ 0
 SATA_TXP
 Text GLabel 7000 6350 2    60   Input ~ 0
@@ -1059,4 +1035,8 @@ Text GLabel 2750 6500 0    60   Input ~ 0
 UART0_TX
 Text GLabel 2750 6600 0    60   Input ~ 0
 UART0_RX
+Wire Wire Line
+	8650 5950 8650 6000
+Wire Wire Line
+	8650 6000 9250 6000
 $EndSCHEMATC
