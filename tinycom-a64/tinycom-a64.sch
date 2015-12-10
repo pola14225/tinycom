@@ -1210,4 +1210,347 @@ Text GLabel 6350 8800 2    60   Input ~ 0
 UART0_TX
 Text GLabel 6350 8900 2    60   Input ~ 0
 UART0_RX
+$Comp
+L GND #PWR?
+U 1 1 56696AA6
+P 8250 15850
+F 0 "#PWR?" H 8250 15600 50  0001 C CNN
+F 1 "GND" H 8250 15700 50  0000 C CNN
+F 2 "" H 8250 15850 50  0000 C CNN
+F 3 "" H 8250 15850 50  0000 C CNN
+	1    8250 15850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 15850 8250 9750
+Wire Wire Line
+	8250 9750 8400 9750
+Wire Wire Line
+	8400 9850 8250 9850
+Connection ~ 8250 9850
+Wire Wire Line
+	8400 9950 8250 9950
+Connection ~ 8250 9950
+Wire Wire Line
+	8400 10050 8250 10050
+Connection ~ 8250 10050
+Wire Wire Line
+	8400 10150 8250 10150
+Connection ~ 8250 10150
+Wire Wire Line
+	8400 10250 8250 10250
+Connection ~ 8250 10250
+Wire Wire Line
+	8400 10350 8250 10350
+Connection ~ 8250 10350
+Wire Wire Line
+	8400 10450 8250 10450
+Connection ~ 8250 10450
+Wire Wire Line
+	8400 10550 8250 10550
+Connection ~ 8250 10550
+Wire Wire Line
+	8400 10650 8250 10650
+Connection ~ 8250 10650
+Wire Wire Line
+	8400 10750 8250 10750
+Connection ~ 8250 10750
+Wire Wire Line
+	8250 10850 8400 10850
+Connection ~ 8250 10850
+Wire Wire Line
+	8400 10950 8250 10950
+Connection ~ 8250 10950
+Wire Wire Line
+	8400 11050 8250 11050
+Connection ~ 8250 11050
+Wire Wire Line
+	8400 11150 8250 11150
+Connection ~ 8250 11150
+Wire Wire Line
+	8400 11250 8250 11250
+Connection ~ 8250 11250
+Wire Wire Line
+	8400 11350 8250 11350
+Connection ~ 8250 11350
+Wire Wire Line
+	8400 11450 8250 11450
+Connection ~ 8250 11450
+Wire Wire Line
+	8400 11550 8250 11550
+Connection ~ 8250 11550
+Wire Wire Line
+	8400 11650 8250 11650
+Connection ~ 8250 11650
+Wire Wire Line
+	8400 11750 8250 11750
+Connection ~ 8250 11750
+Wire Wire Line
+	8400 11850 8250 11850
+Connection ~ 8250 11850
+Wire Wire Line
+	8400 11950 8250 11950
+Connection ~ 8250 11950
+Wire Wire Line
+	8400 12050 8250 12050
+Connection ~ 8250 12050
+Wire Wire Line
+	8400 12150 8250 12150
+Connection ~ 8250 12150
+Wire Wire Line
+	8400 12250 8250 12250
+Connection ~ 8250 12250
+Wire Wire Line
+	8400 12350 8250 12350
+Connection ~ 8250 12350
+Wire Wire Line
+	8400 12450 8250 12450
+Connection ~ 8250 12450
+Wire Wire Line
+	8400 12550 8250 12550
+Connection ~ 8250 12550
+Wire Wire Line
+	8400 12650 8250 12650
+Connection ~ 8250 12650
+Wire Wire Line
+	8400 12750 8250 12750
+Connection ~ 8250 12750
+Wire Wire Line
+	8400 12850 8250 12850
+Connection ~ 8250 12850
+Wire Wire Line
+	8400 12950 8250 12950
+Connection ~ 8250 12950
+Wire Wire Line
+	8400 13050 8250 13050
+Connection ~ 8250 13050
+Wire Wire Line
+	8400 13150 8250 13150
+Connection ~ 8250 13150
+Wire Wire Line
+	8400 13250 8250 13250
+Connection ~ 8250 13250
+Wire Wire Line
+	8400 13350 8250 13350
+Connection ~ 8250 13350
+Wire Wire Line
+	8400 13450 8250 13450
+Connection ~ 8250 13450
+Wire Wire Line
+	8400 13550 8250 13550
+Connection ~ 8250 13550
+Wire Wire Line
+	8400 13650 8250 13650
+Connection ~ 8250 13650
+Wire Wire Line
+	8400 13750 8250 13750
+Connection ~ 8250 13750
+Wire Wire Line
+	8400 13850 8250 13850
+Connection ~ 8250 13850
+Wire Wire Line
+	8400 13950 8250 13950
+Connection ~ 8250 13950
+Wire Wire Line
+	8400 14050 8250 14050
+Connection ~ 8250 14050
+Wire Wire Line
+	8400 14150 8250 14150
+Connection ~ 8250 14150
+Wire Wire Line
+	8400 14250 8250 14250
+Connection ~ 8250 14250
+Wire Wire Line
+	8400 14350 8250 14350
+Connection ~ 8250 14350
+Wire Wire Line
+	8400 14450 8250 14450
+Connection ~ 8250 14450
+Wire Wire Line
+	8400 14550 8250 14550
+Connection ~ 8250 14550
+Wire Wire Line
+	8400 14650 8250 14650
+Connection ~ 8250 14650
+Wire Wire Line
+	8400 14750 8250 14750
+Connection ~ 8250 14750
+Wire Wire Line
+	8400 14850 8250 14850
+Connection ~ 8250 14850
+Wire Wire Line
+	8400 14950 8250 14950
+Connection ~ 8250 14950
+Wire Wire Line
+	8400 15050 8250 15050
+Connection ~ 8250 15050
+Wire Wire Line
+	8400 15150 8250 15150
+Connection ~ 8250 15150
+Wire Wire Line
+	8400 15250 8250 15250
+Connection ~ 8250 15250
+Wire Wire Line
+	8400 15350 8250 15350
+Connection ~ 8250 15350
+Wire Wire Line
+	8400 15450 8250 15450
+Connection ~ 8250 15450
+Wire Wire Line
+	8400 15550 8250 15550
+Connection ~ 8250 15550
+Wire Wire Line
+	8400 15650 8250 15650
+Connection ~ 8250 15650
+Wire Wire Line
+	8400 15750 8250 15750
+Connection ~ 8250 15750
+Wire Wire Line
+	9800 12350 9900 12350
+Wire Wire Line
+	9900 12350 9900 10650
+Wire Wire Line
+	9900 10650 9800 10650
+Text GLabel 9900 10650 2    60   Input ~ 0
+VCC_12
+Wire Wire Line
+	9800 10750 9900 10750
+Connection ~ 9900 10750
+Wire Wire Line
+	9800 10850 9900 10850
+Connection ~ 9900 10850
+Wire Wire Line
+	9800 10950 9900 10950
+Connection ~ 9900 10950
+Wire Wire Line
+	9800 11050 9900 11050
+Connection ~ 9900 11050
+Wire Wire Line
+	9800 11150 9900 11150
+Connection ~ 9900 11150
+Wire Wire Line
+	9800 11250 9900 11250
+Connection ~ 9900 11250
+Wire Wire Line
+	9800 11350 9900 11350
+Connection ~ 9900 11350
+Wire Wire Line
+	9800 11450 9900 11450
+Connection ~ 9900 11450
+Wire Wire Line
+	9800 11550 9900 11550
+Connection ~ 9900 11550
+Wire Wire Line
+	9800 11650 9900 11650
+Connection ~ 9900 11650
+Wire Wire Line
+	9800 11750 9900 11750
+Connection ~ 9900 11750
+Wire Wire Line
+	9800 11850 9900 11850
+Connection ~ 9900 11850
+Wire Wire Line
+	9800 11950 9900 11950
+Connection ~ 9900 11950
+Wire Wire Line
+	9800 12050 9900 12050
+Connection ~ 9900 12050
+Wire Wire Line
+	9800 12150 9900 12150
+Connection ~ 9900 12150
+Wire Wire Line
+	9800 12250 9900 12250
+Connection ~ 9900 12250
+$Comp
+L GND #PWR?
+U 1 1 5669EC55
+P 9950 15800
+F 0 "#PWR?" H 9950 15550 50  0001 C CNN
+F 1 "GND" H 9950 15650 50  0000 C CNN
+F 2 "" H 9950 15800 50  0000 C CNN
+F 3 "" H 9950 15800 50  0000 C CNN
+	1    9950 15800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 14650 9950 14650
+Wire Wire Line
+	9950 14650 9950 15800
+Wire Wire Line
+	9800 14750 9950 14750
+Connection ~ 9950 14750
+Wire Wire Line
+	9800 14850 9950 14850
+Connection ~ 9950 14850
+Wire Wire Line
+	9800 14950 9950 14950
+Connection ~ 9950 14950
+Wire Wire Line
+	9800 15050 9950 15050
+Connection ~ 9950 15050
+Wire Wire Line
+	9800 15750 9950 15750
+Connection ~ 9950 15750
+Wire Wire Line
+	9800 15150 9950 15150
+Connection ~ 9950 15150
+Wire Wire Line
+	9800 15250 9950 15250
+Connection ~ 9950 15250
+Wire Wire Line
+	9800 15350 9950 15350
+Connection ~ 9950 15350
+Wire Wire Line
+	9800 15450 9950 15450
+Connection ~ 9950 15450
+Wire Wire Line
+	9800 15550 9950 15550
+Connection ~ 9950 15550
+Wire Wire Line
+	9800 15650 9950 15650
+Connection ~ 9950 15650
+Wire Wire Line
+	10050 5950 9950 5950
+Wire Wire Line
+	9950 5950 9950 4950
+Wire Wire Line
+	9950 4950 10050 4950
+Text GLabel 9950 4950 0    60   Input ~ 0
+VCC_15
+Wire Wire Line
+	10050 5050 9950 5050
+Connection ~ 9950 5050
+Wire Wire Line
+	10050 5150 9950 5150
+Connection ~ 9950 5150
+Wire Wire Line
+	10050 5250 9950 5250
+Connection ~ 9950 5250
+Wire Wire Line
+	10050 5350 9950 5350
+Connection ~ 9950 5350
+Wire Wire Line
+	10050 5450 9950 5450
+Connection ~ 9950 5450
+Wire Wire Line
+	10050 5550 9950 5550
+Connection ~ 9950 5550
+Wire Wire Line
+	10050 5650 9950 5650
+Connection ~ 9950 5650
+Wire Wire Line
+	9950 5750 10050 5750
+Connection ~ 9950 5750
+Wire Wire Line
+	10050 5850 9950 5850
+Connection ~ 9950 5850
+NoConn ~ 11450 3850
+NoConn ~ 11450 4250
+NoConn ~ 11450 4350
+NoConn ~ 11450 4850
+NoConn ~ 11450 4950
+NoConn ~ 11450 5050
+NoConn ~ 11450 5150
+NoConn ~ 11450 5350
+NoConn ~ 11450 5550
 $EndSCHEMATC
