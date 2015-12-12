@@ -1544,4 +1544,51 @@ Connection ~ 9950 5750
 Wire Wire Line
 	10050 5850 9950 5850
 Connection ~ 9950 5850
+NoConn ~ 11450 3850
+NoConn ~ 11450 4250
+NoConn ~ 11450 4350
+NoConn ~ 11450 4850
+NoConn ~ 11450 4950
+NoConn ~ 11450 5050
+NoConn ~ 11450 5150
+NoConn ~ 11450 5350
+NoConn ~ 11450 5550
+Wire Wire Line
+	9800 13150 9900 13150
+Wire Wire Line
+	9900 13150 9900 14250
+Wire Wire Line
+	9900 14250 9800 14250
+Wire Wire Line
+	9800 13250 9900 13250
+Connection ~ 9900 13250
+Wire Wire Line
+	9800 13350 9900 13350
+Connection ~ 9900 13350
+Wire Wire Line
+	9800 13450 9900 13450
+Connection ~ 9900 13450
+Wire Wire Line
+	9800 13550 9900 13550
+Connection ~ 9900 13550
+Wire Wire Line
+	9800 13650 9900 13650
+Connection ~ 9900 13650
+Wire Wire Line
+	9800 13750 9900 13750
+Connection ~ 9900 13750
+Wire Wire Line
+	9800 13850 9900 13850
+Connection ~ 9900 13850
+Wire Wire Line
+	9800 13950 9900 13950
+Connection ~ 9900 13950
+Wire Wire Line
+	9800 14050 9900 14050
+Connection ~ 9900 14050
+Wire Wire Line
+	9800 14150 9900 14150
+Connection ~ 9900 14150
+Text GLabel 9900 13150 2    60   Input ~ 0
+VCC_12
 $EndSCHEMATC
