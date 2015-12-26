@@ -263,7 +263,7 @@ F 3 "" H 19500 8450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 20300 8100 0    60   Input ~ 0
-VCC_12
+VCC_11
 $Comp
 L C_Small C6
 U 1 1 56441DA3
@@ -807,7 +807,7 @@ Wire Wire Line
 Text GLabel 20650 9600 0    60   Input ~ 0
 VCC_33
 Text GLabel 20650 9700 0    60   Input ~ 0
-VCC_12
+VCC_11
 Text GLabel 20650 9800 0    60   Input ~ 0
 VCC_15
 Text GLabel 20650 9900 0    60   Input ~ 0
@@ -1167,7 +1167,7 @@ L C_Small C1
 U 1 1 56694D06
 P 1050 2300
 F 0 "C1" H 1060 2370 50  0000 L CNN
-F 1 "C_Small" H 1060 2220 50  0000 L CNN
+F 1 "33pF" H 1060 2220 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1050 2300 60  0001 C CNN
 F 3 "" H 1050 2300 60  0000 C CNN
 	1    1050 2300
@@ -1178,7 +1178,7 @@ L C_Small C2
 U 1 1 566951D3
 P 1350 2300
 F 0 "C2" H 1360 2370 50  0000 L CNN
-F 1 "C_Small" H 1360 2220 50  0000 L CNN
+F 1 "33pF" H 1360 2220 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1350 2300 60  0001 C CNN
 F 3 "" H 1350 2300 60  0000 C CNN
 	1    1350 2300
@@ -1412,7 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 10650 9800 10650
 Text GLabel 9900 10650 2    60   Input ~ 0
-VCC_12
+VCC_11
 Wire Wire Line
 	9800 10750 9900 10750
 Connection ~ 9900 10750
@@ -1590,7 +1590,41 @@ Wire Wire Line
 	9800 14150 9900 14150
 Connection ~ 9900 14150
 Text GLabel 9900 13150 2    60   Input ~ 0
-VCC_12
+VCC_11
 Text GLabel 6350 7800 2    60   Input ~ 0
+VCC_33
+Text GLabel 4550 9000 0    60   Input ~ 0
+VCC_33
+Text GLabel 1600 13050 0    60   Input ~ 0
+VCC_33
+Text GLabel 1600 13150 0    60   Input ~ 0
+VCC_33
+Text GLabel 14100 8550 2    60   Input ~ 0
+VCC_33
+Text GLabel 10750 7050 2    60   Input ~ 0
+VCC_33
+Text GLabel 7550 7050 0    60   Input ~ 0
+VCC_33
+Text GLabel 5550 1950 2    60   Input ~ 0
+VCC_33
+Text GLabel 3050 1700 2    60   Input ~ 0
+VCC_11
+Text GLabel 3050 2100 2    60   Input ~ 0
+VCC_33
+Text GLabel 3050 2400 2    60   Input ~ 0
+VCC_30
+Text GLabel 3050 2700 2    60   Input ~ 0
+VCC_30
+Text GLabel 1500 7950 0    60   Input ~ 0
+VCC_30
+Text GLabel 9800 10250 2    60   Input ~ 0
+VCC_11
+Wire Wire Line
+	9800 9750 9900 9750
+Wire Wire Line
+	9900 9750 9900 9850
+Wire Wire Line
+	9900 9850 9800 9850
+Text GLabel 9900 9750 2    60   Input ~ 0
 VCC_33
 $EndSCHEMATC
