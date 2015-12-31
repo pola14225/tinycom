@@ -2179,7 +2179,7 @@
   (gr_text http://tinycom.org/ (at 107.3675 140.624 90) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text TinyCom (at 92.17 133.56) (layer F.SilkS)
+  (gr_text TinyCom (at 91.98 135.61) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.5)))
   )
   (gr_line (start 118.2 154) (end 125.9 154) (layer Edge.Cuts) (width 0.15))
