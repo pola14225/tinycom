@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.0-2.201511301920+6191~38~ubuntu14.04.1-stable)
 
   (general
-    (links 0)
+    (links 128)
     (no_connects 0)
     (area 124.384999 79.172999 169.747001 124.535001)
     (thickness 1.6)
@@ -600,7 +600,7 @@
     (tags "USB SERIES A HOLE MOUNTED")
     (path /562BA65E)
     (attr virtual)
-    (fp_text reference P3 (at 5.08 -6.985 270) (layer B.SilkS)
+    (fp_text reference P3 (at 5.08 -6.985 450) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.0889)))
     )
     (fp_text value USB_A (at 0 0 180) (layer F.SilkS)

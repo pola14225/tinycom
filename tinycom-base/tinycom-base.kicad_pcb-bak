@@ -1507,7 +1507,7 @@
   )
 
   (module tinycom:oshw_logo_2mm (layer B.Cu) (tedit 0) (tstamp 56864699)
-    (at 155.007 93.612 270)
+    (at 154.997 93.802 270)
     (fp_text reference G*** (at 0 -1.05918 270) (layer B.SilkS) hide
       (effects (font (size 0.0889 0.0889) (thickness 0.01778)) (justify mirror))
     )
