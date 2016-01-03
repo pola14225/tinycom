@@ -26,7 +26,9 @@ A very small and low cost modular computer.
 ### Specifications
 
 - Connectors:  USBx2, SD-card
-- Network: WIFI
+- Network: WIFI with ceramic antenna
+- RTC backup battery
+- Board temperature sensor
 
 ### Pictures
 
