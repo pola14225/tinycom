@@ -917,7 +917,7 @@ VCC_33
 Text GLabel 12900 13250 0    60   Input ~ 0
 VCC_33
 Text GLabel 12950 8550 0    60   Input ~ 0
-VCC_33
+VCC_30_RTC
 Text GLabel 11650 9550 2    60   Input ~ 0
 NCE0
 NoConn ~ 17600 14700
@@ -1401,8 +1401,6 @@ Text GLabel 21450 9650 2    60   Input ~ 0
 TWI0_SDA
 Text GLabel 21450 9750 2    60   Input ~ 0
 NMI_N
-Text GLabel 5650 13500 2    60   Input ~ 0
-VCC_33
 $Comp
 L GND #PWR028
 U 1 1 56631752
@@ -1715,8 +1713,6 @@ Wire Wire Line
 	10250 8350 10250 8450
 Connection ~ 10250 8450
 Wire Wire Line
-	1050 9300 800  9300
-Wire Wire Line
 	800  9300 800  9350
 Wire Wire Line
 	1050 13400 900  13400
@@ -1921,7 +1917,6 @@ Wire Wire Line
 	1050 9500 950  9500
 Wire Wire Line
 	950  9300 950  9600
-Connection ~ 950  9300
 Wire Wire Line
 	950  9600 1050 9600
 Connection ~ 950  9500
@@ -2017,9 +2012,7 @@ Wire Wire Line
 Wire Wire Line
 	19650 8600 19650 8550
 Wire Wire Line
-	1050 9400 1050 9200
-Wire Wire Line
-	1050 9200 1100 9200
+	1000 9200 1100 9200
 Wire Wire Line
 	1100 9200 1100 9050
 Wire Wire Line
@@ -2143,4 +2136,12 @@ Wire Wire Line
 	20450 7700 20450 7900
 Wire Wire Line
 	20450 8300 20450 8200
+Wire Wire Line
+	950  9300 800  9300
+Wire Wire Line
+	1050 9400 1000 9400
+Wire Wire Line
+	1000 9400 1000 9200
+NoConn ~ 1050 9300
+NoConn ~ 5650 13500
 $EndSCHEMATC

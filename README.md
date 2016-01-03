@@ -29,6 +29,7 @@ A very small and low cost modular computer.
 - Network: WIFI with ceramic antenna
 - RTC backup battery
 - Board temperature sensor
+- PCB: 2 layers
 
 ### Pictures
 
