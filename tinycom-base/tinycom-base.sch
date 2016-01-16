@@ -609,7 +609,7 @@ F 3 "" H 3600 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6100 6650 0    60   Input ~ 0
-VCC_30_RTC
+VCC_13_RTC
 Text GLabel 900  5750 0    60   Input ~ 0
 TWI0_SDA
 Text GLabel 900  5650 0    60   Input ~ 0
@@ -729,7 +729,7 @@ F 3 "" H 3250 5800 50  0000 C CNN
 $EndComp
 NoConn ~ 3000 5750
 Text GLabel 3600 3650 2    60   Input ~ 0
-VCC_30_RTC
+VCC_13_RTC
 $Comp
 L C_Small C7
 U 1 1 567D403F
@@ -804,7 +804,6 @@ F 3 "" H 1150 2400 50  0000 C CNN
 $EndComp
 NoConn ~ 3000 5350
 NoConn ~ 3000 5050
-NoConn ~ 3000 4750
 NoConn ~ 3000 4450
 $Comp
 L GND #PWR028
@@ -849,7 +848,6 @@ F 3 "" H 7400 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3000 1750
-NoConn ~ 3000 2050
 NoConn ~ 1400 3050
 Text GLabel 1400 4150 0    60   Input ~ 0
 IPSOUT
@@ -1388,10 +1386,10 @@ F 3 "" H 1000 4750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR037
+L GND #PWR036
 U 1 1 5698E94B
 P 800 4850
-F 0 "#PWR037" H 800 4600 50  0001 C CNN
+F 0 "#PWR036" H 800 4600 50  0001 C CNN
 F 1 "GND" H 800 4700 50  0000 C CNN
 F 2 "" H 800 4850 50  0000 C CNN
 F 3 "" H 800 4850 50  0000 C CNN
@@ -1432,10 +1430,10 @@ F 3 "" H 800 4200 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR038
+L GND #PWR037
 U 1 1 5699D6DC
 P 800 4350
-F 0 "#PWR038" H 800 4100 50  0001 C CNN
+F 0 "#PWR037" H 800 4100 50  0001 C CNN
 F 1 "GND" H 800 4200 50  0000 C CNN
 F 2 "" H 800 4350 50  0000 C CNN
 F 3 "" H 800 4350 50  0000 C CNN
@@ -1469,4 +1467,8 @@ Wire Wire Line
 	850  1350 850  1400
 Connection ~ 950  1600
 NoConn ~ 1050 1900
+Text GLabel 3000 2050 2    60   Input ~ 0
+IPSOUT
+Text GLabel 3000 4750 2    60   Input ~ 0
+IPSOUT
 $EndSCHEMATC
