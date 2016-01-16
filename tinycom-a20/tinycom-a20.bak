@@ -1413,7 +1413,7 @@ F 3 "" H 5800 13800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13000 12600 0    60   Input ~ 0
-VCC_30_ANL
+VCC_33
 Text GLabel 17050 2750 2    60   Input ~ 0
 SA14
 Wire Wire Line
@@ -2137,11 +2137,12 @@ Wire Wire Line
 Wire Wire Line
 	20450 8300 20450 8200
 Wire Wire Line
-	950  9300 800  9300
+	800  9300 1050 9300
 Wire Wire Line
 	1050 9400 1000 9400
 Wire Wire Line
 	1000 9400 1000 9200
-NoConn ~ 1050 9300
-NoConn ~ 5650 13500
+Connection ~ 950  9300
+Text GLabel 5650 13500 2    60   Input ~ 0
+VCC_33
 $EndSCHEMATC

@@ -2061,8 +2061,6 @@ Text GLabel 19600 10100 2    60   Input ~ 0
 UD1_P
 Text GLabel 19600 10200 2    60   Input ~ 0
 UD1_N
-NoConn ~ 13000 10800
-NoConn ~ 13000 10900
 NoConn ~ 1050 14000
 Wire Wire Line
 	17700 11000 17700 10100
@@ -2137,11 +2135,21 @@ Wire Wire Line
 Wire Wire Line
 	20450 8300 20450 8200
 Wire Wire Line
-	950  9300 800  9300
+	800  9300 1050 9300
 Wire Wire Line
 	1050 9400 1000 9400
 Wire Wire Line
 	1000 9400 1000 9200
-NoConn ~ 1050 9300
-NoConn ~ 5650 13500
+Connection ~ 950  9300
+Text GLabel 5650 13500 2    60   Input ~ 0
+VCC_33
+Text GLabel 12850 10800 0    60   Input ~ 0
+VCC_12_INT
+Wire Wire Line
+	13000 10800 12850 10800
+Wire Wire Line
+	13000 10900 12950 10900
+Wire Wire Line
+	12950 10900 12950 10800
+Connection ~ 12950 10800
 $EndSCHEMATC
