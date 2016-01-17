@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/datrus/stuff/tinycom/tinycom-a20/tinycom-a20.sch)
-    (date "Sat 16 Jan 2016 06:24:24 PM ICT")
+    (date "Sun 17 Jan 2016 06:54:31 PM ICT")
     (tool "Eeschema 4.0.0-2.201511301920+6191~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -863,10 +863,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical allwinner)
       (uri /home/datrus/eoma/eoma-HEAD-d275602/pcb/allwinner_a10/library/allwinner.lib))
     (library (logical hynix)
