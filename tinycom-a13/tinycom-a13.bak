@@ -1161,6 +1161,8 @@ Wire Wire Line
 Wire Wire Line
 	7050 2450 7050 2350
 Wire Wire Line
+	6850 3200 6850 3050
+Wire Wire Line
 	6900 2350 6900 2450
 Connection ~ 7050 2350
 Wire Wire Line
@@ -1231,6 +1233,4 @@ Wire Wire Line
 Wire Wire Line
 	6700 4150 6700 4050
 Connection ~ 6600 4150
-Wire Wire Line
-	6850 3200 6850 3050
 $EndSCHEMATC
