@@ -3,6 +3,24 @@
 A very small and low cost modular computer.
 (work in progress...)
 
+## TinyCom-A13
+
+### Specifications
+
+- Dimensions: 4x4 cm
+- CPU: Allwinner A13
+- Memory: 512MB DDR3 SDRAM
+- PCB: 4 layers, 6 mil traces, 12 mil vias
+- Ports: SD-card, serial, USBx2
+
+### Pictures
+
+![TinyCom-a13 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-front.png)
+
+![TinyCom-a13 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-back.png)
+
+![TinyCom-a13 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-layout.png)
+
 ## TinyCom-A20
 
 ### Specifications
