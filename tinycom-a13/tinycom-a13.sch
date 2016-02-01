@@ -148,22 +148,6 @@ Text GLabel 10900 5350 2    60   Input ~ 0
 DDR3_A13
 Text GLabel 10900 5450 2    60   Input ~ 0
 DDR3_A14
-Text GLabel 10900 3150 2    60   Input ~ 0
-DDR3_D8
-Text GLabel 10900 3250 2    60   Input ~ 0
-DDR3_D9
-Text GLabel 10900 3350 2    60   Input ~ 0
-DDR3_D10
-Text GLabel 10900 3450 2    60   Input ~ 0
-DDR3_D11
-Text GLabel 10900 3550 2    60   Input ~ 0
-DDR3_D12
-Text GLabel 10900 3650 2    60   Input ~ 0
-DDR3_D13
-Text GLabel 10900 3750 2    60   Input ~ 0
-DDR3_D14
-Text GLabel 10900 3850 2    60   Input ~ 0
-DDR3_D15
 Text GLabel 10900 11450 2    60   Input ~ 0
 SDC0_D1
 Text GLabel 10900 11550 2    60   Input ~ 0
@@ -180,30 +164,6 @@ Text GLabel 10900 12450 2    60   Input ~ 0
 UART1_TX
 Text GLabel 10900 12550 2    60   Input ~ 0
 UART1_RX
-Text GLabel 10900 10150 2    60   Input ~ 0
-CSI_CLK
-Text GLabel 10900 10250 2    60   Input ~ 0
-CSI_MCLK
-Text GLabel 10900 10350 2    60   Input ~ 0
-CSI_HSYNC
-Text GLabel 10900 10450 2    60   Input ~ 0
-CSI_VSYNC
-Text GLabel 10900 10550 2    60   Input ~ 0
-CSI_D0
-Text GLabel 10900 10650 2    60   Input ~ 0
-CSI_D1
-Text GLabel 10900 10750 2    60   Input ~ 0
-CSI_D2
-Text GLabel 10900 10850 2    60   Input ~ 0
-CSI_D3
-Text GLabel 10900 10950 2    60   Input ~ 0
-CSI_D4
-Text GLabel 10900 11050 2    60   Input ~ 0
-CSI_D5
-Text GLabel 10900 11150 2    60   Input ~ 0
-CSI_D6
-Text GLabel 10900 11250 2    60   Input ~ 0
-CSI_D7
 Text GLabel 7500 7350 0    60   Input ~ 0
 UD1_P
 Text GLabel 7500 7450 0    60   Input ~ 0
@@ -303,8 +263,6 @@ F 3 "" H 5250 2150 60  0000 C CNN
 	1    5250 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 8050 0    60   Input ~ 0
-MICIN1
 $Comp
 L H5TQ2G83BFR/FBGA82 U2
 U 1 1 5625C4CE
@@ -909,7 +867,7 @@ L R R5
 U 1 1 56AD7E2E
 P 7200 6150
 F 0 "R5" V 7280 6150 50  0000 C CNN
-F 1 "240R" V 7200 6150 50  0000 C CNN
+F 1 "10K" V 7200 6150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7130 6150 30  0001 C CNN
 F 3 "" H 7200 6150 30  0000 C CNN
 	1    7200 6150
@@ -920,7 +878,7 @@ L R R6
 U 1 1 56AD83B3
 P 7200 6250
 F 0 "R6" V 7280 6250 50  0000 C CNN
-F 1 "240R" V 7200 6250 50  0000 C CNN
+F 1 "10K" V 7200 6250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7130 6250 30  0001 C CNN
 F 3 "" H 7200 6250 30  0000 C CNN
 	1    7200 6250
@@ -1320,4 +1278,25 @@ Wire Wire Line
 	13650 9000 13650 9050
 Wire Wire Line
 	15400 8950 15550 8950
+NoConn ~ 7500 8050
+NoConn ~ 10900 3150
+NoConn ~ 10900 3250
+NoConn ~ 10900 3350
+NoConn ~ 10900 3450
+NoConn ~ 10900 3550
+NoConn ~ 10900 3650
+NoConn ~ 10900 3750
+NoConn ~ 10900 3850
+NoConn ~ 10900 10150
+NoConn ~ 10900 10250
+NoConn ~ 10900 10350
+NoConn ~ 10900 10450
+NoConn ~ 10900 10550
+NoConn ~ 10900 10650
+NoConn ~ 10900 10750
+NoConn ~ 10900 10850
+NoConn ~ 10900 10950
+NoConn ~ 10900 11050
+NoConn ~ 10900 11150
+NoConn ~ 10900 11250
 $EndSCHEMATC
