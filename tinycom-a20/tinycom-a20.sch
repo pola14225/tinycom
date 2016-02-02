@@ -1347,7 +1347,6 @@ Text GLabel 19600 10100 2    60   Input ~ 0
 UD1_P
 Text GLabel 19600 10200 2    60   Input ~ 0
 UD1_N
-NoConn ~ 1050 14000
 Text GLabel 17700 11200 2    60   Input ~ 0
 VCC_12_CPU
 $Comp
@@ -2148,4 +2147,6 @@ Wire Wire Line
 Connection ~ 19650 8600
 Wire Wire Line
 	17700 11200 17700 11750
+Text GLabel 1050 14000 0    60   Input ~ 0
+VCC_33
 $EndSCHEMATC

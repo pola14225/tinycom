@@ -906,7 +906,7 @@ VCC_33
 Text GLabel 12900 13250 0    60   Input ~ 0
 VCC_33
 Text GLabel 12950 8550 0    60   Input ~ 0
-VCC_30_RTC
+VCC_13_RTC
 Text GLabel 11650 9550 2    60   Input ~ 0
 NCE0
 NoConn ~ 17600 14700
