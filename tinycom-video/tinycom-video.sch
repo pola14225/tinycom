@@ -410,21 +410,21 @@ F 3 "" H 4650 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4400 6150 0    60   Input ~ 0
-HTX2P
+HTX2_P
 Text GLabel 4400 6250 0    60   Input ~ 0
-HTX2N
+HTX2_N
 Text GLabel 4400 6350 0    60   Input ~ 0
-HTX1P
+HTX1_P
 Text GLabel 4400 6450 0    60   Input ~ 0
-HTX1N
+HTX1_N
 Text GLabel 4400 6550 0    60   Input ~ 0
-HTX0P
+HTX0_P
 Text GLabel 4400 6650 0    60   Input ~ 0
-HTX0N
+HTX0_N
 Text GLabel 4400 6750 0    60   Input ~ 0
-HTXCP
+HTXC_P
 Text GLabel 4400 6850 0    60   Input ~ 0
-HTXCN
+HTXC_N
 Text GLabel 4400 6950 0    60   Input ~ 0
 HCEC
 Text GLabel 4400 7050 0    60   Input ~ 0
@@ -1050,19 +1050,19 @@ F 3 "" H 950 7400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1150 6500 2    60   Input ~ 0
-HTX2P
+HTX2_P
 Text GLabel 1150 6700 2    60   Input ~ 0
-HTX2N
+HTX2_N
 Text GLabel 1150 6800 2    60   Input ~ 0
-HTX1P
+HTX1_P
 Text GLabel 1150 7000 2    60   Input ~ 0
-HTX1N
+HTX1_N
 Text GLabel 1150 7100 2    60   Input ~ 0
-HTX0P
+HTX0_P
 Text GLabel 1150 7300 2    60   Input ~ 0
-HTX0N
+HTX0_N
 Text GLabel 1150 7600 2    60   Input ~ 0
-HTXCN
+HTXC_N
 Text GLabel 1150 7700 2    60   Input ~ 0
 HCEC
 Text GLabel 1150 7900 2    60   Input ~ 0
@@ -1072,7 +1072,7 @@ HSDA
 Text GLabel 1150 8300 2    60   Input ~ 0
 HHPD
 Text GLabel 1150 7400 2    60   Input ~ 0
-HTXCP
+HTXC_P
 $Comp
 L +5V #PWR035
 U 1 1 56B2E3E3
