@@ -61,6 +61,14 @@ A very small and low cost modular computer.
 
 - Connectors:  USB-OTG, SD-card, HDMI
 
+### Pictures
+
+![TinyCom-Video Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-video-front.png)
+
+![TinyCom-Video Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-video-back.png)
+
+![TinyCom-Video Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-video-layout.png)
+
 ## TinyCom-Audio
 
 - Connectors:  USBx2, SD-card, Audiox2
