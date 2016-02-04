@@ -69,12 +69,6 @@ A very small and low cost modular computer.
 
 ![TinyCom-Video Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-layout.png)
 
-## TinyCom-Audio
-
-- Connectors:  USBx2, SD-card, Audiox2
-- Microphone
-- Speaker
-
 ## TinyCom-Pilot
 
 ### Specifications
