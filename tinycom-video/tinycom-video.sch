@@ -1467,4 +1467,8 @@ Connection ~ 1750 7500
 Wire Wire Line
 	1150 8100 1750 8100
 Connection ~ 1750 8100
+Text GLabel 5450 4450 0    60   Input ~ 0
+UD0_P
+Text GLabel 5450 4350 0    60   Input ~ 0
+UD0_N
 $EndSCHEMATC

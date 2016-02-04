@@ -148,11 +148,9 @@ F 3 "" H 6550 2300 60  0000 C CNN
 	1    6550 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 6850 2    60   Input ~ 0
-MICIN1
-Text GLabel 4900 6650 2    60   Input ~ 0
+Text GLabel 4900 6450 2    60   Input ~ 0
 UD1_P
-Text GLabel 4900 6550 2    60   Input ~ 0
+Text GLabel 4900 6350 2    60   Input ~ 0
 UD0_N
 $Comp
 L GND #PWR07
@@ -484,9 +482,9 @@ Text GLabel 6600 6750 2    60   Input ~ 0
 SDC0_D0
 Text GLabel 6600 6650 2    60   Input ~ 0
 SDC0_D1
-Text GLabel 4900 6350 2    60   Input ~ 0
+Text GLabel 6100 6950 0    60   Input ~ 0
 UART1_RX
-Text GLabel 4900 6450 2    60   Input ~ 0
+Text GLabel 4900 6250 2    60   Input ~ 0
 UD0_P
 $Comp
 L rainsun-antenna U5
@@ -511,7 +509,7 @@ Text GLabel 6600 6350 2    60   Input ~ 0
 TWI0_SDA
 Text GLabel 6600 6250 2    60   Input ~ 0
 TWI0_SCK
-Text GLabel 4900 6250 2    60   Input ~ 0
+Text GLabel 6100 7050 0    60   Input ~ 0
 UART1_TX
 $Comp
 L OLIMEX_IC_AXP209-RESCUE-tinycom-base-RESCUE-tinycom-base U2
@@ -816,7 +814,7 @@ F 3 "" H 850 3800 50  0000 C CNN
 	1    850  3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 6750 2    60   Input ~ 0
+Text GLabel 4900 6550 2    60   Input ~ 0
 UD1_N
 $Comp
 L R_Small R7
