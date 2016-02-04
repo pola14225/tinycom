@@ -10,8 +10,8 @@ A very small and low cost modular computer.
 - Dimensions: 4x4 cm
 - CPU: Allwinner A13
 - Memory: 512MB DDR3 SDRAM
+- Ports: SD-card, serial, USBx2, audio in/out 
 - PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USBx2
 
 ### Pictures
 
@@ -29,7 +29,7 @@ A very small and low cost modular computer.
 - CPU: Allwinner A20
 - Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
 - PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USBx3, HDMI, SATA
+- Ports: SD-card, serial, USBx3, HDMI
 
 ### Pictures
 
@@ -57,6 +57,16 @@ A very small and low cost modular computer.
 
 ![TinyCom-base Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-layout.png)
 
+## TinyCom-Video
+
+- Connectors:  USB-OTG, SD-card, HDMI
+
+## TinyCom-Audio
+
+- Connectors:  USBx2, SD-card, Audiox2
+- Microphone
+- Speaker
+
 ## TinyCom-Pilot
 
 ### Specifications
@@ -72,7 +82,7 @@ A very small and low cost modular computer.
 
 ## TODO
 
-tinycom-ethernet, tinycom-audio, tinycom-IR, tinycom-power, tinycom-FPGA, tinycom-3G, tinycom-GPS
+tinycom-audio, tinycom-GPS
 
 ## Contact
 

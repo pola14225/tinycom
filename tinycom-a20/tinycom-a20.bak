@@ -153,17 +153,6 @@ F 3 "" H 15300 11750 60  0000 C CNN
 $EndComp
 $Comp
 L ALLWINNERA10/TFBGA441 U1
-U 1 1 563E55B6
-P 3350 12250
-F 0 "U1" H 3350 12250 60  0000 C CNN
-F 1 "ALLWINNERA10/TFBGA441" H 3350 12100 60  0000 C CNN
-F 2 "441fbga-p08:441TFBGA-P0.8" H 3350 12250 60  0001 C CNN
-F 3 "" H 3350 12250 60  0000 C CNN
-	1    3350 12250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ALLWINNERA10/TFBGA441 U1
 U 4 1 563E5601
 P 9350 12200
 F 0 "U1" H 9350 12200 60  0000 C CNN
@@ -682,22 +671,19 @@ NoConn ~ 1050 12200
 NoConn ~ 1050 12300
 NoConn ~ 1050 12400
 NoConn ~ 1050 12500
-NoConn ~ 1050 12600
 NoConn ~ 1050 13200
 NoConn ~ 1050 13300
 $Comp
 L GND #PWR012
 U 1 1 56417B02
-P 900 13450
-F 0 "#PWR012" H 900 13200 50  0001 C CNN
-F 1 "GND" H 900 13300 50  0000 C CNN
-F 2 "" H 900 13450 60  0000 C CNN
-F 3 "" H 900 13450 60  0000 C CNN
-	1    900  13450
+P 300 13450
+F 0 "#PWR012" H 300 13200 50  0001 C CNN
+F 1 "GND" H 300 13300 50  0000 C CNN
+F 2 "" H 300 13450 60  0000 C CNN
+F 3 "" H 300 13450 60  0000 C CNN
+	1    300  13450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1050 13600
-NoConn ~ 1050 13700
 $Comp
 L GND #PWR013
 U 1 1 56417F5A
@@ -747,18 +733,6 @@ F 3 "" H 5900 12300 60  0000 C CNN
 	1    5900 12300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5650 12700
-NoConn ~ 5650 12800
-NoConn ~ 5650 12900
-NoConn ~ 5650 13000
-NoConn ~ 5650 13100
-NoConn ~ 5650 13200
-NoConn ~ 5650 13300
-NoConn ~ 5650 13400
-NoConn ~ 5650 13900
-NoConn ~ 5650 14000
-NoConn ~ 5650 14100
-NoConn ~ 5650 14200
 NoConn ~ 7050 9950
 NoConn ~ 7050 10050
 NoConn ~ 7050 10150
@@ -1232,30 +1206,30 @@ F 3 "" H 21200 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 19100 9600 0    60   Input ~ 0
-HTX2P
+HTX2_P
 Text GLabel 19100 9700 0    60   Input ~ 0
-HTX2N
+HTX2_N
 Text GLabel 19100 9800 0    60   Input ~ 0
-HTX1P
+HTX1_P
 Text GLabel 19100 9900 0    60   Input ~ 0
-HTX1N
+HTX1_N
 Text GLabel 19100 10000 0    60   Input ~ 0
-HTX0P
+HTX0_P
 Text GLabel 19100 10100 0    60   Input ~ 0
-HTX0N
+HTX0_N
 Text GLabel 19100 10200 0    60   Input ~ 0
-HTXCP
+HTXC_P
 Text GLabel 19100 10300 0    60   Input ~ 0
-HTXCN
+HTXC_N
 Text GLabel 19100 10400 0    60   Input ~ 0
 HCEC
 Text GLabel 19100 10500 0    60   Input ~ 0
 HSCL
-Text GLabel 19600 9700 2    60   Input ~ 0
+Text GLabel 20950 10350 0    60   Input ~ 0
 UART1_TX
-Text GLabel 19600 9800 2    60   Input ~ 0
+Text GLabel 20950 10250 0    60   Input ~ 0
 UART1_RX
-Text GLabel 19600 10300 2    60   Input ~ 0
+Text GLabel 19600 10100 2    60   Input ~ 0
 MICIN1
 Text GLabel 19600 10400 2    60   Input ~ 0
 HHPD
@@ -1313,17 +1287,6 @@ Text GLabel 21450 9650 2    60   Input ~ 0
 TWI0_SDA
 Text GLabel 21450 9750 2    60   Input ~ 0
 NMI_N
-$Comp
-L GND #PWR028
-U 1 1 56631752
-P 5800 13800
-F 0 "#PWR028" H 5800 13550 50  0001 C CNN
-F 1 "GND" H 5800 13650 50  0000 C CNN
-F 2 "" H 5800 13800 50  0000 C CNN
-F 3 "" H 5800 13800 50  0000 C CNN
-	1    5800 13800
-	1    0    0    -1  
-$EndComp
 Text GLabel 13000 12600 0    60   Input ~ 0
 VCC_33
 Text GLabel 17050 2750 2    60   Input ~ 0
@@ -1339,15 +1302,14 @@ F 3 "" H 18500 9100 50  0000 C CNN
 	1    18500 9100
 	-1   0    0    1   
 $EndComp
-Text GLabel 19600 9900 2    60   Input ~ 0
+Text GLabel 19600 9700 2    60   Input ~ 0
 UD0_P
-Text GLabel 19600 10000 2    60   Input ~ 0
+Text GLabel 19600 9800 2    60   Input ~ 0
 UD0_N
-Text GLabel 19600 10100 2    60   Input ~ 0
+Text GLabel 19600 9900 2    60   Input ~ 0
 UD1_P
-Text GLabel 19600 10200 2    60   Input ~ 0
+Text GLabel 19600 10000 2    60   Input ~ 0
 UD1_N
-NoConn ~ 1050 14000
 Text GLabel 17700 11200 2    60   Input ~ 0
 VCC_12_CPU
 $Comp
@@ -1382,8 +1344,6 @@ F 3 "" H 21450 8250 60  0000 C CNN
 	1    21450 8250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5650 13500 2    60   Input ~ 0
-VCC_33
 Text GLabel 12850 10800 0    60   Input ~ 0
 VCC_12_INT
 $Comp
@@ -1751,9 +1711,7 @@ Connection ~ 10250 8450
 Wire Wire Line
 	800  9300 800  9350
 Wire Wire Line
-	1050 13400 900  13400
-Wire Wire Line
-	900  13400 900  13450
+	300  13400 1050 13400
 Wire Wire Line
 	1050 13800 850  13800
 Wire Wire Line
@@ -2062,15 +2020,6 @@ Wire Wire Line
 	20950 10450 20800 10450
 Wire Wire Line
 	20800 10450 20800 10500
-Wire Wire Line
-	5800 13800 5650 13800
-Wire Wire Line
-	5650 13700 5800 13700
-Wire Wire Line
-	5800 13600 5800 13800
-Wire Wire Line
-	5650 13600 5800 13600
-Connection ~ 5800 13700
 Connection ~ 17700 11700
 Wire Wire Line
 	17700 11000 17700 10100
@@ -2148,4 +2097,75 @@ Wire Wire Line
 Connection ~ 19650 8600
 Wire Wire Line
 	17700 11200 17700 11750
+Text GLabel 1050 14000 0    60   Input ~ 0
+VCC_33
+$Comp
+L ALLWINNERA10/TFBGA441 U1
+U 1 1 563E55B6
+P 3350 12250
+F 0 "U1" H 3350 12250 60  0000 C CNN
+F 1 "ALLWINNERA10/TFBGA441" H 3350 12100 60  0000 C CNN
+F 2 "441fbga-p08:441TFBGA-P0.8" H 3350 12250 60  0001 C CNN
+F 3 "" H 3350 12250 60  0000 C CNN
+	1    3350 12250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 14200 2    60   Input ~ 0
+HCEC
+Text GLabel 5650 14100 2    60   Input ~ 0
+HHPD
+Text GLabel 5650 14000 2    60   Input ~ 0
+HSDA
+Text GLabel 5650 13900 2    60   Input ~ 0
+HSCL
+$Comp
+L GND #PWR?
+U 1 1 56B096CE
+P 6100 13700
+F 0 "#PWR?" H 6100 13450 50  0001 C CNN
+F 1 "GND" H 6100 13550 50  0000 C CNN
+F 2 "" H 6100 13700 50  0000 C CNN
+F 3 "" H 6100 13700 50  0000 C CNN
+	1    6100 13700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 13400 2    60   Input ~ 0
+HTXC_N
+Text GLabel 5650 13300 2    60   Input ~ 0
+HTXC_P
+Text GLabel 5650 13200 2    60   Input ~ 0
+HTX2_N
+Text GLabel 5650 13100 2    60   Input ~ 0
+HTX2_P
+Text GLabel 5650 13000 2    60   Input ~ 0
+HTX1_N
+Text GLabel 5650 12900 2    60   Input ~ 0
+HTX1_P
+Text GLabel 5650 12800 2    60   Input ~ 0
+HTX0_N
+Text GLabel 5650 12700 2    60   Input ~ 0
+HTX0_P
+Connection ~ 5800 13700
+Wire Wire Line
+	5650 13600 5800 13600
+Wire Wire Line
+	5800 13600 5800 13800
+Wire Wire Line
+	5650 13700 6100 13700
+Wire Wire Line
+	5800 13800 5650 13800
+Text GLabel 5650 13500 2    60   Input ~ 0
+VCC_33
+Text GLabel 19600 10200 2    60   Input ~ 0
+HPOUTL
+Text GLabel 19600 10300 2    60   Input ~ 0
+HPOUTR
+Text GLabel 1050 12600 0    60   Input ~ 0
+MICIN1
+Wire Wire Line
+	300  13400 300  13450
+Text GLabel 1050 13600 0    60   Input ~ 0
+HPOUTR
+Text GLabel 1050 13700 0    60   Input ~ 0
+HPOUTL
 $EndSCHEMATC
