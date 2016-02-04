@@ -44,6 +44,8 @@ LIBS:sy8008baac
 LIBS:armory
 LIBS:stm32-48pin-devBoard
 LIBS:OPL-Inductor
+LIBS:tinycom
+LIBS:hdmi-swm-19
 LIBS:tinycom-base-cache
 EELAYER 25 0
 EELAYER END
@@ -186,9 +188,9 @@ F 3 "" H 6550 2300 60  0000 C CNN
 $EndComp
 Text GLabel 4900 6850 2    60   Input ~ 0
 MICIN1
-Text GLabel 4900 6650 2    60   Input ~ 0
+Text GLabel 4900 6450 2    60   Input ~ 0
 UD1_P
-Text GLabel 4900 6550 2    60   Input ~ 0
+Text GLabel 4900 6350 2    60   Input ~ 0
 UD0_N
 $Comp
 L GND #PWR09
@@ -542,9 +544,9 @@ Text GLabel 6600 6750 2    60   Input ~ 0
 SDC0_D0
 Text GLabel 6600 6650 2    60   Input ~ 0
 SDC0_D1
-Text GLabel 4900 6350 2    60   Input ~ 0
+Text GLabel 6100 6950 0    60   Input ~ 0
 UART1_RX
-Text GLabel 4900 6450 2    60   Input ~ 0
+Text GLabel 4900 6250 2    60   Input ~ 0
 UD0_P
 $Comp
 L rainsun-antenna U5
@@ -569,7 +571,7 @@ Text GLabel 6600 6350 2    60   Input ~ 0
 TWI0_SDA
 Text GLabel 6600 6250 2    60   Input ~ 0
 TWI0_SCK
-Text GLabel 4900 6250 2    60   Input ~ 0
+Text GLabel 6100 7050 0    60   Input ~ 0
 UART1_TX
 $Comp
 L OLIMEX_IC_AXP209-RESCUE-tinycom-base-RESCUE-tinycom-base U2
@@ -804,7 +806,6 @@ F 3 "" H 1150 2400 50  0000 C CNN
 $EndComp
 NoConn ~ 3000 5350
 NoConn ~ 3000 5050
-NoConn ~ 3000 4750
 NoConn ~ 3000 4450
 $Comp
 L GND #PWR028
@@ -875,7 +876,7 @@ F 3 "" H 850 3800 50  0000 C CNN
 	1    850  3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 6750 2    60   Input ~ 0
+Text GLabel 4900 6550 2    60   Input ~ 0
 UD1_N
 $Comp
 L R_Small R7
@@ -1469,5 +1470,7 @@ Wire Wire Line
 Connection ~ 950  1600
 NoConn ~ 1050 1900
 Text GLabel 3000 2050 2    60   Input ~ 0
+IPSOUT
+Text GLabel 3000 4750 2    60   Input ~ 0
 IPSOUT
 $EndSCHEMATC
