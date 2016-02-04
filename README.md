@@ -8,36 +8,54 @@ A very small and low cost modular computer.
 ### Specifications
 
 - Dimensions: 4x4 cm
-- CPU: Allwinner A13
+- CPU: Allwinner A13 (ARM Cortex-A8 @ 1Ghz, 55nm process)
 - Memory: 512MB DDR3 SDRAM
 - Ports: SD-card, serial, USBx2, audio in/out 
 - PCB: 4 layers, 6 mil traces, 12 mil vias
 
 ### Pictures
 
-![TinyCom-a13 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-front.png)
+![TinyCom-A13 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-front.png)
 
-![TinyCom-a13 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-back.png)
+![TinyCom-A13 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-back.png)
 
-![TinyCom-a13 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-layout.png)
+![TinyCom-A13 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-layout.png)
 
 ## TinyCom-A20
 
 ### Specifications
 
 - Dimensions: 4x4 cm
-- CPU: Allwinner A20
+- CPU: Allwinner A20 (Dual-Core ARM Cortex-A7 @ 1Ghz, 40nm process)
 - Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
 - PCB: 4 layers, 6 mil traces, 12 mil vias
 - Ports: SD-card, serial, USBx3, HDMI
 
 ### Pictures
 
-![TinyCom-a20 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-front.png)
+![TinyCom-A20 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-front.png)
 
-![TinyCom-a20 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-back.png)
+![TinyCom-A20 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-back.png)
 
-![TinyCom-a20 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-layout.png)
+![TinyCom-A20 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-layout.png)
+
+## TinyCom-A64
+
+### Specifications
+
+- Dimensions: 4x4 cm
+- CPU: Allwinner A64 (Quad-Core ARM Cortex-A53 @ 1Ghz, 28nm process)
+- Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
+- PCB: 4 layers, 6 mil traces, 12 mil vias
+- Ports: SD-card, serial, USBx3, HDMI
+
+### Pictures
+
+![TinyCom-A64 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-front.png)
+
+![TinyCom-A64 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-back.png)
+
+![TinyCom-A64 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-layout.png)
 
 ## TinyCom-Base
 
