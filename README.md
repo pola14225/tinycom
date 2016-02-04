@@ -63,11 +63,11 @@ A very small and low cost modular computer.
 
 ### Pictures
 
-![TinyCom-Video Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-video-front.png)
+![TinyCom-Video Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-front.png)
 
-![TinyCom-Video Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-video-back.png)
+![TinyCom-Video Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-back.png)
 
-![TinyCom-Video Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-video-layout.png)
+![TinyCom-Video Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-layout.png)
 
 ## TinyCom-Audio
 
