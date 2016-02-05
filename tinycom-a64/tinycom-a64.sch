@@ -616,7 +616,7 @@ Connection ~ 14400 1750
 Wire Wire Line
 	19500 8100 19500 8350
 Wire Wire Line
-	19500 8700 19500 8550
+	19500 8550 19500 8700
 Wire Wire Line
 	20300 8100 20300 8350
 Wire Wire Line
@@ -656,13 +656,13 @@ Wire Wire Line
 	19200 8350 19200 8300
 Connection ~ 19500 8300
 Wire Wire Line
-	19350 8350 19350 8300
+	19350 8300 19350 8350
 Connection ~ 19350 8300
 Wire Wire Line
 	19200 8550 19200 8600
 Connection ~ 19500 8600
 Wire Wire Line
-	19350 8550 19350 8600
+	19350 8600 19350 8550
 Connection ~ 19350 8600
 Wire Wire Line
 	19050 8300 19050 8350
@@ -752,39 +752,33 @@ F 3 "" H 20900 8850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 19100 9600 0    60   Input ~ 0
-HTX2P
+HTX2_P
 Text GLabel 19100 9700 0    60   Input ~ 0
-HTX2N
+HTX2_N
 Text GLabel 19100 9800 0    60   Input ~ 0
-HTX1P
+HTX1_P
 Text GLabel 19100 9900 0    60   Input ~ 0
-HTX1N
+HTX1_N
 Text GLabel 19100 10000 0    60   Input ~ 0
-HTX0P
+HTX0_P
 Text GLabel 19100 10100 0    60   Input ~ 0
-HTX0N
+HTX0_N
 Text GLabel 19100 10200 0    60   Input ~ 0
-HTXCP
+HTXC_P
 Text GLabel 19100 10300 0    60   Input ~ 0
-HTXCN
+HTXC_N
 Text GLabel 19100 10400 0    60   Input ~ 0
 HCEC
 Text GLabel 19100 10500 0    60   Input ~ 0
 HSCL
-Text GLabel 19600 9700 2    60   Input ~ 0
-MICIN1
 Text GLabel 19600 9800 2    60   Input ~ 0
 UD0_N
-Text GLabel 19600 9900 2    60   Input ~ 0
+Text GLabel 19600 9700 2    60   Input ~ 0
 UD0_P
 Text GLabel 19600 10000 2    60   Input ~ 0
 UD1_N
-Text GLabel 19600 10100 2    60   Input ~ 0
+Text GLabel 19600 9900 2    60   Input ~ 0
 UD1_P
-Text GLabel 19600 10200 2    60   Input ~ 0
-UD2_N
-Text GLabel 19600 10300 2    60   Input ~ 0
-UD2_P
 Text GLabel 19600 10400 2    60   Input ~ 0
 HHPD
 Text GLabel 19600 10500 2    60   Input ~ 0
@@ -805,23 +799,17 @@ Wire Wire Line
 Wire Wire Line
 	19600 9450 19800 9450
 Text GLabel 20650 9600 0    60   Input ~ 0
-VCC_33
+VCC_11_CPU
 Text GLabel 20650 9700 0    60   Input ~ 0
-VCC_11
+VCC_11_INT
 Text GLabel 20650 9800 0    60   Input ~ 0
-VCC_15
+VCC_33
 Text GLabel 20650 9900 0    60   Input ~ 0
-VCC_30
-Text GLabel 20650 10000 0    60   Input ~ 0
-HPCOM
-Text GLabel 20650 10100 0    60   Input ~ 0
-HPL
-Text GLabel 20650 10200 0    60   Input ~ 0
-HPR
+VCC_15
 Text GLabel 20650 10300 0    60   Input ~ 0
-UART0_RX
+UART1_RX
 Text GLabel 20650 10400 0    60   Input ~ 0
-UART0_TX
+UART1_TX
 $Comp
 L GND #PWR09
 U 1 1 566278FC
@@ -849,14 +837,6 @@ Text GLabel 21150 10400 2    60   Input ~ 0
 SDC0_D3
 Text GLabel 21150 10500 2    60   Input ~ 0
 SDC0_D2
-Text GLabel 21150 9600 2    60   Input ~ 0
-SATA_TXP
-Text GLabel 21150 9700 2    60   Input ~ 0
-SATA_TXM
-Text GLabel 21150 9800 2    60   Input ~ 0
-SATA_RXP
-Text GLabel 21150 9900 2    60   Input ~ 0
-SATA_RXM
 Text GLabel 17050 2750 2    60   Input ~ 0
 SA14
 $Comp
@@ -1133,9 +1113,9 @@ UD0_N
 Text GLabel 6350 8000 2    60   Input ~ 0
 UD0_P
 Text GLabel 6350 8100 2    60   Input ~ 0
-UD2_N
+UD1_N
 Text GLabel 6350 8200 2    60   Input ~ 0
-UD2_P
+UD1_P
 Wire Wire Line
 	1650 2050 1650 2100
 Wire Wire Line
@@ -1150,7 +1130,7 @@ U 1 1 5669666E
 P 1200 2050
 F 0 "Y1" H 1200 2200 50  0000 C CNN
 F 1 "Crystal" H 1200 1900 50  0000 C CNN
-F 2 "Crystals:crystal_FA238-TSX3225" H 1200 2050 50  0000 C CNN
+F 2 "opendous:Crystal_5x3.2mm" H 1200 2050 50  0000 C CNN
 F 3 "" H 1200 2050 50  0000 C CNN
 	1    1200 2050
 	-1   0    0    -1  
@@ -1207,9 +1187,9 @@ F 3 "" H 1350 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6350 8800 2    60   Input ~ 0
-UART0_TX
+UART3_TX
 Text GLabel 6350 8900 2    60   Input ~ 0
-UART0_RX
+UART3_RX
 $Comp
 L GND #PWR012
 U 1 1 56696AA6
@@ -1222,7 +1202,7 @@ F 3 "" H 8250 15850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 15850 8250 9750
+	8250 9750 8250 15850
 Wire Wire Line
 	8250 9750 8400 9750
 Wire Wire Line
@@ -1406,13 +1386,13 @@ Wire Wire Line
 	8400 15750 8250 15750
 Connection ~ 8250 15750
 Wire Wire Line
-	9800 12350 9900 12350
+	9900 12350 9800 12350
 Wire Wire Line
-	9900 12350 9900 10650
+	9900 10650 9900 12350
 Wire Wire Line
 	9900 10650 9800 10650
 Text GLabel 9900 10650 2    60   Input ~ 0
-VCC_11
+VCC_11_CPU
 Wire Wire Line
 	9800 10750 9900 10750
 Connection ~ 9900 10750
@@ -1510,9 +1490,9 @@ Wire Wire Line
 	9800 15650 9950 15650
 Connection ~ 9950 15650
 Wire Wire Line
-	10050 5950 9950 5950
+	9950 5950 10050 5950
 Wire Wire Line
-	9950 5950 9950 4950
+	9950 4950 9950 5950
 Wire Wire Line
 	9950 4950 10050 4950
 Text GLabel 9950 4950 0    60   Input ~ 0
@@ -1590,7 +1570,7 @@ Wire Wire Line
 	9800 14150 9900 14150
 Connection ~ 9900 14150
 Text GLabel 9900 13150 2    60   Input ~ 0
-VCC_11
+VCC_11_INT
 Text GLabel 6350 7800 2    60   Input ~ 0
 VCC_33
 Text GLabel 4550 9000 0    60   Input ~ 0
@@ -1608,17 +1588,17 @@ VCC_33
 Text GLabel 5550 1950 2    60   Input ~ 0
 VCC_33
 Text GLabel 3050 1700 2    60   Input ~ 0
-VCC_11
+VCC_11_INT
 Text GLabel 3050 2100 2    60   Input ~ 0
 VCC_33
 Text GLabel 3050 2400 2    60   Input ~ 0
-VCC_30
+VCC_13_RTC
 Text GLabel 3050 2700 2    60   Input ~ 0
-VCC_30
+VCC_33
 Text GLabel 1500 7950 0    60   Input ~ 0
 VCC_30
 Text GLabel 9800 10250 2    60   Input ~ 0
-VCC_11
+VCC_11_CPU
 Wire Wire Line
 	9800 9750 9900 9750
 Wire Wire Line
@@ -1627,4 +1607,70 @@ Wire Wire Line
 	9900 9850 9800 9850
 Text GLabel 9900 9750 2    60   Input ~ 0
 VCC_33
+Text GLabel 20650 10000 0    60   Input ~ 0
+VCC_13_RTC
+Text GLabel 20650 10100 0    60   Input ~ 0
+VCC_30_ANL
+Text GLabel 4550 7800 0    60   Input ~ 0
+HTXC_P
+Text GLabel 4550 7900 0    60   Input ~ 0
+HTXC_N
+Text GLabel 4550 8000 0    60   Input ~ 0
+HTX0_P
+Text GLabel 4550 8100 0    60   Input ~ 0
+HTX0_N
+Text GLabel 4550 8200 0    60   Input ~ 0
+HTX1_P
+Text GLabel 4550 8300 0    60   Input ~ 0
+HTX1_N
+Text GLabel 4550 8400 0    60   Input ~ 0
+HTX2_P
+Text GLabel 4550 8500 0    60   Input ~ 0
+HTX2_N
+Text GLabel 4550 8600 0    60   Input ~ 0
+HCEC
+Text GLabel 4550 8700 0    60   Input ~ 0
+HHPD
+Text GLabel 4550 8800 0    60   Input ~ 0
+HSCL
+Text GLabel 4550 8900 0    60   Input ~ 0
+HSDA
+$Comp
+L CONN_01X03 P3
+U 1 1 56B45F5B
+P 17350 9750
+F 0 "P3" H 17350 9950 50  0000 C CNN
+F 1 "CONN_01X03" V 17450 9750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 17350 9750 50  0000 C CNN
+F 3 "" H 17350 9750 50  0000 C CNN
+	1    17350 9750
+	-1   0    0    1   
+$EndComp
+Text GLabel 17550 9650 2    60   Input ~ 0
+UART3_RX
+Text GLabel 17550 9750 2    60   Input ~ 0
+UART3_TX
+$Comp
+L GND #PWR014
+U 1 1 56B46376
+P 17650 9900
+F 0 "#PWR014" H 17650 9650 50  0001 C CNN
+F 1 "GND" H 17650 9750 50  0000 C CNN
+F 2 "" H 17650 9900 50  0000 C CNN
+F 3 "" H 17650 9900 50  0000 C CNN
+	1    17650 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17550 9850 17650 9850
+Wire Wire Line
+	17650 9850 17650 9900
+Text GLabel 7150 11950 2    60   Input ~ 0
+UART2_TX
+Text GLabel 7150 12050 2    60   Input ~ 0
+UART2_RX
+Text GLabel 10750 7750 2    60   Input ~ 0
+UART1_TX
+Text GLabel 10750 7850 2    60   Input ~ 0
+UART1_RX
 $EndSCHEMATC
