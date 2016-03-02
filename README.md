@@ -57,7 +57,7 @@ A very small and low cost modular computer.
 
 ![TinyCom-A64 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-layout.png)
 
-## TinyCom-Base
+## TinyCom-USB
 
 ### Specifications
 
@@ -75,7 +75,7 @@ A very small and low cost modular computer.
 
 ![TinyCom-base Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-layout.png)
 
-## TinyCom-Video
+## TinyCom-HDMI
 
 - Connectors:  USB-OTG, SD-card, HDMI
 
