@@ -5,6 +5,11 @@ A very small and low cost modular computer.
 
 Modules:
 - [TinyCom-A13](#tinycom-a13)
+- [TinyCom-A20](#tinycom-a20)
+- [TinyCom-A64](#tinycom-a64)
+- [TinyCom-USB](#tinycom-usb)
+- [TinyCom-HDMI](#tinycom-hdmi)
+- [TinyCom-Pilot](#tinycom-pilot)
 
 ## TinyCom-A13
 
