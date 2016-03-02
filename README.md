@@ -3,6 +3,9 @@
 A very small and low cost modular computer.
 (work in progress...)
 
+Modules:
+- [TinyCom-A13](#tinycom-a13)
+
 ## TinyCom-A13
 
 ### Specifications
