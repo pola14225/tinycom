@@ -1,6 +1,6 @@
 # TinyCom
 
-A very small and low cost modular computer.
+A very small and low cost modular computer system.
 (work in progress...)
 
 Modules:
