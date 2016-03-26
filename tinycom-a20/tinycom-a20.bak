@@ -928,30 +928,6 @@ Text GLabel 850  10700 0    60   Input ~ 0
 VCC_33
 Text GLabel 850  10900 0    60   Input ~ 0
 VCC_12_INT
-Text GLabel 650  9600 0    60   Input ~ 0
-VCC_33
-$Comp
-L R_Small R8
-U 1 1 5643F633
-P 700 9700
-F 0 "R8" H 730 9720 50  0000 L CNN
-F 1 "47K" H 730 9660 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 700 9700 60  0001 C CNN
-F 3 "" H 700 9700 60  0000 C CNN
-	1    700  9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R9
-U 1 1 5643FBFC
-P 850 9700
-F 0 "R9" H 880 9720 50  0000 L CNN
-F 1 "47K" H 880 9660 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 850 9700 60  0001 C CNN
-F 3 "" H 850 9700 60  0000 C CNN
-	1    850  9700
-	1    0    0    -1  
-$EndComp
 Text GLabel 19500 8100 0    60   Input ~ 0
 VCC_33
 $Comp
@@ -1177,9 +1153,9 @@ F 3 "" H 900 9050 60  0000 C CNN
 $EndComp
 Text GLabel 1100 9150 0    60   Input ~ 0
 UBOOT_SEL
-Text GLabel 700  9900 0    60   Input ~ 0
-RESET#
-Text GLabel 600  9750 0    60   Input ~ 0
+Text GLabel 900  9800 0    60   Input ~ 0
+RESET_N
+Text GLabel 900  9700 0    60   Input ~ 0
 NMI_N
 Text GLabel 10350 8450 2    60   Input ~ 0
 VCC_12_INT
@@ -1225,10 +1201,6 @@ Text GLabel 19100 10400 0    60   Input ~ 0
 HCEC
 Text GLabel 19100 10500 0    60   Input ~ 0
 HSCL
-Text GLabel 20950 10350 0    60   Input ~ 0
-UART1_TX
-Text GLabel 20950 10250 0    60   Input ~ 0
-UART1_RX
 Text GLabel 19600 10100 2    60   Input ~ 0
 MICIN1
 Text GLabel 19600 10400 2    60   Input ~ 0
@@ -1313,10 +1285,10 @@ UD1_N
 Text GLabel 17700 11200 2    60   Input ~ 0
 VCC_12_CPU
 $Comp
-L GND #PWR029
+L GND #PWR028
 U 1 1 567EBA12
 P 18900 9250
-F 0 "#PWR029" H 18900 9000 50  0001 C CNN
+F 0 "#PWR028" H 18900 9000 50  0001 C CNN
 F 1 "GND" H 18900 9100 50  0000 C CNN
 F 2 "" H 18900 9250 60  0000 C CNN
 F 3 "" H 18900 9250 60  0000 C CNN
@@ -1334,10 +1306,10 @@ TWI0_SDA
 Text GLabel 21450 7700 0    60   Input ~ 0
 VCC_12_INT
 $Comp
-L GND #PWR030
+L GND #PWR029
 U 1 1 5685339B
 P 21450 8250
-F 0 "#PWR030" H 21450 8000 50  0001 C CNN
+F 0 "#PWR029" H 21450 8000 50  0001 C CNN
 F 1 "GND" H 21450 8100 50  0000 C CNN
 F 2 "" H 21450 8250 60  0000 C CNN
 F 3 "" H 21450 8250 60  0000 C CNN
@@ -1915,22 +1887,9 @@ Wire Wire Line
 	950  9600 1050 9600
 Connection ~ 950  9500
 Wire Wire Line
-	1050 9800 950  9800
-Wire Wire Line
-	950  9800 950  9900
-Wire Wire Line
-	950  9900 700  9900
-Wire Wire Line
-	700  9900 700  9800
+	900  9800 1050 9800
 Wire Wire Line
 	1050 9700 900  9700
-Wire Wire Line
-	900  9700 900  9800
-Wire Wire Line
-	900  9800 600  9800
-Wire Wire Line
-	650  9600 850  9600
-Connection ~ 700  9600
 Wire Wire Line
 	19500 8100 19500 8350
 Wire Wire Line
@@ -2005,9 +1964,6 @@ Wire Wire Line
 	1000 9200 1100 9200
 Wire Wire Line
 	1100 9200 1100 9050
-Wire Wire Line
-	600  9800 600  9750
-Connection ~ 850  9800
 Wire Wire Line
 	9950 8450 9050 8450
 Wire Wire Line
@@ -2119,10 +2075,10 @@ HSDA
 Text GLabel 5650 13900 2    60   Input ~ 0
 HSCL
 $Comp
-L GND #PWR?
+L GND #PWR030
 U 1 1 56B096CE
 P 6100 13700
-F 0 "#PWR?" H 6100 13450 50  0001 C CNN
+F 0 "#PWR030" H 6100 13450 50  0001 C CNN
 F 1 "GND" H 6100 13550 50  0000 C CNN
 F 2 "" H 6100 13700 50  0000 C CNN
 F 3 "" H 6100 13700 50  0000 C CNN
@@ -2168,4 +2124,6 @@ Text GLabel 1050 13600 0    60   Input ~ 0
 HPOUTR
 Text GLabel 1050 13700 0    60   Input ~ 0
 HPOUTL
+Text GLabel 21450 9850 2    60   Input ~ 0
+RESET_N
 $EndSCHEMATC
