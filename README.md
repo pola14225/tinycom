@@ -8,7 +8,7 @@ Modules:
 - [TinyCom-A20](#tinycom-a20)
 - [TinyCom-A64](#tinycom-a64)
 - [TinyCom-USB](#tinycom-usb)
-- [TinyCom-HDMI](#tinycom-hdmi)
+- [TinyCom-HDMI-USB](#tinycom-hdmi-usb)
 - [TinyCom-Pilot](#tinycom-pilot)
 
 ## TinyCom-A13
@@ -83,9 +83,9 @@ Modules:
 
 ![TinyCom-base Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-layout.png)
 
-## TinyCom-HDMI
+## TinyCom-HDMI-USB
 
-- Connectors:  USB-OTG, SD-card, HDMI
+- Connectors:  SD-card, USB, HDMI
 
 ### Pictures
 
