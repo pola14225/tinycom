@@ -69,7 +69,7 @@ Modules:
 
 ### Specifications
 
-- Connectors:  USBx2, SD-card
+- Connectors:  SD-card, USBx2
 - Network: WIFI with ceramic antenna
 - RTC backup battery
 - Board temperature sensor
@@ -77,23 +77,23 @@ Modules:
 
 ### Pictures
 
-![TinyCom-base Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-front.png)
+![TinyCom-USB Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-front.png)
 
-![TinyCom-base Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-back.png)
+![TinyCom-USB Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-back.png)
 
-![TinyCom-base Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-base/tinycom-base-layout.png)
+![TinyCom-USB Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-layout.png)
 
 ## TinyCom-HDMI-USB
 
-- Connectors:  SD-card, USB, HDMI
+- Connectors:  SD-card, USBx2, HDMI
 
 ### Pictures
 
-![TinyCom-Video Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-front.png)
+![TinyCom-HDMI Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hdmi-usb-front.png)
 
-![TinyCom-Video Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-back.png)
+![TinyCom-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hsmi-usb-back.png)
 
-![TinyCom-Video Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-video/tinycom-video-layout.png)
+![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hdmi-usb-layout.png)
 
 ## TinyCom-Pilot
 
