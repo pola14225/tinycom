@@ -91,7 +91,7 @@ Modules:
 
 ![TinyCom-HDMI Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hdmi-usb-front.png)
 
-![TinyCom-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hsmi-usb-back.png)
+![TinyCom-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hdmi-usb-back.png)
 
 ![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi-usb/tinycom-hdmi-usb-layout.png)
 
