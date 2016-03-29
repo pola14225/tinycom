@@ -110,7 +110,7 @@ Modules:
 
 ## TODO
 
-tinycom-audio, tinycom-GPS
+tinycom-audio, tinycom-GPS, tinycom-FPGA
 
 ## Contact
 
