@@ -775,7 +775,6 @@ NoConn ~ 3000 1750
 NoConn ~ 1400 3050
 Text GLabel 1350 4150 0    60   Input ~ 0
 IPSOUT
-NoConn ~ 1400 4450
 $Comp
 L R_Small R6
 U 1 1 567E3EEF
@@ -1425,11 +1424,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 2250 6550 2300
 Wire Wire Line
-	6100 1100 6050 1100
-Wire Wire Line
-	6050 1100 6050 1000
-Connection ~ 6050 1000
-Wire Wire Line
 	4900 6000 5050 6000
 Wire Wire Line
 	8550 4300 7850 4300
@@ -2057,4 +2051,10 @@ F 3 "" H 5100 3150 60  0000 C CNN
 	1    5100 3150
 	1    0    0    1   
 $EndComp
+Text GLabel 1400 4450 0    60   Input ~ 0
+EXTEN
+Text GLabel 5600 1100 0    60   Input ~ 0
+EXTEN
+Wire Wire Line
+	5600 1100 6100 1100
 $EndSCHEMATC
