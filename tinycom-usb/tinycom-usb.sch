@@ -1464,13 +1464,13 @@ Connection ~ 8300 1000
 Wire Wire Line
 	8400 1300 8400 1500
 Wire Wire Line
-	8400 1500 7950 1500
+	7950 1500 8600 1500
 Wire Wire Line
 	7350 1000 7250 1000
 Wire Wire Line
 	7800 2050 7850 2050
 Wire Wire Line
-	8250 2050 8700 2050
+	8250 2050 8900 2050
 Wire Wire Line
 	8350 2050 8350 2100
 Wire Wire Line
@@ -1481,7 +1481,7 @@ Connection ~ 8350 2050
 Wire Wire Line
 	8700 2400 8700 2600
 Wire Wire Line
-	8700 2600 8350 2600
+	8350 2600 8900 2600
 Wire Wire Line
 	8350 2550 8350 2700
 Connection ~ 8350 2600
@@ -1538,7 +1538,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1000 6100 1000
 Wire Wire Line
-	7750 1000 8400 1000
+	7750 1000 8600 1000
 Wire Wire Line
 	3000 2350 3150 2350
 Wire Wire Line
@@ -2074,4 +2074,38 @@ Wire Wire Line
 	5800 3600 5850 3600
 Wire Wire Line
 	6300 3600 6250 3600
+$Comp
+L C_Small C31
+U 1 1 570B7756
+P 8600 1200
+F 0 "C31" H 8610 1270 50  0000 L CNN
+F 1 "0.1uF" H 8610 1120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8600 1200 60  0001 C CNN
+F 3 "" H 8600 1200 60  0000 C CNN
+	1    8600 1200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8600 1000 8600 1100
+Connection ~ 8400 1000
+Wire Wire Line
+	8600 1500 8600 1300
+Connection ~ 8400 1500
+$Comp
+L C_Small C32
+U 1 1 570B7CE7
+P 8900 2300
+F 0 "C32" H 8910 2370 50  0000 L CNN
+F 1 "0.1uF" H 8910 2220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8900 2300 60  0001 C CNN
+F 3 "" H 8900 2300 60  0000 C CNN
+	1    8900 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8900 2050 8900 2200
+Connection ~ 8700 2050
+Wire Wire Line
+	8900 2600 8900 2400
+Connection ~ 8700 2600
 $EndSCHEMATC
