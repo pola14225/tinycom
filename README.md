@@ -8,7 +8,7 @@ Modules:
 - [TinyCom-A20](#tinycom-a20)
 - [TinyCom-A64](#tinycom-a64)
 - [TinyCom-USB](#tinycom-usb)
-- [TinyCom-USB-HDMI](#tinycom-usb-hdmi)
+- [TinyCom-HDMI](#tinycom-hdmi)
 - [TinyCom-Pilot](#tinycom-pilot)
 
 ## TinyCom-A13
@@ -83,17 +83,17 @@ Modules:
 
 ![TinyCom-USB Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-layout.png)
 
-## TinyCom-USB-HDMI
+## TinyCom-HDMI
 
 - Connectors:  SD-card, USBx2, HDMI
 
 ### Pictures
 
-![TinyCom-USB-HDMI Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb-hdmi/tinycom-usb-hdmi-front.png)
+![TinyCom-HDMI Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-front.png)
 
-![TinyCom-USB-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb-hdmi/tinycom-usb-hdmi-back.png)
+![TinyCom-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-back.png)
 
-![TinyCom-USB-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb-hdmi/tinycom-usb-hdmi-layout.png)
+![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-layout.png)
 
 ## TinyCom-Pilot
 
