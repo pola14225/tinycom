@@ -1,4 +1,4 @@
-update=Thu 31 Dec 2015 08:34:12 PM ICT
+update=Mon 02 May 2016 11:29:38 AM ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -76,3 +76,4 @@ LibName44=/home/datrus/stm32-48pin-devBoard/stm32-48pin-devBoard
 LibName45=/home/datrus/kicad-lib/OPL-Inductor
 LibName46=/home/datrus/stuff/tinycom/libs/tinycom
 LibName47=/home/datrus/stuff/tinycom/libs/hdmi-swm-19
+LibName48=/home/datrus/stuff/tinycom/libs/rclamp0524p
