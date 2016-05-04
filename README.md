@@ -1,7 +1,19 @@
 # TinyCom
 
 A very small and low cost modular computer system.
-(work in progress...)
+
+Features:
+- dimensions less than 5x5cm
+- single, dual or quad core 1GHz CPU
+- 512GB or 1GB RAM
+- USB 2.0
+- HDMI
+- WIFI + Bluetooth
+- SD-card
+- real-time clock with battery
+- on-board temperature sensor
+- made from widely available parts
+- can be assembled at home with DIY tools
 
 Modules:
 - [TinyCom-A13](#tinycom-a13)
@@ -35,7 +47,7 @@ Modules:
 
 - Dimensions: 4x4 cm
 - CPU: Allwinner A20 (Dual-Core ARM Cortex-A7 @ 1Ghz, 40nm process)
-- Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
+- Memory: 512MB DDR3 SDRAM
 - PCB: 4 layers, 6 mil traces, 12 mil vias
 - Ports: SD-card, serial, USBx3, HDMI
 
@@ -53,7 +65,7 @@ Modules:
 
 - Dimensions: 4x4 cm
 - CPU: Allwinner A64 (Quad-Core ARM Cortex-A53 @ 1Ghz, 28nm process)
-- Memory: 512MB DDR3 SDRAM + 4GB NAND Flash
+- Memory: 512MB DDR3 SDRAM
 - PCB: 4 layers, 6 mil traces, 12 mil vias
 - Ports: SD-card, serial, USBx3, HDMI
 
