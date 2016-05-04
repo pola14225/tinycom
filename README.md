@@ -1,6 +1,6 @@
 # TinyCom
 
-A very small and low cost modular computer system.
+A small and low cost modular computer system.
 
 Features:
 - dimensions less than 5x5cm
@@ -78,7 +78,7 @@ Modules:
 ### Specifications
 
 - Connectors:  SD-card, USBx2
-- Network: WIFI with ceramic antenna
+- Network: WIFI, Bluetooth, ceramic antenna
 - RTC backup battery
 - Board temperature sensor
 - PCB: 2 layers
@@ -93,7 +93,11 @@ Modules:
 
 ## TinyCom-HDMI
 
-- Connectors:  SD-card, USBx2, HDMI
+- Connectors:  SD-card, USB, HDMI
+- Network: WIFI, Bluetooth, ceramic antenna
+- RTC backup battery
+- Board temperature sensor
+- PCB: 2 layers
 
 ### Pictures
 
