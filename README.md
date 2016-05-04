@@ -6,7 +6,7 @@ Features:
 - dimensions less than 5x5cm
 - single, dual or quad core 1GHz CPU
 - 512GB or 1GB RAM
-- USB 2.0, HDMI, WIFI, Bluetooth, SD-card
+- USB, HDMI, WIFI, Bluetooth, SD-card
 - real-time clock with battery, on-board temperature sensor
 - made from widely available parts
 - can be assembled at home with DIY tools
