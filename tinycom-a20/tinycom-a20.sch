@@ -754,14 +754,11 @@ NoConn ~ 7050 11650
 NoConn ~ 7050 12050
 NoConn ~ 7050 12150
 NoConn ~ 7050 12250
-NoConn ~ 7050 12350
 NoConn ~ 7050 12450
-NoConn ~ 7050 12550
 NoConn ~ 7050 12650
 NoConn ~ 7050 12750
 NoConn ~ 7050 12850
 NoConn ~ 7050 12950
-NoConn ~ 7050 13050
 NoConn ~ 7050 13150
 NoConn ~ 7050 13250
 NoConn ~ 7050 13350
@@ -1202,7 +1199,7 @@ HCEC
 Text GLabel 19100 10500 0    60   Input ~ 0
 HSCL
 Text GLabel 19600 10100 2    60   Input ~ 0
-MICIN1
+I2S_SCK
 Text GLabel 19600 10400 2    60   Input ~ 0
 HHPD
 Text GLabel 19600 10500 2    60   Input ~ 0
@@ -2113,21 +2110,26 @@ Wire Wire Line
 Text GLabel 5650 13500 2    60   Input ~ 0
 VCC_33
 Text GLabel 19600 10200 2    60   Input ~ 0
-HPOUTL
+I2S_SD
 Text GLabel 19600 10300 2    60   Input ~ 0
-HPOUTR
-Text GLabel 1050 12600 0    60   Input ~ 0
-MICIN1
+I2S_LRCK
 Wire Wire Line
 	300  13400 300  13450
-Text GLabel 1050 13600 0    60   Input ~ 0
-HPOUTR
-Text GLabel 1050 13700 0    60   Input ~ 0
-HPOUTL
 Text GLabel 21450 9850 2    60   Input ~ 0
 RESET_N
 Text GLabel 20950 10150 0    60   Input ~ 0
 LDO3_28
 Text GLabel 20950 10250 0    60   Input ~ 0
 LDO4_28
+NoConn ~ 1050 12600
+NoConn ~ 1050 13600
+NoConn ~ 1050 13700
+Text GLabel 7050 12550 0    60   Input ~ 0
+I2S_LRCK
+Text GLabel 7050 13050 0    60   Input ~ 0
+I2S_SD
+Text GLabel 7050 12350 0    60   Input ~ 0
+I2S_SCK
+Text Notes 6150 11750 0    60   ~ 0
+TODO: check this! (i2s_sck)
 $EndSCHEMATC
