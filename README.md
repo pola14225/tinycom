@@ -107,6 +107,23 @@ Modules:
 
 ![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-layout.png)
 
+## TinyCom-MIC
+
+- high-performance omnidirectional MEMS microphone
+- Connectors:  SD-card, USB
+- Network: WIFI, Bluetooth, ceramic antenna
+- RTC backup battery
+- Board temperature sensor
+- PCB: 2 layers
+
+### Pictures
+
+![TinyCom-MIC Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-mic-front.png)
+
+![TinyCom-MIC Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-mic-back.png)
+
+![TinyCom-MIC Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-mic-layout.png)
+
 ## TinyCom-Pilot
 
 ### Specifications
@@ -122,7 +139,7 @@ Modules:
 
 ## TODO
 
-tinycom-audio, tinycom-GPS, tinycom-FPGA
+tinycom-GPS, tinycom-FPGA
 
 ## Contact
 
