@@ -46,7 +46,8 @@ LIBS:OPL-Inductor
 LIBS:tinycom
 LIBS:hdmi-swm-19
 LIBS:rclamp0524p
-LIBS:tinycom-mic-cache
+LIBS:ab2_audio
+LIBS:tinycom-audio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2128,4 +2129,15 @@ Wire Wire Line
 	1600 6600 900  6600
 Wire Wire Line
 	900  6600 900  6750
+$Comp
+L audio-jack U8
+U 1 1 572C7FF8
+P 9950 2750
+F 0 "U8" H 9950 2750 60  0000 C CNN
+F 1 "audio-jack" H 9950 2750 60  0000 C CNN
+F 2 "tinycom:audio-jack" H 9950 2750 60  0000 C CNN
+F 3 "" H 9950 2750 60  0000 C CNN
+	1    9950 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
