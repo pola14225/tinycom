@@ -17,7 +17,7 @@ Modules:
 - [TinyCom-A64](#tinycom-a64)
 - [TinyCom-USB](#tinycom-usb)
 - [TinyCom-HDMI](#tinycom-hdmi)
-- [TinyCom-MIC](#tinycom-mic)
+- [TinyCom-Audio](#tinycom-audio)
 - [TinyCom-Pilot](#tinycom-pilot)
 
 ## TinyCom-A13
@@ -108,7 +108,7 @@ Modules:
 
 ![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-layout.png)
 
-## TinyCom-MIC
+## TinyCom-Audio
 
 - high-performance omnidirectional MEMS microphone (x2)
 - Connectors:  SD-card, USB
@@ -119,11 +119,11 @@ Modules:
 
 ### Pictures
 
-![TinyCom-MIC Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-mic/tinycom-mic-front.png)
+![TinyCom-Audio Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-audio/tinycom-audio-front.png)
 
-![TinyCom-MIC Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-mic/tinycom-mic-back.png)
+![TinyCom-Audio Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-audio/tinycom-audio-back.png)
 
-![TinyCom-MIC Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-mic/tinycom-mic-layout.png)
+![TinyCom-Audio Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-audio/tinycom-audio-layout.png)
 
 ## TinyCom-Pilot
 
