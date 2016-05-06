@@ -17,7 +17,6 @@ Modules:
 - [TinyCom-A64](#tinycom-a64)
 - [TinyCom-USB](#tinycom-usb)
 - [TinyCom-HDMI](#tinycom-hdmi)
-- [TinyCom-Audio](#tinycom-audio)
 - [TinyCom-Pilot](#tinycom-pilot)
 
 ## TinyCom-A13
@@ -107,23 +106,6 @@ Modules:
 ![TinyCom-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-back.png)
 
 ![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-layout.png)
-
-## TinyCom-Audio
-
-- high-performance omnidirectional MEMS microphone (x2)
-- Connectors:  SD-card, USB
-- Network: WIFI, Bluetooth, ceramic antenna
-- RTC backup battery
-- Board temperature sensor
-- PCB: 2 layers
-
-### Pictures
-
-![TinyCom-Audio Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-audio/tinycom-audio-front.png)
-
-![TinyCom-Audio Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-audio/tinycom-audio-back.png)
-
-![TinyCom-Audio Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-audio/tinycom-audio-layout.png)
 
 ## TinyCom-Pilot
 
