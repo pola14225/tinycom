@@ -15,7 +15,6 @@ Modules:
 - [TinyCom-A20](#tinycom-a20)
 - [TinyCom-USB](#tinycom-usb)
 - [TinyCom-HDMI](#tinycom-hdmi)
-- [TinyCom-Pilot](#tinycom-pilot)
 
 ## TinyCom-A20
 
@@ -68,23 +67,6 @@ Modules:
 ![TinyCom-HDMI Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-back.png)
 
 ![TinyCom-HDMI Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-hdmi/tinycom-hdmi-layout.png)
-
-## TinyCom-Pilot
-
-### Specifications
-
-- Connectors:  USB, SD-card, PWMx6, GPS, Compass, UART, Camera
-- Sensors: Gyro/Accel (MPU6050), Barometer (MS5611)
-
-### Pictures
-
-![TinyCom-pilot 3D](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-3d.png)
-
-![TinyCom-pilot board](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-pilot/tinycom-pilot-board.png)
-
-## TODO
-
-tinycom-GPS, tinycom-FPGA
 
 ## Contact
 
