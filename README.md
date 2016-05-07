@@ -12,30 +12,11 @@ Features:
 - can be assembled at home with DIY tools
 
 Modules:
-- [TinyCom-A13](#tinycom-a13)
 - [TinyCom-A20](#tinycom-a20)
 - [TinyCom-A64](#tinycom-a64)
 - [TinyCom-USB](#tinycom-usb)
 - [TinyCom-HDMI](#tinycom-hdmi)
 - [TinyCom-Pilot](#tinycom-pilot)
-
-## TinyCom-A13
-
-### Specifications
-
-- Dimensions: 4x4 cm
-- CPU: Allwinner A13 (ARM Cortex-A8 @ 1Ghz, 55nm process)
-- Memory: 512MB DDR3 SDRAM
-- Ports: SD-card, serial, USBx2, audio in/out 
-- PCB: 4 layers, 6 mil traces, 12 mil vias
-
-### Pictures
-
-![TinyCom-A13 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-front.png)
-
-![TinyCom-A13 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-back.png)
-
-![TinyCom-A13 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a13/tinycom-a13-layout.png)
 
 ## TinyCom-A20
 
