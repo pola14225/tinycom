@@ -13,7 +13,6 @@ Features:
 
 Modules:
 - [TinyCom-A20](#tinycom-a20)
-- [TinyCom-A64](#tinycom-a64)
 - [TinyCom-USB](#tinycom-usb)
 - [TinyCom-HDMI](#tinycom-hdmi)
 - [TinyCom-Pilot](#tinycom-pilot)
@@ -35,24 +34,6 @@ Modules:
 ![TinyCom-A20 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-back.png)
 
 ![TinyCom-A20 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-layout.png)
-
-## TinyCom-A64
-
-### Specifications
-
-- Dimensions: 4x4 cm
-- CPU: Allwinner A64 (Quad-Core ARM Cortex-A53 @ 1Ghz, 28nm process)
-- Memory: 512MB DDR3 SDRAM
-- PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USBx3, HDMI
-
-### Pictures
-
-![TinyCom-A64 Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-front.png)
-
-![TinyCom-A64 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-back.png)
-
-![TinyCom-A64 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a64/tinycom-a64-layout.png)
 
 ## TinyCom-USB
 
