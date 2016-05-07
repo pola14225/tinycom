@@ -601,14 +601,6 @@ NoConn ~ 5850 2950
 NoConn ~ 5850 3050
 NoConn ~ 5850 3150
 NoConn ~ 5850 3250
-NoConn ~ 5850 3350
-NoConn ~ 5850 3450
-NoConn ~ 5850 3550
-NoConn ~ 5850 3650
-NoConn ~ 5850 3750
-NoConn ~ 5850 3850
-NoConn ~ 5850 3950
-NoConn ~ 5850 4050
 NoConn ~ 5850 4950
 NoConn ~ 5850 5050
 NoConn ~ 5850 5150
@@ -2132,4 +2124,47 @@ Text GLabel 7050 12350 0    60   Input ~ 0
 I2S_SCK
 Text Notes 6150 11750 0    60   ~ 0
 TODO: check this! (i2s_sck)
+$Comp
+L CONN_02X12 P5
+U 1 1 572DCF42
+P 20250 12300
+F 0 "P5" H 20250 12950 50  0000 C CNN
+F 1 "CONN_02X12" V 20250 12300 50  0000 C CNN
+F 2 "tinycom:fpc24" H 20250 11100 50  0000 C CNN
+F 3 "" H 20250 11100 50  0000 C CNN
+	1    20250 12300
+	1    0    0    -1  
+$EndComp
+Text GLabel 20500 11850 2    60   Input ~ 0
+CSI0_D1
+Text GLabel 20000 11950 0    60   Input ~ 0
+CSI0_D3
+Text GLabel 20000 12150 0    60   Input ~ 0
+CSI0_D0
+Text GLabel 20500 12150 2    60   Input ~ 0
+CSI0_D2
+Text GLabel 20500 12850 2    60   Input ~ 0
+CSI0_D4
+Text GLabel 20000 12850 0    60   Input ~ 0
+CSI0_D6
+Text GLabel 20000 12650 0    60   Input ~ 0
+CSI0_D5
+Text GLabel 20500 12550 2    60   Input ~ 0
+CSI0_D7
+Text GLabel 5850 3350 2    60   Input ~ 0
+CSI0_D0
+Text GLabel 5850 3450 2    60   Input ~ 0
+CSI0_D1
+Text GLabel 5850 3550 2    60   Input ~ 0
+CSI0_D2
+Text GLabel 5850 3650 2    60   Input ~ 0
+CSI0_D3
+Text GLabel 5850 3750 2    60   Input ~ 0
+CSI0_D4
+Text GLabel 5850 3850 2    60   Input ~ 0
+CSI0_D5
+Text GLabel 5850 3950 2    60   Input ~ 0
+CSI0_D6
+Text GLabel 5850 4050 2    60   Input ~ 0
+CSI0_D7
 $EndSCHEMATC
