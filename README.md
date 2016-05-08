@@ -12,9 +12,12 @@ Features:
 - can be assembled at home with DIY tools
 
 Modules:
+- TinyCom-A13
 - [TinyCom-A20](#tinycom-a20)
+- TinyCom-A64
 - [TinyCom-USB](#tinycom-usb)
 - [TinyCom-HDMI](#tinycom-hdmi)
+- TinyCom-Pilot
 
 ## TinyCom-A20
 
