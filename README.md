@@ -15,7 +15,7 @@ Modules:
 - TinyCom-A13
 - [TinyCom-A20](#tinycom-a20)
 - TinyCom-A64
-- [TinyCom-USB](#tinycom-usb)
+- TinyCom-USB
 - [TinyCom-HDMI](#tinycom-hdmi)
 - TinyCom-Pilot
 
@@ -36,24 +36,6 @@ Modules:
 ![TinyCom-A20 Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-back.png)
 
 ![TinyCom-A20 Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-a20/tinycom-a20-layout.png)
-
-## TinyCom-USB
-
-### Specifications
-
-- Connectors:  SD-card, USBx2
-- Network: WIFI, Bluetooth, ceramic antenna
-- RTC backup battery
-- Board temperature sensor
-- PCB: 2 layers
-
-### Pictures
-
-![TinyCom-USB Front](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-front.png)
-
-![TinyCom-USB Back](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-back.png)
-
-![TinyCom-USB Layout](https://raw.githubusercontent.com/nfco/tinycom/master/tinycom-usb/tinycom-usb-layout.png)
 
 ## TinyCom-HDMI
 
