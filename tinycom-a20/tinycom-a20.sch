@@ -1290,10 +1290,10 @@ TWI0_SDA
 Text GLabel 21450 7700 0    60   Input ~ 0
 VCC_12_INT
 $Comp
-L GND #PWR33
+L GND #PWR34
 U 1 1 5685339B
 P 21450 8250
-F 0 "#PWR33" H 21450 8000 50  0001 C CNN
+F 0 "#PWR34" H 21450 8000 50  0001 C CNN
 F 1 "GND" H 21450 8100 50  0000 C CNN
 F 2 "" H 21450 8250 60  0000 C CNN
 F 3 "" H 21450 8250 60  0000 C CNN
@@ -1366,6 +1366,230 @@ F 1 "ALLWINNERA10/TFBGA441" H 3550 4950 60  0000 C CNN
 F 2 "441fbga-p08:441TFBGA-P0.8" H 3550 5100 60  0001 C CNN
 F 3 "" H 3550 5100 60  0000 C CNN
 	2    3550 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 14000 0    60   Input ~ 0
+VCC_33
+$Comp
+L ALLWINNERA10/TFBGA441 U1
+U 1 1 563E55B6
+P 3350 12250
+F 0 "U1" H 3350 12250 60  0000 C CNN
+F 1 "ALLWINNERA10/TFBGA441" H 3350 12100 60  0000 C CNN
+F 2 "441fbga-p08:441TFBGA-P0.8" H 3350 12250 60  0001 C CNN
+F 3 "" H 3350 12250 60  0000 C CNN
+	1    3350 12250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 14200 2    60   Input ~ 0
+HCEC
+Text GLabel 5650 14100 2    60   Input ~ 0
+HHPD
+Text GLabel 5650 14000 2    60   Input ~ 0
+HSDA
+Text GLabel 5650 13900 2    60   Input ~ 0
+HSCL
+$Comp
+L GND #PWR8
+U 1 1 56B096CE
+P 6100 13700
+F 0 "#PWR8" H 6100 13450 50  0001 C CNN
+F 1 "GND" H 6100 13550 50  0000 C CNN
+F 2 "" H 6100 13700 50  0000 C CNN
+F 3 "" H 6100 13700 50  0000 C CNN
+	1    6100 13700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 13400 2    60   Input ~ 0
+HTXC_N
+Text GLabel 5650 13300 2    60   Input ~ 0
+HTXC_P
+Text GLabel 5650 13200 2    60   Input ~ 0
+HTX2_N
+Text GLabel 5650 13100 2    60   Input ~ 0
+HTX2_P
+Text GLabel 5650 13000 2    60   Input ~ 0
+HTX1_N
+Text GLabel 5650 12900 2    60   Input ~ 0
+HTX1_P
+Text GLabel 5650 12800 2    60   Input ~ 0
+HTX0_N
+Text GLabel 5650 12700 2    60   Input ~ 0
+HTX0_P
+Text GLabel 5650 13500 2    60   Input ~ 0
+VCC_33
+Text GLabel 19600 10200 2    60   Input ~ 0
+I2S_SD
+Text GLabel 19600 10300 2    60   Input ~ 0
+I2S_LRCK
+Text GLabel 21450 9850 2    60   Input ~ 0
+RESET_N
+Text GLabel 20950 10150 0    60   Input ~ 0
+LDO3_28
+Text GLabel 20950 10250 0    60   Input ~ 0
+LDO4_28
+NoConn ~ 1050 12600
+NoConn ~ 1050 13600
+NoConn ~ 1050 13700
+Text GLabel 7050 12550 0    60   Input ~ 0
+I2S_LRCK
+Text GLabel 7050 13050 0    60   Input ~ 0
+I2S_SD
+Text GLabel 7050 12350 0    60   Input ~ 0
+I2S_SCK
+Text Notes 6150 11750 0    60   ~ 0
+TODO: check this! (i2s_sck)
+Text GLabel 21600 12100 0    60   Input ~ 0
+CSI0_D1
+Text GLabel 21600 12200 0    60   Input ~ 0
+CSI0_D3
+Text GLabel 21600 12300 0    60   Input ~ 0
+CSI0_D0
+Text GLabel 21600 12000 0    60   Input ~ 0
+CSI0_D2
+Text GLabel 21600 12400 0    60   Input ~ 0
+CSI0_D4
+Text GLabel 21600 12800 0    60   Input ~ 0
+CSI0_D6
+Text GLabel 21600 12600 0    60   Input ~ 0
+CSI0_D5
+Text GLabel 21600 13000 0    60   Input ~ 0
+CSI0_D7
+Text GLabel 5850 3350 2    60   Input ~ 0
+CSI0_D0
+Text GLabel 5850 3450 2    60   Input ~ 0
+CSI0_D1
+Text GLabel 5850 3550 2    60   Input ~ 0
+CSI0_D2
+Text GLabel 5850 3650 2    60   Input ~ 0
+CSI0_D3
+Text GLabel 5850 3750 2    60   Input ~ 0
+CSI0_D4
+Text GLabel 5850 3850 2    60   Input ~ 0
+CSI0_D5
+Text GLabel 5850 3950 2    60   Input ~ 0
+CSI0_D6
+Text GLabel 5850 4050 2    60   Input ~ 0
+CSI0_D7
+$Comp
+L fpc24 U3
+U 1 1 572EEFFF
+P 21900 13150
+F 0 "U3" H 21900 13150 60  0000 C CNN
+F 1 "fpc24" H 21900 13150 60  0000 C CNN
+F 2 "tinycom:fpc24" H 21900 13150 60  0000 C CNN
+F 3 "" H 21900 13150 60  0000 C CNN
+	1    21900 13150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 2950 2    60   Input ~ 0
+CSI0_PCLK
+Text GLabel 5850 3050 2    60   Input ~ 0
+CSI0_MCLK
+Text GLabel 5850 3150 2    60   Input ~ 0
+CSI0_HSYNC
+Text GLabel 5850 3250 2    60   Input ~ 0
+CSI0_VSYNC
+Text GLabel 21600 13300 0    60   Input ~ 0
+CSI0_HSYNC
+Text GLabel 21600 13500 0    60   Input ~ 0
+CSI0_VSYNC
+Text GLabel 21600 12500 0    60   Input ~ 0
+CSI0_MCLK
+Text GLabel 21600 12900 0    60   Input ~ 0
+CSI0_PCLK
+Text GLabel 7050 13750 0    60   Input ~ 0
+TWI1_SCK
+Text GLabel 7050 13850 0    60   Input ~ 0
+TWI1_SDA
+Text GLabel 21600 13700 0    60   Input ~ 0
+TWI1_SCK
+Text GLabel 21600 13900 0    60   Input ~ 0
+TWI1_SDA
+$Comp
+L GND #PWR33
+U 1 1 572F6CDC
+P 21400 14050
+F 0 "#PWR33" H 21400 13800 50  0001 C CNN
+F 1 "GND" H 21400 13900 50  0000 C CNN
+F 2 "" H 21400 14050 60  0000 C CNN
+F 3 "" H 21400 14050 60  0000 C CNN
+	1    21400 14050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 21600 14100
+$Comp
+L GND #PWR30
+U 1 1 572F73A8
+P 20900 11900
+F 0 "#PWR30" H 20900 11650 50  0001 C CNN
+F 1 "GND" H 20900 11750 50  0000 C CNN
+F 2 "" H 20900 11900 60  0000 C CNN
+F 3 "" H 20900 11900 60  0000 C CNN
+	1    20900 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR31
+U 1 1 572F7A99
+P 20900 12700
+F 0 "#PWR31" H 20900 12450 50  0001 C CNN
+F 1 "GND" H 20900 12550 50  0000 C CNN
+F 2 "" H 20900 12700 60  0000 C CNN
+F 3 "" H 20900 12700 60  0000 C CNN
+	1    20900 12700
+	1    0    0    -1  
+$EndComp
+Text GLabel 21600 11800 0    60   Input ~ 0
+LDO3_28
+Text GLabel 21600 13100 0    60   Input ~ 0
+LDO3_28
+Text GLabel 21600 13200 0    60   Input ~ 0
+VCC_15
+Text GLabel 21600 13800 0    60   Input ~ 0
+LDO3_28
+$Comp
+L C_Small C6
+U 1 1 573FCDA4
+P 18900 7800
+F 0 "C6" H 18910 7870 50  0000 L CNN
+F 1 "C_Small" H 18910 7720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 18900 7800 60  0001 C CNN
+F 3 "" H 18900 7800 60  0000 C CNN
+	1    18900 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C14
+U 1 1 573FCE28
+P 19000 7800
+F 0 "C14" H 19010 7870 50  0000 L CNN
+F 1 "C_Small" H 19010 7720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19000 7800 60  0001 C CNN
+F 3 "" H 19000 7800 60  0000 C CNN
+	1    19000 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C15
+U 1 1 573FE25D
+P 19150 7800
+F 0 "C15" H 19160 7870 50  0000 L CNN
+F 1 "C_Small" H 19160 7720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19150 7800 60  0001 C CNN
+F 3 "" H 19150 7800 60  0000 C CNN
+	1    19150 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C16
+U 1 1 573FE2E7
+P 19300 7800
+F 0 "C16" H 19310 7870 50  0000 L CNN
+F 1 "C_Small" H 19310 7720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19300 7800 60  0001 C CNN
+F 3 "" H 19300 7800 60  0000 C CNN
+	1    19300 7800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1883,7 +2107,7 @@ Wire Wire Line
 Wire Wire Line
 	18050 7900 18050 8050
 Wire Wire Line
-	17800 7650 18750 7650
+	17800 7650 19300 7650
 Connection ~ 18050 7650
 Wire Wire Line
 	18200 7650 18200 7700
@@ -1923,7 +2147,7 @@ Wire Wire Line
 Wire Wire Line
 	19050 8600 19800 8600
 Wire Wire Line
-	17800 7900 18750 7900
+	17800 7900 19300 7900
 Connection ~ 17900 7650
 Connection ~ 17900 7900
 Wire Wire Line
@@ -2037,54 +2261,6 @@ Wire Wire Line
 Connection ~ 19650 8600
 Wire Wire Line
 	17700 11200 17700 11750
-Text GLabel 1050 14000 0    60   Input ~ 0
-VCC_33
-$Comp
-L ALLWINNERA10/TFBGA441 U1
-U 1 1 563E55B6
-P 3350 12250
-F 0 "U1" H 3350 12250 60  0000 C CNN
-F 1 "ALLWINNERA10/TFBGA441" H 3350 12100 60  0000 C CNN
-F 2 "441fbga-p08:441TFBGA-P0.8" H 3350 12250 60  0001 C CNN
-F 3 "" H 3350 12250 60  0000 C CNN
-	1    3350 12250
-	1    0    0    -1  
-$EndComp
-Text GLabel 5650 14200 2    60   Input ~ 0
-HCEC
-Text GLabel 5650 14100 2    60   Input ~ 0
-HHPD
-Text GLabel 5650 14000 2    60   Input ~ 0
-HSDA
-Text GLabel 5650 13900 2    60   Input ~ 0
-HSCL
-$Comp
-L GND #PWR8
-U 1 1 56B096CE
-P 6100 13700
-F 0 "#PWR8" H 6100 13450 50  0001 C CNN
-F 1 "GND" H 6100 13550 50  0000 C CNN
-F 2 "" H 6100 13700 50  0000 C CNN
-F 3 "" H 6100 13700 50  0000 C CNN
-	1    6100 13700
-	1    0    0    -1  
-$EndComp
-Text GLabel 5650 13400 2    60   Input ~ 0
-HTXC_N
-Text GLabel 5650 13300 2    60   Input ~ 0
-HTXC_P
-Text GLabel 5650 13200 2    60   Input ~ 0
-HTX2_N
-Text GLabel 5650 13100 2    60   Input ~ 0
-HTX2_P
-Text GLabel 5650 13000 2    60   Input ~ 0
-HTX1_N
-Text GLabel 5650 12900 2    60   Input ~ 0
-HTX1_P
-Text GLabel 5650 12800 2    60   Input ~ 0
-HTX0_N
-Text GLabel 5650 12700 2    60   Input ~ 0
-HTX0_P
 Connection ~ 5800 13700
 Wire Wire Line
 	5650 13600 5800 13600
@@ -2094,146 +2270,114 @@ Wire Wire Line
 	5650 13700 6100 13700
 Wire Wire Line
 	5800 13800 5650 13800
-Text GLabel 5650 13500 2    60   Input ~ 0
-VCC_33
-Text GLabel 19600 10200 2    60   Input ~ 0
-I2S_SD
-Text GLabel 19600 10300 2    60   Input ~ 0
-I2S_LRCK
 Wire Wire Line
 	300  13400 300  13450
-Text GLabel 21450 9850 2    60   Input ~ 0
-RESET_N
-Text GLabel 20950 10150 0    60   Input ~ 0
-LDO3_28
-Text GLabel 20950 10250 0    60   Input ~ 0
-LDO4_28
-NoConn ~ 1050 12600
-NoConn ~ 1050 13600
-NoConn ~ 1050 13700
-Text GLabel 7050 12550 0    60   Input ~ 0
-I2S_LRCK
-Text GLabel 7050 13050 0    60   Input ~ 0
-I2S_SD
-Text GLabel 7050 12350 0    60   Input ~ 0
-I2S_SCK
-Text Notes 6150 11750 0    60   ~ 0
-TODO: check this! (i2s_sck)
-Text GLabel 21600 12100 0    60   Input ~ 0
-CSI0_D1
-Text GLabel 21600 12200 0    60   Input ~ 0
-CSI0_D3
-Text GLabel 21600 12300 0    60   Input ~ 0
-CSI0_D0
-Text GLabel 21600 12000 0    60   Input ~ 0
-CSI0_D2
-Text GLabel 21600 12400 0    60   Input ~ 0
-CSI0_D4
-Text GLabel 21600 12800 0    60   Input ~ 0
-CSI0_D6
-Text GLabel 21600 12600 0    60   Input ~ 0
-CSI0_D5
-Text GLabel 21600 13000 0    60   Input ~ 0
-CSI0_D7
-Text GLabel 5850 3350 2    60   Input ~ 0
-CSI0_D0
-Text GLabel 5850 3450 2    60   Input ~ 0
-CSI0_D1
-Text GLabel 5850 3550 2    60   Input ~ 0
-CSI0_D2
-Text GLabel 5850 3650 2    60   Input ~ 0
-CSI0_D3
-Text GLabel 5850 3750 2    60   Input ~ 0
-CSI0_D4
-Text GLabel 5850 3850 2    60   Input ~ 0
-CSI0_D5
-Text GLabel 5850 3950 2    60   Input ~ 0
-CSI0_D6
-Text GLabel 5850 4050 2    60   Input ~ 0
-CSI0_D7
-$Comp
-L fpc24 U3
-U 1 1 572EEFFF
-P 21900 13150
-F 0 "U3" H 21900 13150 60  0000 C CNN
-F 1 "fpc24" H 21900 13150 60  0000 C CNN
-F 2 "tinycom:fpc24" H 21900 13150 60  0000 C CNN
-F 3 "" H 21900 13150 60  0000 C CNN
-	1    21900 13150
-	1    0    0    -1  
-$EndComp
-Text GLabel 5850 2950 2    60   Input ~ 0
-CSI0_PCLK
-Text GLabel 5850 3050 2    60   Input ~ 0
-CSI0_MCLK
-Text GLabel 5850 3150 2    60   Input ~ 0
-CSI0_HSYNC
-Text GLabel 5850 3250 2    60   Input ~ 0
-CSI0_VSYNC
-Text GLabel 21600 13300 0    60   Input ~ 0
-CSI0_HSYNC
-Text GLabel 21600 13500 0    60   Input ~ 0
-CSI0_VSYNC
-Text GLabel 21600 12500 0    60   Input ~ 0
-CSI0_MCLK
-Text GLabel 21600 12900 0    60   Input ~ 0
-CSI0_PCLK
-Text GLabel 7050 13750 0    60   Input ~ 0
-TWI1_SCK
-Text GLabel 7050 13850 0    60   Input ~ 0
-TWI1_SDA
-Text GLabel 21600 13700 0    60   Input ~ 0
-TWI1_SCK
-Text GLabel 21600 13900 0    60   Input ~ 0
-TWI1_SDA
-$Comp
-L GND #PWR32
-U 1 1 572F6CDC
-P 21400 14050
-F 0 "#PWR32" H 21400 13800 50  0001 C CNN
-F 1 "GND" H 21400 13900 50  0000 C CNN
-F 2 "" H 21400 14050 60  0000 C CNN
-F 3 "" H 21400 14050 60  0000 C CNN
-	1    21400 14050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	21600 14000 21400 14000
 Wire Wire Line
 	21400 14000 21400 14050
-NoConn ~ 21600 14100
-$Comp
-L GND #PWR30
-U 1 1 572F73A8
-P 20900 11900
-F 0 "#PWR30" H 20900 11650 50  0001 C CNN
-F 1 "GND" H 20900 11750 50  0000 C CNN
-F 2 "" H 20900 11900 60  0000 C CNN
-F 3 "" H 20900 11900 60  0000 C CNN
-	1    20900 11900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20900 11900 21600 11900
+Wire Wire Line
+	21600 12700 20900 12700
+Wire Wire Line
+	19000 7650 19000 7700
+Connection ~ 18750 7650
+Wire Wire Line
+	18900 7700 18900 7650
+Connection ~ 18900 7650
+Connection ~ 18750 7900
+Connection ~ 18900 7900
+Wire Wire Line
+	19150 7650 19150 7700
+Connection ~ 19000 7650
+Wire Wire Line
+	19300 7650 19300 7700
+Connection ~ 19150 7650
+Connection ~ 19000 7900
+Connection ~ 19150 7900
+Text GLabel 20950 8650 0    60   Input ~ 0
+VCC_13_RTC
+Text GLabel 21650 8650 0    60   Input ~ 0
+VCC_30_ANL
+Text GLabel 22200 8650 0    60   Input ~ 0
+LDO3_28
 $Comp
-L GND #PWR31
-U 1 1 572F7A99
-P 20900 12700
-F 0 "#PWR31" H 20900 12450 50  0001 C CNN
-F 1 "GND" H 20900 12550 50  0000 C CNN
-F 2 "" H 20900 12700 60  0000 C CNN
-F 3 "" H 20900 12700 60  0000 C CNN
-	1    20900 12700
+L C_Small C19
+U 1 1 573FFB76
+P 20950 8900
+F 0 "C19" H 20960 8970 50  0000 L CNN
+F 1 "C_Small" H 20960 8820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 20950 8900 60  0001 C CNN
+F 3 "" H 20950 8900 60  0000 C CNN
+	1    20950 8900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	20950 8650 20950 8800
+$Comp
+L GND #PWR32
+U 1 1 573FFE58
+P 20950 9100
+F 0 "#PWR32" H 20950 8850 50  0001 C CNN
+F 1 "GND" H 20950 8950 50  0000 C CNN
+F 2 "" H 20950 9100 60  0000 C CNN
+F 3 "" H 20950 9100 60  0000 C CNN
+	1    20950 9100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21600 12700 20900 12700
-Text GLabel 21600 11800 0    60   Input ~ 0
-LDO3_28
-Text GLabel 21600 13100 0    60   Input ~ 0
-LDO3_28
-Text GLabel 21600 13200 0    60   Input ~ 0
-VCC_15
-Text GLabel 21600 13800 0    60   Input ~ 0
-LDO3_28
+	20950 9000 20950 9100
+$Comp
+L C_Small C20
+U 1 1 5740013D
+P 21650 8900
+F 0 "C20" H 21660 8970 50  0000 L CNN
+F 1 "C_Small" H 21660 8820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 21650 8900 60  0001 C CNN
+F 3 "" H 21650 8900 60  0000 C CNN
+	1    21650 8900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	21650 8800 21650 8650
+$Comp
+L C_Small C27
+U 1 1 574003E3
+P 22200 8900
+F 0 "C27" H 22210 8970 50  0000 L CNN
+F 1 "C_Small" H 22210 8820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 22200 8900 60  0001 C CNN
+F 3 "" H 22200 8900 60  0000 C CNN
+	1    22200 8900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	22200 8650 22200 8800
+$Comp
+L GND #PWR35
+U 1 1 57400700
+P 21650 9100
+F 0 "#PWR35" H 21650 8850 50  0001 C CNN
+F 1 "GND" H 21650 8950 50  0000 C CNN
+F 2 "" H 21650 9100 60  0000 C CNN
+F 3 "" H 21650 9100 60  0000 C CNN
+	1    21650 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR36
+U 1 1 5740078F
+P 22200 9100
+F 0 "#PWR36" H 22200 8850 50  0001 C CNN
+F 1 "GND" H 22200 8950 50  0000 C CNN
+F 2 "" H 22200 9100 60  0000 C CNN
+F 3 "" H 22200 9100 60  0000 C CNN
+	1    22200 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 9000 21650 9100
+Wire Wire Line
+	22200 9000 22200 9100
 $EndSCHEMATC
