@@ -6,7 +6,7 @@ Features:
 - dimensions less than 5x5cm
 - single, dual or quad core 1GHz CPU
 - 512GB or 1GB RAM
-- USB, HDMI, WIFI, Bluetooth, SD-card, camera
+- USB, HDMI, WIFI, Bluetooth, SD-card, camera, microphones
 - real-time clock with battery, on-board temperature sensor
 - **made only from widely available parts**
 - **can reliably be assembled at home with DIY tools**
@@ -27,7 +27,7 @@ Modules:
 - CPU: Allwinner A20 (Dual-Core ARM Cortex-A7 @ 1Ghz, 40nm process)
 - Memory: 512MB DDR3 SDRAM
 - PCB: 4 layers, 6 mil traces, 12 mil vias
-- Ports: SD-card, serial, USBx3, HDMI
+- Ports: SD-card, serial, USBx3, HDMI, camera
 
 ### Pictures
 
@@ -41,6 +41,7 @@ Modules:
 
 - Connectors:  SD-card, USB, HDMI
 - Network: WIFI, Bluetooth, ceramic antenna
+- 2 microphones
 - RTC backup battery
 - Board temperature sensor
 - PCB: 2 layers
