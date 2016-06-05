@@ -8,8 +8,8 @@ Features:
 - 512GB or 1GB RAM
 - USB, HDMI, WIFI, Bluetooth, SD-card, camera
 - real-time clock with battery, on-board temperature sensor
-- made from widely available parts
-- can be assembled at home with DIY tools
+- **made only from widely available parts**
+- **can reliably be assembled at home with DIY tools**
 
 Modules:
 - TinyCom-A13
