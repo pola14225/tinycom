@@ -743,7 +743,6 @@ NoConn ~ 7050 11650
 NoConn ~ 7050 12050
 NoConn ~ 7050 12150
 NoConn ~ 7050 12250
-NoConn ~ 7050 12450
 NoConn ~ 7050 12650
 NoConn ~ 7050 12750
 NoConn ~ 7050 12850
@@ -1435,7 +1434,7 @@ Text GLabel 7050 12550 0    60   Input ~ 0
 I2S_LRCK
 Text GLabel 7050 13050 0    60   Input ~ 0
 I2S_SD
-Text GLabel 7050 12350 0    60   Input ~ 0
+Text GLabel 7050 12450 0    60   Input ~ 0
 I2S_SCK
 Text Notes 6150 11750 0    60   ~ 0
 TODO: check this! (i2s_sck)
@@ -2472,4 +2471,5 @@ Wire Wire Line
 	22350 9000 22350 9100
 Wire Wire Line
 	22350 9100 22200 9100
+NoConn ~ 7050 12350
 $EndSCHEMATC
